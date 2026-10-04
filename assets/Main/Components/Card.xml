@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="229,306" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="type" pages="0,base,1,skill,2,item-weapon,4,item-armor" selected="0"/>
+  <controller name="suit" pages="0,heart,1,diamond,3,club,2,spade" selected="0"/>
+  <controller name="back" pages="0,,1," selected="0"/>
+  <controller name="virtual" pages="0,,1," selected="0"/>
+  <controller name="canSelected" pages="0,,1," selected="0"/>
+  <controller name="number" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13," selected="0"/>
+  <controller name="interactive" pages="0,,1," selected="0"/>
+  <controller name="selectable" pages="0,,1," selected="0"/>
+  <controller name="queueState" homePageType="specific" homePage="0" pages="0,none,1,submitted,2,queued,3,running" selected="0"/>
+  <displayList>
+    <graph id="n10_fl7z" name="n10" xy="-5,-6" size="239,318" type="rect" lineSize="5" lineColor="#ffffd688" fillColor="#00000000" corner="12">
+      <gearDisplay controller="button" pages="1,3"/>
+      <gearDisplay2 controller="canSelected" pages="1" condition="0"/>
+    </graph>
+    <loader id="n3_pcqv" name="n3" xy="0,0" size="229,306" touchable="false" url="ui://6rc7w3nowejttnovfk" align="center" vAlign="middle" fill="scaleNoBorder">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n4_pcqv" name="title" xy="61,24" size="150,55" fontSize="28" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#151922" singleLine="true" autoClearText="true" text="雌雄双股剑">
+      <gearDisplay controller="back" pages="0"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </text>
+    <text id="n5_pcqv" name="txtCont" xy="18,98" size="193,144" fontSize="17" color="#302823" autoSize="shrink" strokeColor="#151922" strokeSize="0" autoClearText="true" text="抽1张牌">
+      <gearDisplay controller="back" pages="0"/>
+      <relation target="" sidePair="left-left,left-right,bottomext-bottom"/>
+    </text>
+    <loader id="n6_msve" name="n6" xy="16,20" size="37,37" url="ui://6rc7w3nomsvef" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="back" pages="0"/>
+      <gearIcon controller="suit" pages="1,3,2" values="ui://6rc7w3nomsved|ui://6rc7w3nomsvee|ui://6rc7w3nomsveg" default="ui://6rc7w3nomsvef"/>
+      <gearDisplay2 controller="virtual" pages="0" condition="0"/>
+    </loader>
+    <text id="n7_msve" name="n17" xy="18,50" size="35,34" fontSize="28" color="#efdfbb" align="center" vAlign="middle" autoSize="none" strokeColor="#151922" autoClearText="true" text="0">
+      <gearDisplay controller="back" pages="0"/>
+      <gearText controller="number" pages="0,1,2,3,4,5,6,7,8,9,11,12,13" values="0|1|2|3|4|5|6|7|8|9|J|Q|K" default="10"/>
+      <gearDisplay2 controller="virtual" pages="0" condition="0"/>
+    </text>
+    <text id="n8_hprj" name="n8" xy="128,252" size="75,34" fontSize="17" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="基本">
+      <gearDisplay controller="back" pages="0"/>
+      <gearText controller="type" pages="0,1,2,4" values="基本|咒语|武器|防具"/>
+    </text>
+    <text id="n9_fl7z" name="n9" xy="24,71" size="38,28" fontSize="15" color="#d3ae66" align="center" vAlign="middle" autoSize="none" strokeColor="#151922" text="虚拟">
+      <gearDisplay controller="virtual" pages="1"/>
+      <gearDisplay2 controller="back" pages="0" condition="0"/>
+    </text>
+    <loader id="art_cardReverse" name="cardReverse" xy="0,0" size="229,306" touchable="false" url="ui://6rc7w3noartback" align="center" vAlign="middle" fill="scaleNoBorder">
+      <gearDisplay controller="back" pages="1"/>
+    </loader>
+    <image id="n14_jwcx" name="n14" src="jwcxtnovf5" fileName="Pictures/Art/card_glow_white.png" xy="-40,-60" size="308,411">
+      <gearDisplay controller="interactive" pages="1"/>
+    </image>
+    <image id="n15_n3qb" name="n15" src="jwcxtnovf5" fileName="Pictures/Art/card_glow_white.png" xy="-41,-59" size="308,411">
+      <gearDisplay controller="selectable" pages="1"/>
+      <gearDisplay2 controller="button" pages="1,3" condition="0"/>
+    </image>
+    <graph id="n16_mjv1" name="bgQueueStatus" xy="4,2" size="224,295" type="rect">
+      <gearDisplay controller="queueState" pages="1,2,3"/>
+      <gearColor controller="queueState" pages="1,2,3" values="#1e487a|#008ebb|#eda215" default="#ffffff"/>
+    </graph>
+    <text id="n17_mjv1" name="txtQueueStatus" xy="29,48" size="176,165" fontSize="29" align="center" vAlign="middle" autoSize="none" text="111">
+      <gearDisplay controller="queueState" pages="1,2,3"/>
+      <gearText controller="queueState" pages="1,2,3" values="已提交|排队中|结算中" default="111"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

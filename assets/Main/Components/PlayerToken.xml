@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="209,279">
+  <controller name="seat" pages="0,single,1,seat1,2,seat2,3,seat3,4,seat4" selected="1"/>
+  <displayList>
+    <image id="n0_eg3q" name="n0" src="pcqv9" fileName="Pictures/Character/profile.png" xy="-2,2" size="209,279"/>
+    <graph id="n1_mjv1" name="imgSeatRing" xy="4,203" size="70,72" type="rect" fillColor="#ff58a6d2">
+      <gearDisplay controller="seat" pages="1,2,3,4"/>
+      <gearColor controller="seat" pages="1,2,3,4" values="#58a6d2|#d07f6b|#92b872|#ae91cc" default="#ffffff"/>
+    </graph>
+    <text id="n2_mjv1" name="txtSeat" xy="10,210" size="59,58" fontSize="20" vAlign="middle" autoSize="shrink" singleLine="true" text="玩家1">
+      <gearDisplay controller="seat" pages="1,2,3,4"/>
+      <gearText controller="seat" pages="0,2,3" values="|玩家2|玩家4" default="玩家1"/>
+    </text>
+  </displayList>
+</component>

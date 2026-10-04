@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="945,90" extention="Button">
+  <displayList>
+    <graph id="n3_y78v" name="n3" xy="0,0" size="945,90" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n5_y78v" name="title" xy="4,-2" size="941,93" fontSize="35" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="【战斗】蛇灵是邪教，铲除邪教顺便收集他们的神力。【战斗】蛇灵是邪教，铲除邪教顺便收集他们的神力。【战斗】蛇灵是邪教，铲除邪教顺便收集他们的神力。【战斗】蛇灵是邪教，铲除邪教顺便收集他们的神力。"/>
+    <component id="n6_mjv1" name="voteMarkers" src="mjv1tnovfy" fileName="Windows/DialogWin/VoteMarkers.xml" xy="784,59"/>
+  </displayList>
+  <Button/>
+</component>

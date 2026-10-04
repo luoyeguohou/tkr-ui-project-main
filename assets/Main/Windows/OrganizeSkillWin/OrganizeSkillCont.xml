@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="wrong" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n7_o5tm" name="n7" xy="202,164" size="1549,826" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n10_o5tm" name="txtSkills" xy="271,253" size="415,84" fontSize="40" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="已装备技能({curr=1}/{max=10})">
+      <gearColor controller="wrong" pages="1" values="#e21010,#151922" default="#efdfbb,#151922"/>
+    </text>
+    <text id="n11_o5tm" name="n11" xy="712,254" size="396,79" fontSize="40" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="备用区"/>
+    <component id="n15_o5tm" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="1299,822" size="237,79">
+      <Button title="确定" titleFontSize="41"/>
+    </component>
+    <list id="n17_xrqa" name="lstSkillEquiping" xy="350,363" size="114,245" scale="1.9,1.9" layout="flow_hz" overflow="scroll" lineGap="9" defaultItem="ui://6rc7w3nogu8ztnovfj" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n18_xrqa" name="lstSkillGarage" xy="705,368" size="212,245" scale="1.9,1.9" layout="flow_hz" overflow="scroll" lineGap="9" defaultItem="ui://6rc7w3nogu8ztnovfj" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n19_xrqa" name="txtDesc" xy="1166,269" size="539,462" fontSize="40" color="#efdfbb" autoSize="shrink" strokeColor="#151922" text="技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述"/>
+  </displayList>
+</component>

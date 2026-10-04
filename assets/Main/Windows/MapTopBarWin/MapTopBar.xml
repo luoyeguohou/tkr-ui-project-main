@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,100">
+  <displayList>
+    <graph id="n7_i8lt" name="n7" xy="0,0" size="1920,100" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n20_tmcr" name="lstItems" xy="19,7" size="1879,83" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://6rc7w3notmcrtnovf3" autoItemSize="false" align="right" vAlign="middle">
+      <relation target="" sidePair="middle-middle,right-right"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

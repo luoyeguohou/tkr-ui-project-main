@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,402">
+  <controller name="choosingCard" pages="0,,1," selected="0"/>
+  <controller name="playerTurn" pages="0,,1," selected="1"/>
+  <controller name="longChoice" pages="0,,1," selected="0"/>
+  <controller name="autoPlay" pages="0,,1," selected="1"/>
+  <displayList>
+    <graph id="n84_gie4" name="handBegin" xy="45,142" pivot="0.5,0.5" anchor="true" size="100,100" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <graph id="n85_gie4" name="handsEnd" xy="1867,142" pivot="0.5,0.5" anchor="true" size="100,100" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <relation target="" sidePair="right-right"/>
+    </graph>
+    <component id="n86_fl4x" name="btnEndTurn" src="pcqv4" fileName="Components/NormalButton.xml" xy="1734,-16" size="151,56">
+      <gearDisplay controller="playerTurn" pages="1"/>
+      <Button title="结束回合" titleFontSize="24"/>
+    </component>
+    <text id="n88_fl4x" name="txtChoice" xy="396,-110" size="1127,69" fontSize="35" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="你的回合，打出手牌">
+      <gearDisplay controller="choosingCard" pages="1"/>
+      <gearXY controller="longChoice" pages="0,1" values="396,-110|403,-219"/>
+    </text>
+    <list id="n92_fl4x" name="lstChoice" xy="177,-52" size="1566,41" layout="row" overflow="scroll" scroll="horizontal" colGap="9" defaultItem="ui://6rc7w3nopcqv4" autoItemSize="false" align="center" autoClearItems="true">
+      <gearDisplay controller="choosingCard" pages="1"/>
+      <gearDisplay2 controller="longChoice" pages="0" condition="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n93_efe6" name="lstChoiceLong" xy="668,-169" size="583,155" overflow="scroll" lineGap="10" defaultItem="ui://6rc7w3nopcqv4" autoClearItems="true">
+      <gearDisplay controller="choosingCard" pages="1"/>
+      <gearDisplay2 controller="longChoice" pages="1" condition="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n94_igs5" name="btnAutoPlay" src="pcqv4" fileName="Components/NormalButton.xml" xy="1543,-15" size="182,56">
+      <gearText controller="autoPlay" pages="0" values="自动打牌：关" default="自动打牌：开"/>
+      <Button title="自动打牌：开" titleFontSize="24"/>
+    </component>
+  </displayList>
+</component>

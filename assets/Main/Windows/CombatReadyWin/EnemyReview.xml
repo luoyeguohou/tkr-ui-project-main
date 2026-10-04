@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,545">
+  <displayList>
+    <image id="n20_xrqa" name="n20" src="artguard" fileName="Pictures/Character/enemy_guardian.png" xy="264,168" size="298,298"/>
+    <list id="n21_xrqa" name="lstSkills" xy="5,4" size="265,645" overflow="scroll" lineGap="7" defaultItem="ui://6rc7w3noufuj3k" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n22_xrqa" name="hpBar" src="pcqv6" fileName="Windows/CombatWin/HP.xml" xy="276,96" scale="0.7,0.7"/>
+  </displayList>
+</component>

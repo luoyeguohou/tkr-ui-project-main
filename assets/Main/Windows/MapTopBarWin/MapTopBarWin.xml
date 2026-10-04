@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false">
+  <displayList>
+    <component id="n0_tmcr" name="bar" src="tmcrtnovf2" fileName="Components/MapTopBar.xml" xy="0,0">
+      <relation target="" sidePair="width-width,top-top"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="showTutorial" pages="0,,1," selected="1"/>
+  <displayList>
+    <graph id="n0_incg" name="n0" xy="8,104" size="1905,975" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <list id="n1_incg" name="lstSkillEquiping" xy="66,484" size="102,245" scale="1.9,1.9" overflow="scroll" lineGap="9" defaultItem="ui://6rc7w3nogu8ztnovfj" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n2_incg" name="lstCardEquipping" xy="373,240" size="928,785" layout="flow_hz" overflow="scroll" defaultItem="ui://6rc7w3nopcqv3" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_incg" name="btnClose" src="pcqv4" fileName="Components/NormalButton.xml" xy="1702,128" size="186,72">
+      <Button title="关闭" titleFontSize="33"/>
+    </component>
+    <text id="n5_incg" name="txtSkillDesc" xy="18,127" size="320,253" fontSize="34" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述"/>
+    <text id="n7_ew4m" name="txtProp" xy="1369,233" size="535,822" fontSize="22" color="#efdfbb" leading="8" ubb="true" autoSize="shrink" autoClearText="true" text="力量2：+0攻击伤害，每级+0.4攻击伤害&#xA;敏捷3：+2攻击次数，每级+0.7攻击次数  "/>
+    <text id="n12_aiaf" name="txtSkillEquipping" xy="52,412" size="232,55" fontSize="23" color="#efdfbb" align="center" vAlign="middle" leading="8" ubb="true" vars="true" autoSize="shrink" text="装备的技能({curr=1}/{max=10})"/>
+    <text id="n13_aiaf" name="txtCardEquipping" xy="385,156" size="278,78" fontSize="24" color="#efdfbb" vAlign="middle" leading="8" ubb="true" vars="true" autoSize="shrink" text="使用中的牌组({curr=1}/{max=10})"/>
+    <component id="n15_aiaf" name="n15" src="hprj2f" fileName="Components/Line.xml" xy="311,412" size="22,639"/>
+    <component id="n17_aiaf" name="n17" src="hprj2f" fileName="Components/Line.xml" xy="1337,146" size="22,907"/>
+    <component id="n18_xrqa" name="btnCheckDeck" src="pcqv4" fileName="Components/NormalButton.xml" xy="666,155" size="186,72">
+      <Button title="整理牌库" titleFontSize="33"/>
+    </component>
+    <component id="n19_xrqa" name="btnCheckSkill" src="pcqv4" fileName="Components/NormalButton.xml" xy="75,965" size="186,72">
+      <Button title="整理技能" titleFontSize="33"/>
+    </component>
+    <component id="n20_esox" name="btnTurt" src="pcqv4" fileName="Components/NormalButton.xml" xy="1504,128" size="186,72">
+      <gearDisplay controller="showTutorial" pages="0"/>
+      <Button title="教程" titleFontSize="33" controller="showTutorial" page="1"/>
+    </component>
+    <component id="n23_esox" name="btnTurt1" src="pcqv4" fileName="Components/NormalButton.xml" xy="1504,128" size="186,72">
+      <gearDisplay controller="showTutorial" pages="1"/>
+      <Button title="教程" titleFontSize="33" controller="showTutorial" page="0"/>
+    </component>
+    <graph id="n21_esox" name="n21" xy="416,367" size="833,521" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <gearDisplay controller="showTutorial" pages="1"/>
+    </graph>
+    <text id="n22_esox" name="n22" xy="431,385" size="794,480" fontSize="28" color="#efdfbb" autoSize="none" strokeColor="#151922" text="这里是玩家状态界面的教程&#xA;1. 玩家的技能与专属牌库有数量限制，多出来的会放在备用区。&#xA;2. 玩家拥有各项属性，每个属性增加不同的能力，拥有不同的加成。&#xA;3. 加成会向下取整。比如每点力量增加0.4攻击伤害，只有3点力量时，攻击伤害才会从0提升到1。&#xA;4. 智力会增加玩家的技能栏位，奇巧可以减少玩家的专属牌库栏位，帮助你更快抽到核心牌。">
+      <gearDisplay controller="showTutorial" pages="1"/>
+    </text>
+  </displayList>
+</component>

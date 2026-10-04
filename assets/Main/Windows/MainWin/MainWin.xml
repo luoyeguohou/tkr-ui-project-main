@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="hasOldGame" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n6_82hn" name="bg" xy="0,0" size="1920,1080" url="ui://6rc7w3noartmenu" align="center" vAlign="middle" fill="scaleNoBorder">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n5_82hn" name="cont" src="82hnj" fileName="Windows/MainWin/MainCont.xml" xy="1,-2">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="fullScreen" pages="0,,1," selected="0"/>
+  <controller name="platform" pages="0,PC,1,Android" selected="0"/>
+  <controller name="fromGame" pages="0,,1," selected="0"/>
+  <controller name="fastMode" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_j46g" name="n0" xy="235,153" size="1449,771" url="ui://6rc7w3noartpanel" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n2_j46g" name="comboResolution" src="j46g3j" fileName="Windows/SettingWin/ComboBox1.xml" xy="629,532" size="252,62">
+      <gearDisplay controller="platform" pages="0"/>
+      <ComboBox title="1920X1080" visibleItemCount="10" direction="down" autoClearItems="true">
+        <item title="1"/>
+        <item title="2"/>
+        <item title="3"/>
+        <item title="4"/>
+      </ComboBox>
+    </component>
+    <text id="n3_j46g" name="n3" xy="384,527" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="分辨率">
+      <gearDisplay controller="platform" pages="0"/>
+    </text>
+    <text id="n4_j46g" name="n4" xy="386,621" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="全屏">
+      <gearDisplay controller="platform" pages="0"/>
+    </text>
+    <component id="n5_j46g" name="n5" src="pcqv4" fileName="Components/NormalButton.xml" xy="639,626" size="62,60">
+      <gearDisplay controller="fullScreen" pages="1"/>
+      <gearDisplay2 controller="platform" pages="0" condition="0"/>
+      <Button title="√" titleFontSize="29" controller="fullScreen" page="0"/>
+    </component>
+    <component id="n6_j46g" name="n6" src="pcqv4" fileName="Components/NormalButton.xml" xy="639,626" size="62,60">
+      <gearDisplay controller="fullScreen" pages="0"/>
+      <gearDisplay2 controller="platform" pages="0" condition="0"/>
+      <Button title="×" titleFontSize="29" controller="fullScreen" page="1"/>
+    </component>
+    <component id="n7_j46g" name="btnBackToMain" src="pcqv4" fileName="Components/NormalButton.xml" xy="779,691" size="293,64">
+      <gearDisplay controller="fromGame" pages="1"/>
+      <Button title="回到主界面" titleFontSize="25"/>
+    </component>
+    <text id="n8_ziwy" name="n8" xy="387,276" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="目标帧数"/>
+    <component id="n9_ziwy" name="comboFPS" src="j46g3j" fileName="Windows/SettingWin/ComboBox1.xml" xy="632,276" size="252,62">
+      <ComboBox title="30FPS" visibleItemCount="10" direction="down">
+        <item title="30FPS" value="30"/>
+        <item title="45FPS" value="45"/>
+        <item title="60FPS" value="60"/>
+        <item title="90FPS" value="90"/>
+        <item title="120FPS" value="120"/>
+      </ComboBox>
+    </component>
+    <component id="n10_ziwy" name="silderMusic" src="ziwytnovfw" fileName="Windows/SettingWin/Slider1.xml" xy="645,380" size="394,18">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n11_ziwy" name="sliderEffect" src="ziwytnovfw" fileName="Windows/SettingWin/Slider1.xml" xy="641,464" size="394,18">
+      <Slider value="50" max="100"/>
+    </component>
+    <text id="n12_ziwy" name="n12" xy="388,357" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="音乐"/>
+    <text id="n13_ziwy" name="n13" xy="385,439" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="音效"/>
+    <component id="n14_ziwy" name="btnClose" src="pcqv4" fileName="Components/NormalButton.xml" xy="1417,214" size="184,64">
+      <Button title="关闭" titleFontSize="25"/>
+    </component>
+    <component id="n15_tv47" name="n15" src="pcqv4" fileName="Components/NormalButton.xml" xy="1233,273" size="62,60">
+      <gearDisplay controller="fastMode" pages="1"/>
+      <Button title="√" titleFontSize="29" controller="fastMode" page="0"/>
+    </component>
+    <component id="n16_tv47" name="n16" src="pcqv4" fileName="Components/NormalButton.xml" xy="1233,273" size="62,60">
+      <gearDisplay controller="fastMode" pages="0"/>
+      <Button title="×" titleFontSize="29" controller="fastMode" page="1"/>
+    </component>
+    <text id="n17_tv47" name="n17" xy="962,270" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="快速模式"/>
+    <component id="n18_s2bq" name="silderAniSlower" src="ziwytnovfw" fileName="Windows/SettingWin/Slider1.xml" xy="1173,459" size="394,18">
+      <Slider value="50" max="100"/>
+    </component>
+    <text id="n19_s2bq" name="n19" xy="1182,369" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="动画变慢"/>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="279,208">
+  <displayList>
+    <graph id="n29_i8lt" name="skillDescBg" xy="0,0" size="279,208" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n30_i8lt" name="txtSkillDesc" xy="13,15" size="254,177" fontSize="26" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="造成的伤害加一。造成的伤害加一。造成的伤害加一。造成的伤害加一。造成的伤害加一。造成的伤害加一。造成的伤害加一。造成的伤害加一。"/>
+  </displayList>
+</component>

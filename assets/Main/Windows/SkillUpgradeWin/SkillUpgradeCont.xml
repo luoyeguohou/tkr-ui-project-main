@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_gbqg" name="n0" xy="192,97" size="1594,861" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <graph id="n1_gbqg" name="n1" xy="847,226" size="249,29" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <graph id="n2_gbqg" name="n2" xy="1025,183" size="87,27" rotation="30" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <graph id="n3_gbqg" name="n3" xy="1011,274" size="87,27" rotation="-30" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <graph id="n9_gu8z" name="n9" xy="235,155" size="589,420" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <graph id="n10_gu8z" name="n10" xy="1152,156" size="580,417" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n4_gbqg" name="txtBefore" xy="249,168" size="558,390" fontSize="51" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="11"/>
+    <text id="n5_gbqg" name="txtAfter" xy="1166,165" size="548,391" fontSize="51" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text=""/>
+    <list id="n6_gbqg" name="lstSkill" xy="366,595" size="501,100" scale="2.5,2.5" layout="flow_hz" overflow="scroll" lineGap="4" colGap="4" defaultItem="ui://6rc7w3nopcqv4" autoItemSize="true" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n7_gbqg" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="881,844" size="236,71">
+      <Button title="确定" titleFontSize="29"/>
+    </component>
+    <component id="n8_gbqg" name="btnClose" src="pcqv4" fileName="Components/NormalButton.xml" xy="1667,74" size="125,71">
+      <Button title="关闭" titleFontSize="29"/>
+    </component>
+  </displayList>
+</component>

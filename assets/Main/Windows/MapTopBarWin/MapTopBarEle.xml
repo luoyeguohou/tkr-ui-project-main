@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,53">
+  <controller name="type" pages="0,txt,1,button" selected="0"/>
+  <displayList>
+    <graph id="n5_yxox" name="bg" xy="0,0" size="218,53" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <gearDisplay controller="type" pages="0"/>
+    </graph>
+    <text id="n6_yxox" name="txtCont" xy="0,0" size="218,52" fontSize="39" color="#efdfbb" vars="true" strokeColor="#151922" singleLine="true" autoClearText="true" text="雾气值：{val=0}/{max=6}">
+      <gearDisplay controller="type" pages="0"/>
+    </text>
+    <component id="n7_tmcr" name="btnEle" src="pcqv4" fileName="Components/NormalButton.xml" xy="1,2" size="154,48">
+      <gearDisplay controller="type" pages="1"/>
+      <Button titleFontSize="25"/>
+    </component>
+  </displayList>
+</component>

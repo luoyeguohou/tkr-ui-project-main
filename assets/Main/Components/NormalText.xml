@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,34" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n0_ivra" name="n0" xy="0,0" size="100,34" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_ivra" name="n1" xy="0,0" size="100,34" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2_ivra" name="n2" xy="0,0" size="100,34" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0232e4d" corner="8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n3_ivra" name="title" xy="0,0" size="100,34" fontSize="14" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="button">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

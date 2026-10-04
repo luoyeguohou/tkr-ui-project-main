@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1753,984">
+  <displayList>
+    <graph id="n29_ymjr" name="n29" xy="-2,-1" size="1753,984" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <list id="n30_ymjr" name="lstScripts" xy="155,88" size="101,251" scale="3,3" overflow="scroll" defaultItem="ui://6rc7w3nojlk11d" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n31_ymjr" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="1065,814" size="148,66">
+      <Button title="确定" titleFontSize="32"/>
+    </component>
+    <component id="n32_e01k" name="btnBack" src="pcqv4" fileName="Components/NormalButton.xml" xy="622,813" size="148,66">
+      <Button title="返回" titleFontSize="32"/>
+    </component>
+    <text id="n33_xrqa" name="n1" xy="538,72" size="1107,82" fontSize="62" color="#d3ae66" align="center" autoSize="none" strokeColor="#151922" singleLine="true" text="请选择你的剧本"/>
+    <text id="n34_xrqa" name="txtTitle" xy="542,214" size="1107,82" fontSize="62" color="#d3ae66" align="center" autoSize="none" strokeColor="#151922" singleLine="true" autoClearText="true" text="请选择你的剧本"/>
+    <text id="n35_xrqa" name="txtCont" xy="539,334" size="1107,408" fontSize="62" color="#d3ae66" autoSize="none" strokeColor="#151922" autoClearText="true" text="请选择你的剧本"/>
+  </displayList>
+</component>

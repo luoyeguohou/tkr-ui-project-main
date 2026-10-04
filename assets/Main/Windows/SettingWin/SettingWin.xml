@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false">
+  <displayList>
+    <component id="n0_j46g" name="cont" src="j46g3g" fileName="Windows/SettingWin/SettingCont.xml" xy="0,-1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

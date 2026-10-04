@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1625,898">
+  <displayList>
+    <graph id="n7_o5tm" name="n7" xy="0,0" size="1625,898" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n10_o5tm" name="txtTopLabel" xy="25,129" size="223,252" fontSize="62" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="抽牌顶"/>
+    <text id="n11_o5tm" name="txtBottomLabel" xy="21,498" size="223,252" fontSize="62" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="牌堆底"/>
+    <list id="n12_o5tm" name="lstTop" xy="248,119" size="1274,337" layout="row" defaultItem="ui://6rc7w3nopcqv3" autoItemSize="false" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n13_o5tm" name="lstBottom" xy="235,453" size="1274,331" layout="row" defaultItem="ui://6rc7w3nopcqv3" autoItemSize="false" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n15_o5tm" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="700,783" size="237,79">
+      <Button title="确定" titleFontSize="41"/>
+    </component>
+    <text id="n16_mjv1" name="txtPrompt" xy="268,19" size="1216,82" fontSize="62" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="抽牌顶"/>
+  </displayList>
+</component>

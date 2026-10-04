@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1301,113">
+  <displayList>
+    <graph id="n48_mjv1" name="bg" xy="0,2" size="1301,107" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <graph id="n49_mjv1" name="seatColor" xy="21,0" size="106,107" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n50_mjv1" name="txtSeat" xy="150,17" size="248,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
+    <loader id="n51_mjv1" name="portrait" xy="422,24" size="100,89"/>
+    <text id="n52_mjv1" name="txtCharacter" xy="533,29" size="248,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
+    <text id="n53_mjv1" name="txtHost" xy="785,28" size="113,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
+    <text id="n54_mjv1" name="txtSelf" xy="910,32" size="92,67" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
+    <text id="n55_mjv1" name="txtReady" xy="1016,23" size="92,67" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
+    <component id="n56_mjv1" name="btnClaimSeat" src="pcqv4" fileName="Components/NormalButton.xml" xy="1133,3" size="167,96">
+      <Button title="接管" titleFontSize="29"/>
+    </component>
+  </displayList>
+</component>

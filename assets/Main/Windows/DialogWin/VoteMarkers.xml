@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="151,32">
+  <displayList>
+    <graph id="n6_mjv1" name="seat4" xy="117,0" size="34,32" visible="false" type="rect" fillColor="#ffae91cc"/>
+    <graph id="n7_mjv1" name="seat3" xy="79,0" size="34,32" visible="false" type="rect" fillColor="#ff92b872"/>
+    <graph id="n8_mjv1" name="seat2" xy="40,0" size="34,32" visible="false" type="rect" fillColor="#ffd07f6b"/>
+    <graph id="n9_mjv1" name="seat1" xy="0,0" size="34,32" visible="false" type="rect" fillColor="#ff58a6d2"/>
+  </displayList>
+</component>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <loader id="n3_ruu7" name="n3" xy="958,540" pivot="0.5,0.5" anchor="true" size="2242,1244" url="ui://6rc7w3noruu730" align="center" vAlign="middle" fill="scaleNoBorder">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </loader>
+    <graph id="n0_ruu7" name="n0" xy="0,0" size="1920,137" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <relation target="" sidePair="width-width,height-height%,top-top"/>
+    </graph>
+    <graph id="n1_ruu7" name="n1" xy="0,942" size="1920,137" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <relation target="" sidePair="width-width,height-height%,bottom-bottom"/>
+    </graph>
+    <component id="n4_d3as" name="btnSkip" src="pcqv4" fileName="Components/NormalButton.xml" xy="53,31" size="138,58">
+      <Button title="跳过" titleFontSize="18"/>
+    </component>
+    <text id="n2_ruu7" name="n2" xy="91,974" size="1741,90" fontSize="53" color="#efdfbb" autoSize="shrink" strokeColor="#151922" text="自上古以来，神一直统治着人间。">
+      <relation target="" sidePair="width-width,height-height%,bottom-bottom"/>
+    </text>
+    <text id="n5_mt1r" name="n5" xy="91,974" size="1741,90" visible="false" fontSize="53" color="#efdfbb" autoSize="shrink" strokeColor="#151922" text="有些不甘受苦的人类不断地挑战着神明。但是没人能够弑神。">
+      <relation target="" sidePair="width-width,height-height%,bottom-bottom"/>
+    </text>
+    <text id="n6_mt1r" name="n6" xy="81,974" size="1741,90" visible="false" fontSize="53" color="#efdfbb" autoSize="shrink" strokeColor="#151922" text="有些事情总得有人做。">
+      <relation target="" sidePair="width-width,height-height%,bottom-bottom"/>
+    </text>
+  </displayList>
+  <transition name="idle">
+    <item time="0" type="Icon" target="n3_ruu7" value="ui://6rc7w3noruu730"/>
+    <item time="0" type="Scale" target="n3_ruu7" tween="true" startValue="1,1" endValue="0.94,0.94" duration="58"/>
+    <item time="0" type="Visible" target="n2_ruu7" value="true"/>
+    <item time="0" type="XY" target="n3_ruu7" value="958,540"/>
+    <item time="103" type="Icon" target="n3_ruu7" value="ui://6rc7w3noruu731"/>
+    <item time="103" type="Scale" target="n3_ruu7" value="1.13,1.13"/>
+    <item time="103" type="Visible" target="n2_ruu7" value="false"/>
+    <item time="103" type="Visible" target="n5_mt1r" value="true"/>
+    <item time="103" type="XY" target="n3_ruu7" value="800,507"/>
+    <item time="113" type="Icon" target="n3_ruu7" value="ui://6rc7w3noruu731"/>
+    <item time="113" type="Scale" target="n3_ruu7" tween="true" startValue="1.13,1.13" endValue="1.07,1.07" duration="56"/>
+    <item time="239" type="Icon" target="n3_ruu7" value="ui://6rc7w3noruu732"/>
+    <item time="239" type="Scale" target="n3_ruu7" value="1.05,1.05"/>
+    <item time="239" type="Visible" target="n5_mt1r" value="false"/>
+    <item time="239" type="Visible" target="n6_mt1r" value="true"/>
+    <item time="239" type="XY" target="n3_ruu7" tween="true" startValue="800,622" endValue="800,687" duration="55"/>
+    <item time="251" type="Scale" target="n3_ruu7" value="1.04,1.04"/>
+    <item time="294" type="Scale" target="n3_ruu7" value="1.04,1.04"/>
+    <item time="326" type="Scale" target="n3_ruu7" value="1.04,1.04"/>
+  </transition>
+</component>

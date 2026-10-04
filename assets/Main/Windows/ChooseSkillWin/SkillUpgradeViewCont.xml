@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false">
+  <displayList>
+    <graph id="n0_aywa" name="n0" xy="186,146" size="1550,784" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <list id="n4_aywa" name="lstSkill" xy="238,243" size="1433,484" layout="row" overflow="scroll" scroll="horizontal" colGap="91" defaultItem="ui://6rc7w3nocycktnovfg" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_aywa" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="856,776" size="218,68">
+      <Button title="确定" titleFontSize="34"/>
+    </component>
+  </displayList>
+</component>

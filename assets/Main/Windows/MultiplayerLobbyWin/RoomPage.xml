@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1819,788">
+  <displayList>
+    <text id="n39_mjv1" name="txtRoomId" xy="152,26" size="949,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
+    <component id="n40_mjv1" name="btnCopyRoomId" src="pcqv4" fileName="Components/NormalButton.xml" xy="1127,3" size="280,96">
+      <Button title="复制房间编号" titleFontSize="29"/>
+    </component>
+    <component id="n41_mjv1" name="btnChooseCharacter" src="pcqv4" fileName="Components/NormalButton.xml" xy="1495,137" size="280,96">
+      <Button title="选择本人角色" titleFontSize="29"/>
+    </component>
+    <component id="n42_mjv1" name="btnChooseScenario" src="pcqv4" fileName="Components/NormalButton.xml" xy="958,667" size="280,96">
+      <Button title="选择剧本" titleFontSize="29"/>
+    </component>
+    <component id="n43_mjv1" name="btnReady" src="pcqv4" fileName="Components/NormalButton.xml" xy="1534,586" size="280,96">
+      <Button title="准备" titleFontSize="29"/>
+    </component>
+    <component id="n44_mjv1" name="btnStart" src="pcqv4" fileName="Components/NormalButton.xml" xy="1539,692" size="280,96">
+      <Button title="开始游戏" titleFontSize="29"/>
+    </component>
+    <component id="n45_mjv1" name="btnLeaveRoom" src="pcqv4" fileName="Components/NormalButton.xml" xy="1473,0" size="280,96">
+      <Button title="离开房间" titleFontSize="29"/>
+    </component>
+    <text id="n46_mjv1" name="txtScenario" xy="0,679" size="949,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
+    <list id="n57_mjv1" name="lstSeats" xy="61,145" size="1370,488" overflow="scroll" defaultItem="ui://6rc7w3nomjv1tnovg3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

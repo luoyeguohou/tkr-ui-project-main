@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1753,984">
+  <displayList>
+    <graph id="n29_ymjr" name="n29" xy="0,0" size="1753,984" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <component id="n31_ymjr" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="707,729" size="271,112">
+      <Button title="确定" titleFontSize="42"/>
+    </component>
+    <list id="n35_nwpf" name="lstRewards" xy="25,185" size="1147,478" layout="row" colGap="13" defaultItem="ui://6rc7w3nol3attnovf1" autoItemSize="false" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n36_nwpf" name="btnRefresh" src="pcqv4" fileName="Components/NormalButton.xml" xy="92,724" size="483,112">
+      <Button title="刷新({cost=1}/{have=5}神力)" titleFontSize="42"/>
+    </component>
+    <text id="n37_jbtm" name="txtProp" xy="1177,166" size="565,709" fontSize="26" color="#efdfbb" leading="8" ubb="true" autoSize="none" autoClearText="true" text="敏捷2(加成0.7)：当前每回合攻击次数2（+1）。"/>
+  </displayList>
+</component>

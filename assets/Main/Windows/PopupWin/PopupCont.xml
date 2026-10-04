@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false">
+  <controller name="buttonNum" homePageType="specific" homePage="2" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <graph id="n0_jlk1" name="n0" xy="382,266" size="1156,548" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n1_jlk1" name="txtCont" xy="477,324" size="949,276" fontSize="50" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="你不是人间体"/>
+    <component id="n2_jlk1" name="btn1" src="pcqv4" fileName="Components/NormalButton.xml" xy="664,673" size="235,65">
+      <gearDisplay controller="buttonNum" pages="1,2"/>
+      <gearXY controller="buttonNum" pages="2" values="664,673" default="856,670"/>
+      <Button titleFontSize="29"/>
+    </component>
+    <component id="n3_jlk1" name="btn2" src="pcqv4" fileName="Components/NormalButton.xml" xy="1029,672" size="235,65">
+      <gearDisplay controller="buttonNum" pages="2"/>
+      <gearXY controller="buttonNum" pages="2" values="1029,672" default="999,679"/>
+      <Button titleFontSize="29"/>
+    </component>
+  </displayList>
+</component>

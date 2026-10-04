@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6rc7w3no">
+  <resources>
+    <component id="ti390" name="CombatWin.xml" path="/Windows/CombatWin/" exported="true"/>
+    <component id="pcqv1" name="MainHand.xml" path="/Windows/CombatWin/"/>
+    <component id="pcqv2" name="CombatCont.xml" path="/Windows/CombatWin/"/>
+    <component id="pcqv3" name="Card.xml" path="/Components/" exported="true"/>
+    <component id="pcqv4" name="NormalButton.xml" path="/Components/" exported="true"/>
+    <image id="pcqv5" name="hp.png" path="/Pictures/Art/"/>
+    <component id="pcqv6" name="HP.xml" path="/Windows/CombatWin/"/>
+    <component id="pcqv7" name="Equipment.xml" path="/Windows/CombatWin/"/>
+    <component id="pcqv8" name="Player.xml" path="/Windows/CombatWin/"/>
+    <image id="pcqv9" name="profile.png" path="/Pictures/Character/" exported="true"/>
+    <component id="ymjrb" name="CardListCont.xml" path="/Windows/CardListWin/"/>
+    <component id="ymjrc" name="CardListWin.xml" path="/Windows/CardListWin/" exported="true"/>
+    <image id="msved" name="diamond.png" path="/Pictures/suits/"/>
+    <image id="msvee" name="club.png" path="/Pictures/suits/"/>
+    <image id="msvef" name="heart.png" path="/Pictures/suits/" scale9grid="0,0,-112,-94"/>
+    <image id="msveg" name="spade.png" path="/Pictures/suits/"/>
+    <component id="o5tmh" name="ForeseeWin.xml" path="/Windows/ForeseeWin/" exported="true"/>
+    <component id="ar7mi" name="MainWin.xml" path="/Windows/MainWin/" exported="true"/>
+    <component id="82hnj" name="MainCont.xml" path="/Windows/MainWin/"/>
+    <component id="82hnk" name="CharacterWin.xml" path="/Windows/CharacterWin/" exported="true"/>
+    <component id="82hnl" name="Character.xml" path="/Windows/CharacterWin/"/>
+    <component id="82hnq" name="DialogWin.xml" path="/Windows/DialogWin/" exported="true"/>
+    <component id="iwb8r" name="DialogItem.xml" path="/Windows/DialogWin/"/>
+    <component id="iwb8s" name="DialogCont.xml" path="/Windows/DialogWin/"/>
+    <component id="iwb8t" name="ForeseeCont.xml" path="/Windows/ForeseeWin/"/>
+    <component id="iwb8u" name="CharacterCont.xml" path="/Windows/CharacterWin/"/>
+    <component id="jn1hy" name="RewardWin.xml" path="/Windows/RewardWin/" exported="true"/>
+    <component id="jn1hz" name="RewardCont.xml" path="/Windows/RewardWin/"/>
+    <component id="jn1h10" name="RewardItem.xml" path="/Windows/RewardWin/"/>
+    <component id="gbqg16" name="SkillUpgradeWin.xml" path="/Windows/SkillUpgradeWin/" exported="true"/>
+    <component id="gbqg17" name="SkillUpgradeCont.xml" path="/Windows/SkillUpgradeWin/"/>
+    <component id="jlk119" name="PopupWin.xml" path="/Windows/PopupWin/" exported="true"/>
+    <component id="jlk11a" name="PopupCont.xml" path="/Windows/PopupWin/"/>
+    <component id="jlk11b" name="ChooseCardFromUnitWin.xml" path="/Windows/ChooseCardFromUnitWin/" exported="true"/>
+    <component id="jlk11c" name="ChooseCardFromUnitCont.xml" path="/Windows/ChooseCardFromUnitWin/"/>
+    <component id="jlk11d" name="SelectableNormalButton.xml" path="/Components/" exported="true"/>
+    <component id="jlk11e" name="CardBack.xml" path="/Windows/ChooseCardFromUnitWin/"/>
+    <component id="hprj1f" name="LibraryWin.xml" path="/Windows/LibraryWin/" exported="true"/>
+    <component id="hprj1g" name="LibraryCont.xml" path="/Windows/LibraryWin/"/>
+    <component id="hprj1h" name="SkillItem.xml" path="/Windows/LibraryWin/"/>
+    <component id="hprj2f" name="Line.xml" path="/Components/" exported="true"/>
+    <component id="mehz2k" name="TestWin.xml" path="/Windows/TestWin/" exported="true"/>
+    <component id="mehz2l" name="TestCont.xml" path="/Windows/TestWin/"/>
+    <component id="incg2o" name="PlayerInfoWin.xml" path="/Windows/PlayerInfoWin/" exported="true"/>
+    <component id="incg2p" name="PlayerInfoCont.xml" path="/Windows/PlayerInfoWin/"/>
+    <component id="ruu72x" name="StartStoryWin.xml" path="/Windows/StartStoryWin/" exported="true"/>
+    <image id="ruu730" name="startStory-1.png" path="/Pictures/Bg/" qualityOption="source"/>
+    <image id="ruu731" name="startStory-2.png" path="/Pictures/Bg/" qualityOption="source"/>
+    <image id="ruu732" name="startStory-3.png" path="/Pictures/Bg/" qualityOption="source"/>
+    <component id="fl7z3a" name="TokenItem.xml" path="/Windows/CombatWin/"/>
+    <component id="aywa3b" name="ChooseSkillWin.xml" path="/Windows/ChooseSkillWin/" exported="true"/>
+    <component id="aywa3c" name="ChooseSkillCont.xml" path="/Windows/ChooseSkillWin/"/>
+    <component id="u1r93e" name="SkillItemBig.xml" path="/Windows/ChooseSkillWin/"/>
+    <component id="j46g3f" name="SettingWin.xml" path="/Windows/SettingWin/" exported="true"/>
+    <component id="j46g3g" name="SettingCont.xml" path="/Windows/SettingWin/"/>
+    <component id="j46g3h" name="ComboBox1_item.xml" path="/Windows/SettingWin/"/>
+    <component id="j46g3i" name="ComboBox1_popup.xml" path="/Windows/SettingWin/"/>
+    <component id="j46g3j" name="ComboBox1.xml" path="/Windows/SettingWin/"/>
+    <component id="ufuj3k" name="ExplainText.xml" path="/Components/" exported="true"/>
+    <image id="artmenu" name="menu.png" path="/Pictures/Bg/" exported="true" qualityOption="source"/>
+    <image id="artbattle" name="battle.png" path="/Pictures/Bg/" exported="true" qualityOption="source"/>
+    <image id="artback" name="card_back.png" path="/Pictures/Art/" exported="true"/>
+    <image id="artpanel" name="panel.png" path="/Pictures/Art/" exported="true" scale9grid="80,80,864,608"/>
+    <image id="artbutton" name="button.png" path="/Pictures/Art/" exported="true" scale9grid="80,55,608,146"/>
+    <image id="artguard" name="enemy_guardian.png" path="/Pictures/Character/" exported="true"/>
+    <image id="artevent" name="event_background.png" path="/Pictures/Bg/" exported="true" qualityOption="source"/>
+    <image id="artreward" name="reward_background.png" path="/Pictures/Bg/" exported="true" qualityOption="source"/>
+    <image id="artbtnup" name="button_normal.png" path="/Pictures/Art/" exported="true" scale9grid="0,0,-35,-83"/>
+    <image id="artbtnover" name="button_hover.png" path="/Pictures/Art/" exported="true"/>
+    <image id="artbtndown" name="button_pressed.png" path="/Pictures/Art/" exported="true"/>
+    <image id="artbtnoff" name="button_disabled.png" path="/Pictures/Art/" exported="true"/>
+    <component id="nwpftnovey" name="ChooseUpRewardCont.xml" path="/Windows/ChooseUpRewardWin/"/>
+    <component id="nwpftnovez" name="ChooseUpRewardWin.xml" path="/Windows/ChooseUpRewardWin/" exported="true"/>
+    <component id="l3attnovf1" name="LvUpReward.xml" path="/Windows/ChooseUpRewardWin/"/>
+    <component id="tmcrtnovf2" name="MapTopBar.xml" path="/Windows/MapTopBarWin/"/>
+    <component id="tmcrtnovf3" name="MapTopBarEle.xml" path="/Windows/MapTopBarWin/"/>
+    <component id="tmcrtnovf4" name="MapTopBarWin.xml" path="/Windows/MapTopBarWin/" exported="true"/>
+    <image id="jwcxtnovf5" name="card_glow_white.png" path="/Pictures/Art/"/>
+    <component id="jwcxtnovf6" name="VirtualCardCont.xml" path="/Windows/VirtualCardWin/"/>
+    <component id="jwcxtnovf7" name="VirtualCardWin.xml" path="/Windows/VirtualCardWin/" exported="true"/>
+    <component id="e01ktnovf8" name="ChooseScriptCont.xml" path="/Windows/ChooseScriptWin/"/>
+    <component id="e01ktnovf9" name="ChooseScriptWin.xml" path="/Windows/ChooseScriptWin/" exported="true"/>
+    <component id="eg3qtnovfa" name="PlayerToken.xml" path="/Components/" exported="true"/>
+    <component id="sg4htnovfb" name="LuaCodeItem.xml" path="/Windows/TestWin/"/>
+    <component id="cycktnovfe" name="SkillUpgradeViewCont.xml" path="/Windows/ChooseSkillWin/"/>
+    <component id="cycktnovff" name="SkillUpgradeViewWin.xml" path="/Windows/ChooseSkillWin/" exported="true"/>
+    <component id="cycktnovfg" name="SkillUpgradeViewItem.xml" path="/Windows/ChooseSkillWin/"/>
+    <component id="gu8ztnovfh" name="ChooseCardCont.xml" path="/Windows/ChooseCardWin/"/>
+    <component id="gu8ztnovfi" name="ChooseCardWin.xml" path="/Windows/ChooseCardWin/" exported="true"/>
+    <component id="gu8ztnovfj" name="NormalText.xml" path="/Components/" exported="true"/>
+    <image id="wejttnovfk" name="card_frame.png" path="/Pictures/Art/" exported="true"/>
+    <component id="hx92tnovfl" name="Keyword.xml" path="/Components/" exported="true"/>
+    <component id="hx92tnovfm" name="SkillDesc.xml" path="/Windows/CombatWin/" exported="true"/>
+    <component id="xrqatnovfn" name="CombatReadyCont.xml" path="/Windows/CombatReadyWin/"/>
+    <component id="xrqatnovfo" name="CombatReadyWin.xml" path="/Windows/CombatReadyWin/" exported="true"/>
+    <component id="xrqatnovfp" name="EnemyReview.xml" path="/Windows/CombatReadyWin/"/>
+    <component id="xrqatnovfq" name="OrganizeDeckCont.xml" path="/Windows/OrganizeDeckWin/"/>
+    <component id="xrqatnovfr" name="OrganizeDeckWin.xml" path="/Windows/OrganizeDeckWin/" exported="true"/>
+    <component id="xrqatnovfs" name="OrganizeSkillCont.xml" path="/Windows/OrganizeSkillWin/"/>
+    <component id="xrqatnovft" name="OrganizeSkillWin.xml" path="/Windows/OrganizeSkillWin/" exported="true"/>
+    <component id="oqoqtnovfu" name="CombatValue.xml" path="/Windows/CombatWin/"/>
+    <component id="ziwytnovfv" name="Slider1_grip.xml" path="/Windows/SettingWin/"/>
+    <component id="ziwytnovfw" name="Slider1.xml" path="/Windows/SettingWin/"/>
+    <component id="mjv1tnovfx" name="ActionQueueItem.xml" path="/Windows/CombatWin/"/>
+    <component id="mjv1tnovfy" name="VoteMarkers.xml" path="/Windows/DialogWin/"/>
+    <component id="mjv1tnovfz" name="RewardPlayerReadyItem.xml" path="/Windows/RewardWin/"/>
+    <component id="mjv1tnovg0" name="MultiplayerLobbyCont.xml" path="/Windows/MultiplayerLobbyWin/"/>
+    <component id="mjv1tnovg1" name="MultiplayerLobbyWin.xml" path="/Windows/MultiplayerLobbyWin/" exported="true"/>
+    <component id="mjv1tnovg2" name="ConnectPage.xml" path="/Windows/MultiplayerLobbyWin/"/>
+    <component id="mjv1tnovg3" name="LobbySeatItem.xml" path="/Windows/MultiplayerLobbyWin/"/>
+    <component id="j1h0tnovg5" name="RoomPage.xml" path="/Windows/MultiplayerLobbyWin/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

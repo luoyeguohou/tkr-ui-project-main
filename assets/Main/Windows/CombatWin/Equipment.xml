@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="279,67" extention="Button">
+  <displayList>
+    <graph id="n6_pcqv" name="n6" xy="0,0" size="279,67" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n19_pcqv" name="title" xy="14,8" size="250,51" fontSize="33" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="雌雄双股剑"/>
+  </displayList>
+  <Button/>
+</component>

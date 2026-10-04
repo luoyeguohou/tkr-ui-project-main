@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1403,100">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n5_hprj" name="n5" xy="0,0" size="1403,165" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n6_hprj" name="txtCont" xy="272,13" size="1017,132" fontSize="35" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="你的回合，造成1点伤害"/>
+    <text id="n7_hprj" name="txtName" xy="11,10" size="257,138" fontSize="57" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="知悉"/>
+    <component id="n8_wbb7" name="btnViewUpgrade" src="pcqv4" fileName="Components/NormalButton.xml" xy="1300,51" size="100,48">
+      <Button title="查看升级链条"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false">
+  <controller name="hide" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n3_gu8z" name="bg" xy="0,0" size="1920,1080" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+      <gearDisplay controller="hide" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n0_jlk1" name="cont" src="jlk11c" fileName="Windows/ChooseCardFromUnitWin/ChooseCardFromUnitCont.xml" xy="0,0">
+      <gearDisplay controller="hide" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n1_gu8z" name="n0" src="pcqv4" fileName="Components/NormalButton.xml" xy="86,517" size="120,73">
+      <gearDisplay controller="hide" pages="1"/>
+      <Button title="显示" titleFontSize="30" controller="hide" page="0"/>
+    </component>
+    <component id="n2_gu8z" name="n1" src="pcqv4" fileName="Components/NormalButton.xml" xy="85,515" size="120,73">
+      <gearDisplay controller="hide" pages="0"/>
+      <Button title="隐藏" titleFontSize="30" controller="hide" page="1"/>
+    </component>
+  </displayList>
+</component>

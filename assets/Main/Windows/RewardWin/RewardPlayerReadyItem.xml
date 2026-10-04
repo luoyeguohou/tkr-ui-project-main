@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="350,56">
+  <controller name="readyState" pages="0,choosing,1,done" selected="1"/>
+  <displayList>
+    <graph id="n8_mjv1" name="seatColor" xy="0,0" size="57,56" type="rect"/>
+    <text id="n9_mjv1" name="txtPlayer" xy="60,7" size="145,40" fontSize="29" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="新技能"/>
+    <text id="n10_mjv1" name="txtStatus" xy="205,6" size="145,40" fontSize="29" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="已完成">
+      <gearText controller="readyState" pages="0,1" values="选择中|已完成"/>
+    </text>
+  </displayList>
+</component>
