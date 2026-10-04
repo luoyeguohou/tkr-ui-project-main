@@ -2,7 +2,7 @@
 <component size="229,306" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <controller name="type" pages="0,base,1,skill,2,item-weapon,4,item-armor" selected="0"/>
-  <controller name="suit" pages="0,heart,1,diamond,3,club,2,spade" selected="0"/>
+  <controller name="suit" pages="0,heart,1,diamond,3,club,2,spade" selected="3"/>
   <controller name="back" pages="0,,1," selected="0"/>
   <controller name="virtual" pages="0,,1," selected="0"/>
   <controller name="canSelected" pages="0,,1," selected="0"/>
@@ -26,9 +26,9 @@
       <gearDisplay controller="back" pages="0"/>
       <relation target="" sidePair="left-left,left-right,bottomext-bottom"/>
     </text>
-    <loader id="n6_msve" name="n6" xy="16,20" size="37,37" url="ui://6rc7w3nomsvef" align="center" vAlign="middle" fill="scale">
+    <loader id="n6_msve" name="n6" xy="16,20" size="37,37" url="ui://6rc7w3noptj9tnovgc" align="center" vAlign="middle" fill="scale">
       <gearDisplay controller="back" pages="0"/>
-      <gearIcon controller="suit" pages="1,3,2" values="ui://6rc7w3nomsved|ui://6rc7w3nomsvee|ui://6rc7w3nomsveg" default="ui://6rc7w3nomsvef"/>
+      <gearIcon controller="suit" pages="0,1,3,2" values="ui://6rc7w3noptj9tnovg8|ui://6rc7w3noptj9tnovg7|ui://6rc7w3noptj9tnovg6|ui://6rc7w3noptj9tnovgc"/>
       <gearDisplay2 controller="virtual" pages="0" condition="0"/>
     </loader>
     <text id="n7_msve" name="n17" xy="18,50" size="35,34" fontSize="28" color="#efdfbb" align="center" vAlign="middle" autoSize="none" strokeColor="#151922" autoClearText="true" text="0">

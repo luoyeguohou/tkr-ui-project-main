@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="100,34" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
-  <controller name="interactive" pages="0,,1," selected="1"/>
+  <controller name="interactive" pages="0,,1," selected="0"/>
   <displayList>
     <graph id="n4_jwcx" name="n4" xy="0,-4" size="100,38" type="polygon" lineSize="0" fillColor="#7a66ffff" points="-0.6130514,26.64153,-0.8329535,16.24837,6,5,93,5,100.6833,16.04934,100.6415,25.18085,93,37.49212,7,38">
       <gearDisplay controller="interactive" pages="1"/>
@@ -23,7 +23,7 @@
       <gearDisplay controller="button" pages="4,5"/>
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <text id="n3_ivra" name="title" xy="0,0" size="100,34" fontSize="14" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#141821" singleLine="true" autoClearText="true" text="button">
+    <text id="n3_ivra" name="title" xy="0,0" size="100,34" fontSize="20" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" bold="true" strokeColor="#141821" singleLine="true" autoClearText="true" text="button">
       <relation target="" sidePair="width-width,height-height"/>
     </text>
   </displayList>

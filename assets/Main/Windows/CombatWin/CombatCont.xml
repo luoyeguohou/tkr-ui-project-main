@@ -3,14 +3,12 @@
   <controller name="testMode" pages="0,,1," selected="0"/>
   <controller name="showTutorial" pages="0,,1," selected="0"/>
   <controller name="revealEnemyInfo" pages="0,,1," selected="0"/>
-  <controller name="gameMode" pages="0,single,1,multiplayer" selected="1"/>
+  <controller name="gameMode" pages="0,single,1,multiplayer" selected="0"/>
   <displayList>
-    <component id="n73_j1h0" name="player" src="pcqv8" fileName="Windows/CombatWin/Player.xml" xy="436,201">
+    <component id="n73_j1h0" name="player" src="pcqv8" fileName="Windows/CombatWin/Player.xml" xy="385,234">
       <gearDisplay controller="gameMode" pages="0"/>
     </component>
-    <list id="n50_jwcx" name="lstEnemy" xy="608,87" size="1286,450" layout="flow_hz" margin="0,0,362,0" lineGap="-5" colGap="-7" defaultItem="ui://6rc7w3nopcqv8" align="center" vAlign="middle" autoClearItems="true">
-      <item/>
-      <item/>
+    <list id="n50_jwcx" name="lstEnemy" xy="768,87" size="1006,678" layout="flow_hz" lineGap="-5" colGap="-7" defaultItem="ui://6rc7w3nopcqv8" align="center" vAlign="middle" autoClearItems="true">
       <item/>
       <item/>
     </list>
@@ -21,7 +19,7 @@
       <item/>
       <item/>
     </list>
-    <graph id="n47_j46g" name="n47" xy="16,6" size="233,532" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <graph id="n47_j46g" name="n47" xy="25,180" size="233,367" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
       <gearXY controller="gameMode" pages="1" values="16,6" default="25,180"/>
       <gearSize controller="gameMode" pages="0" values="233,367,1,1" default="233,532,1,1"/>
     </graph>

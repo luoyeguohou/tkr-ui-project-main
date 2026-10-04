@@ -112,6 +112,15 @@
     <component id="mjv1tnovg2" name="ConnectPage.xml" path="/Windows/MultiplayerLobbyWin/"/>
     <component id="mjv1tnovg3" name="LobbySeatItem.xml" path="/Windows/MultiplayerLobbyWin/"/>
     <component id="j1h0tnovg5" name="RoomPage.xml" path="/Windows/MultiplayerLobbyWin/"/>
+    <image id="ptj9tnovg6" name="club.png" path="/Pictures/New/" exported="true"/>
+    <image id="ptj9tnovg7" name="diamond.png" path="/Pictures/New/" exported="true"/>
+    <image id="ptj9tnovg8" name="heart.png" path="/Pictures/New/" exported="true"/>
+    <image id="ptj9tnovg9" name="hp.png" path="/Pictures/New/" exported="true" scale9grid="0,0,-168,-299"/>
+    <image id="ptj9tnovga" name="hp-damaged.png" path="/Pictures/New/" exported="true" scale9grid="0,0,-183,-157"/>
+    <image id="ptj9tnovgb" name="shield.png" path="/Pictures/New/" exported="true" scale9grid="0,0,-256,-42"/>
+    <image id="ptj9tnovgc" name="spade.png" path="/Pictures/New/" exported="true"/>
+    <component id="ptj9tnovgd" name="HpUnit.xml" path="/Windows/CombatWin/"/>
+    <image id="ptj9tnovge" name="idle.png" path="/Pictures/New/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

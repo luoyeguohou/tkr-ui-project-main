@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="95,32">
+<component size="83,32">
   <displayList>
-    <graph id="n33_fl7z" name="n33" xy="0,0" size="95,32" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n34_fl7z" name="txtCont" xy="8,7" size="82,21" fontSize="12" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="{name=法力}标记X{num=10}"/>
+    <graph id="n33_fl7z" name="n33" xy="0,0" size="83,32" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#bd262932" corner="8"/>
+    <text id="n34_fl7z" name="txtCont" xy="0,5" size="82,21" fontSize="12" color="#efdfbb" align="center" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="{name=法力}标记X{num=10}"/>
   </displayList>
 </component>

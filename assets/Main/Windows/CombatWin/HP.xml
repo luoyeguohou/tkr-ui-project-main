@@ -1,34 +1,28 @@
-<?xml version='1.0' encoding='utf-8'?>
-<component size="392,100">
-  <controller name="hpMax" exported="true" pages="0,,1,,2,,3,,4,,5,,7,,8,other" selected="7" />
+<?xml version="1.0" encoding="utf-8"?>
+<component size="373,64">
+  <controller name="showWay" pages="0,lst,1,text" selected="0"/>
   <displayList>
-    <graph id="n7_pcqv" name="n7" xy="0,0" size="392,100" type="rect" fillColor="#f0262932" corner="8" lineColor="#ff987744" lineSize="2" />
-    <text id="n15_pcqv" name="txtNum" xy="159,17" size="169,64" fontSize="44" color="#d32e3e" align="center" vAlign="middle" vars="true" autoSize="none" text="X{num=18}/{max=18}" strokeColor="#151922" strokeSize="1">
-      <gearDisplay controller="hpMax" pages="8" />
+    <graph id="n7_pcqv" name="n7" xy="-1,-1" size="374,65" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <list id="n22_ptj9" name="lstHp" xy="-4,-10" size="375,83" layout="row" overflow="scroll" defaultItem="ui://6rc7w3noptj9tnovgd" autoItemSize="false" align="center" vAlign="middle">
+      <gearDisplay controller="showWay" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n23_ptj9" name="n23" src="ptj9tnovgd" fileName="Windows/CombatWin/HpUnit.xml" xy="142,6">
+      <gearDisplay controller="showWay" pages="1"/>
+    </component>
+    <component id="n24_ptj9" name="n24" src="ptj9tnovgd" fileName="Windows/CombatWin/HpUnit.xml" xy="-9,4" controller="type,2">
+      <gearDisplay controller="showWay" pages="1"/>
+    </component>
+    <text id="n25_ptj9" name="txtShield" xy="45,-18" size="96,95" fontSize="51" color="#caa902" align="center" vAlign="middle" vars="true" autoSize="none" strokeColor="#151922" strokeSize="3" text="X{num=18}">
+      <gearDisplay controller="showWay" pages="1"/>
     </text>
-    <loader id="n16_msve" name="hp1" xy="91,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale">
-      <gearDisplay controller="hpMax" pages="1,2,3,4,5,7,8" />
-      <gearXY controller="hpMax" pages="1,2,3,4,5,8" values="161,17|81,17|52,17|15,17|21,17|91,17" default="7,17" />
-    </loader>
-    <loader id="n17_msve" name="hp2" xy="20,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="2,3,4,5,7" />
-      <gearXY controller="hpMax" pages="2,3,4,5,7" values="222,17|167,17|111,17|91,17|71,17" default="20,17" />
-    </loader>
-    <loader id="n18_msve" name="hp3" xy="27,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="3,4,5,7" />
-      <gearXY controller="hpMax" pages="3,4,5,7" values="282,17|207,17|161,17|135,17" default="27,17" />
-    </loader>
-    <loader id="n19_msve" name="hp4" xy="61,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="4,5,7" />
-      <gearXY controller="hpMax" pages="4,5,7" values="303,17|231,17|199,17" default="61,17" />
-    </loader>
-    <loader id="n20_msve" name="hp5" xy="101,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="5,7" />
-      <gearXY controller="hpMax" pages="3,4,5,7" values="165,17|209,17|301,17|263,17" default="101,17" />
-    </loader>
-    <loader id="n21_msve" name="hp6" xy="92,17" size="61,65" url="ui://6rc7w3nopcqv5" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="7" />
-      <gearXY controller="hpMax" pages="1,2,3,4,5,7,8" values="165,17|221,17|270,17|300,17|371,17|327,17|92,17" default="322,17" />
-    </loader>
+    <text id="n15_pcqv" name="txtHp" xy="203,-19" size="167,95" fontSize="51" color="#d31124" align="center" vAlign="middle" vars="true" autoSize="none" bold="true" strokeColor="#000000" strokeSize="2" text="X{num=18}/{max=18}">
+      <gearDisplay controller="showWay" pages="1"/>
+    </text>
   </displayList>
 </component>

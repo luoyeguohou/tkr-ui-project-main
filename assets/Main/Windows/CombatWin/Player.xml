@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="222,424">
+<component size="262,397">
   <controller name="state" pages="0,idle,1,chosen,2,dead" selected="0"/>
   <controller name="isPlayer" pages="0,,1," selected="0"/>
   <controller name="rage" pages="0,,1," selected="0"/>
-  <controller name="hasVirtual" pages="0,,1," selected="0"/>
-  <controller name="ownerType" pages="0,single,1,self,2,ally,3,enemy" selected="0"/>
+  <controller name="hasVirtual" pages="0,,1," selected="1"/>
+  <controller name="ownerType" pages="0,single,1,self,2,ally,3,enemy" selected="1"/>
   <controller name="actionState" pages="0,ready,1,ended,2,skipped,3,dead,4,waiting" selected="0"/>
   <displayList>
-    <graph id="n44_mjv1" name="bg" xy="0,0" size="222,386" type="rect" fillColor="#00ffffff"/>
-    <loader id="n21_pcqv" name="portrait" xy="156,131" pivot="0.5,0.5" anchor="true" size="124,157" url="ui://6rc7w3noartguard" align="center" vAlign="middle" fill="scale">
+    <loader id="n21_pcqv" name="portrait" xy="95,113" pivot="0.5,0.5" anchor="true" size="176,157" url="ui://6rc7w3noartguard" align="center" vAlign="middle" fill="scale">
       <gearIcon controller="isPlayer" pages="0,1" values="ui://6rc7w3noartguard|ui://6rc7w3nopcqv9"/>
     </loader>
-    <component id="n2_pcqv" name="hp" src="pcqv6" fileName="Windows/CombatWin/HP.xml" xy="10,2" size="392,100" scale="0.5,0.5"/>
-    <graph id="n23_kdzb" name="n23" xy="100,52" size="119,146" touchable="false" type="rect" lineSize="3" lineColor="#ffffd688" fillColor="#604adeba" corner="8">
+    <component id="n2_pcqv" name="hp" src="pcqv6" fileName="Windows/CombatWin/HP.xml" xy="2,3" size="373,64" scale="0.5,0.5"/>
+    <graph id="n23_kdzb" name="n23" xy="4,33" size="179,158" touchable="false" type="rect" lineSize="3" lineColor="#ffffd688" fillColor="#604adeba" corner="8">
       <gearDisplay controller="state" pages="1,2"/>
     </graph>
-    <text id="n24_kdzb" name="n24" xy="100,81" size="121,97" fontSize="50" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" strokeSize="2" singleLine="true" text="选中">
+    <text id="n24_kdzb" name="n24" xy="35,63" size="121,97" fontSize="50" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" strokeSize="2" singleLine="true" text="选中">
       <gearDisplay controller="state" pages="1,2"/>
       <gearText controller="state" pages="2" values="死亡" default="选中"/>
     </text>
-    <list id="n22_fl4x" name="lstSkill" xy="-2,89" pivot="1,0" size="105,135" overflow="scroll" lineGap="-4" defaultItem="ui://6rc7w3nopcqv4" autoItemSize="false" align="right">
+    <list id="n22_fl4x" name="lstSkill" xy="4,193" pivot="1,0" size="103,167" overflow="scroll" lineGap="-4" defaultItem="ui://6rc7w3nopcqv4" autoItemSize="false" align="right">
       <item/>
       <item/>
       <item/>
@@ -27,60 +26,58 @@
       <item/>
       <item/>
     </list>
-    <graph id="n26_ocvx" name="hand" xy="8,343" size="26,36" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n27_ocvx" name="txtHandNum" xy="36,339" size="63,43" fontSize="25" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="X{num=99}"/>
-    <list id="n28_ku8v" name="lstItem" xy="115,207" size="285,288" scale="0.35,0.35" overflow="scroll" lineGap="5" defaultItem="ui://6rc7w3nopcqv7" autoItemSize="false">
+    <graph id="n26_ocvx" name="hand" xy="127,318" size="26,36" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <text id="n27_ocvx" name="txtHandNum" xy="156,318" size="63,43" fontSize="25" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="X{num=99}"/>
+    <list id="n28_ku8v" name="lstItem" xy="118,197" size="285,316" scale="0.35,0.35" overflow="scroll" lineGap="5" defaultItem="ui://6rc7w3nopcqv7" autoItemSize="false">
       <item/>
       <item/>
       <item/>
     </list>
-    <graph id="n31_jlk1" name="n31" xy="303,84" size="253,100" alpha="0" touchable="false" type="rect"/>
-    <text id="n32_jlk1" name="txtSkill" xy="-254,90" size="246,78" alpha="0" fontSize="36" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" text="发动技能{name=观星}"/>
-    <list id="n35_fl7z" name="lstToken" xy="111,314" size="96,68" scale="1.1,1.1" touchable="false" overflow="scroll" defaultItem="ui://6rc7w3nofl7z3a" autoClearItems="true">
+    <list id="n35_fl7z" name="lstToken" xy="1,36" size="84,133" scale="1.1,1.1" touchable="false" overflow="scroll" defaultItem="ui://6rc7w3nofl7z3a" autoClearItems="true">
       <item/>
       <item/>
       <item/>
     </list>
-    <text id="n36_9v2l" name="n36" xy="134,54" size="72,58" fontSize="25" color="#efdfbb" align="center" vAlign="middle" leading="39" autoSize="none" strokeColor="#151922" text="狂怒">
+    <text id="n36_9v2l" name="n36" xy="59,35" size="72,58" fontSize="25" color="#efdfbb" align="center" vAlign="middle" leading="39" autoSize="none" strokeColor="#151922" text="狂怒">
       <gearDisplay controller="rage" pages="1"/>
     </text>
-    <component id="n38_jwcx" name="btnCheckVirtual" src="pcqv4" fileName="Components/NormalButton.xml" xy="6,289" size="92,22">
+    <component id="n38_jwcx" name="btnCheckVirtual" src="pcqv4" fileName="Components/NormalButton.xml" xy="191,60" size="69,26">
       <gearDisplay controller="hasVirtual" pages="1"/>
       <Button title="查看卡牌"/>
     </component>
-    <graph id="n39_jwcx" name="n39" xy="23,52" size="64,34" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n40_jwcx" name="txtArmor" xy="28,58" size="53,23" fontSize="15" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="护甲：{armor=0}"/>
-    <component id="n41_v041" name="btnDrawPile" src="pcqv4" fileName="Components/NormalButton.xml" xy="6,239" size="93,26">
+    <component id="n41_v041" name="btnDrawPile" src="pcqv4" fileName="Components/NormalButton.xml" xy="191,5" size="69,26">
       <Button title="抽牌堆" titleFontSize="12"/>
     </component>
-    <component id="n42_v041" name="btnDiscardPile" src="pcqv4" fileName="Components/NormalButton.xml" xy="6,265" size="93,24">
+    <component id="n42_v041" name="btnDiscardPile" src="pcqv4" fileName="Components/NormalButton.xml" xy="190,32" size="69,26">
       <Button title="弃牌堆" titleFontSize="12"/>
     </component>
-    <component id="n43_aiaf" name="btnCheckInfo" src="pcqv4" fileName="Components/NormalButton.xml" xy="6,312" size="92,22">
+    <component id="n43_aiaf" name="btnCheckInfo" src="pcqv4" fileName="Components/NormalButton.xml" xy="192,88" size="69,26">
       <gearDisplay controller="ownerType" pages="2,3"/>
       <Button title="查看信息" titleFontSize="12"/>
     </component>
-    <graph id="n45_mjv1" name="seatColor" xy="125,147" size="93,51" type="rect" fillColor="#9cffffff">
+    <graph id="n45_mjv1" name="seatColor" xy="184,119" size="78,29" type="rect" fillColor="#9cffffff">
       <gearDisplay controller="ownerType" pages="1,2"/>
     </graph>
-    <text id="n46_mjv1" name="txtPlayer" xy="130,154" size="83,37" fontSize="15" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="玩家1">
+    <text id="n46_mjv1" name="txtPlayer" xy="199,119" size="50,28" fontSize="15" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="玩家1">
       <gearDisplay controller="ownerType" pages="1,2"/>
     </text>
-    <graph id="n47_mjv1" name="bgSelf" xy="127,94" size="89,51" type="rect" fillColor="#99ffffff">
+    <graph id="n47_mjv1" name="bgSelf" xy="190,90" size="30,27" type="rect" fillColor="#99ffffff">
       <gearDisplay controller="ownerType" pages="1"/>
     </graph>
-    <text id="n48_mjv1" name="txtSelf" xy="130,101" size="83,37" fontSize="15" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="你">
+    <text id="n48_mjv1" name="txtSelf" xy="185,85" size="39,37" fontSize="15" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="你">
       <gearDisplay controller="ownerType" pages="1"/>
     </text>
-    <graph id="n49_mjv1" name="bgActionStatus" xy="3,391" size="210,30" type="rect" fillColor="#803e7852">
+    <graph id="n49_mjv1" name="bgActionStatus" xy="9,366" size="210,30" type="rect" fillColor="#ff3e7852">
       <gearDisplay controller="ownerType" pages="1,2"/>
       <gearColor controller="actionState" pages="0,1,2,3,4" values="#3e7852|#495b70|#565c65|#7b3e46|#464c55"/>
     </graph>
-    <text id="n50_mjv1" name="txtActionStatus" xy="12,394" size="194,24" fontSize="15" color="#b8dfb0" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="可行动">
+    <text id="n50_mjv1" name="txtActionStatus" xy="18,369" size="194,24" fontSize="15" color="#b8dfb0" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="可行动">
       <gearDisplay controller="ownerType" pages="1,2"/>
       <gearColor controller="actionState" pages="0,1,2,3,4" values="#b8dfb0,#151922|#b2c6dc,#151922|#c3c7cd,#151922|#f0a09d,#151922|#d4d7de,#151922"/>
       <gearText controller="actionState" pages="0,1,2,3,4" values="可行动|已结束|跳过行动|已死亡|等待行动阶段"/>
     </text>
+    <graph id="n31_jlk1" name="n31" xy="302,88" size="253,100" alpha="0" touchable="false" type="rect"/>
+    <text id="n32_jlk1" name="txtSkill" xy="-267,92" size="246,78" alpha="0" fontSize="36" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" text="发动技能{name=观星}"/>
   </displayList>
   <transition name="useSkill">
     <item time="0" type="Alpha" target="n31_jlk1" tween="true" startValue="0" endValue="1" duration="13"/>
@@ -94,7 +91,10 @@
   </transition>
   <transition name="loseHP">
     <item time="0" type="Rotation" target="n21_pcqv" tween="true" startValue="0" endValue="-10" duration="2"/>
+    <item time="0" type="Scale" target="n21_pcqv" tween="true" startValue="1,1" endValue="2,2" duration="2"/>
     <item time="2" type="Rotation" target="n21_pcqv" tween="true" startValue="-10" endValue="10" duration="4"/>
+    <item time="2" type="Scale" target="n21_pcqv" tween="true" startValue="2,2" endValue="2,2" duration="4"/>
     <item time="6" type="Rotation" target="n21_pcqv" tween="true" startValue="10" endValue="0" duration="3"/>
+    <item time="6" type="Scale" target="n21_pcqv" tween="true" startValue="2,2" endValue="1,1" duration="3"/>
   </transition>
 </component>
