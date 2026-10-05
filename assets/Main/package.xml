@@ -4,7 +4,6 @@
     <component id="ti390" name="CombatWin.xml" path="/Windows/CombatWin/" exported="true"/>
     <component id="pcqv1" name="MainHand.xml" path="/Windows/CombatWin/"/>
     <component id="pcqv2" name="CombatCont.xml" path="/Windows/CombatWin/"/>
-    <component id="pcqv3" name="Card.xml" path="/Components/" exported="true"/>
     <component id="pcqv4" name="NormalButton.xml" path="/Components/" exported="true"/>
     <image id="pcqv5" name="hp.png" path="/Pictures/Art/"/>
     <component id="pcqv6" name="HP.xml" path="/Windows/CombatWin/"/>
@@ -121,6 +120,7 @@
     <image id="ptj9tnovgc" name="spade.png" path="/Pictures/New/" exported="true"/>
     <component id="ptj9tnovgd" name="HpUnit.xml" path="/Windows/CombatWin/"/>
     <image id="ptj9tnovge" name="idle.png" path="/Pictures/New/" exported="true"/>
+    <component id="pcqv3" name="Card.xml" path="/Components/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

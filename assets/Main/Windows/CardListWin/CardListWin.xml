@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1920,1080" opaque="false">
-  <controller name="hide" pages="0,,1," selected="0"/>
+<component size="1920,1080" opaque="false" designImageOffsetX="102" designImageOffsetY="74" designImageAlpha="100">
+  <controller name="hide" pages="0,显示,1,隐藏" selected="1"/>
   <displayList>
     <graph id="n4_gu8z" name="bg" xy="0,0" size="1920,1080" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
       <gearDisplay controller="hide" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n0_ymjr" name="cont" src="ymjrb" fileName="Windows/CardListWin/CardListCont.xml" xy="83,47">
+    <component id="n0_ymjr" name="cont" src="ymjrb" fileName="Windows/CardListWin/CardListCont.xml" xy="89,34" size="1753,984">
       <gearDisplay controller="hide" pages="0"/>
+      <gearSize controller="hide" default="1753,984,1,1" duration="2.3"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
     <component id="n2_gu8z" name="n0" src="pcqv4" fileName="Components/NormalButton.xml" xy="25,480" size="120,73">

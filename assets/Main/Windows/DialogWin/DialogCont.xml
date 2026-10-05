@@ -2,7 +2,7 @@
 <component size="1920,1080">
   <displayList>
     <graph id="n1_82hn" name="n1" xy="855,80" size="980,940" type="rect" lineSize="0" lineColor="#ff987744" fillColor="#b510151e" corner="8"/>
-    <text id="n2_82hn" name="txtCont" xy="915,125" size="860,505" fontSize="34" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="你在这里发现了一个神庙，似乎是祭拜蛇灵的一群人。他们在成为守卫者之前就信奉蛇灵。虽然已经丢失了神智，成为了蛇的奴仆，但因为山底雾气稀薄，他们仍然虔诚的祭拜他们的蛇灵。"/>
+    <text id="n2_82hn" name="txtCont" xy="915,125" size="860,505" fontSize="34" color="#efdfbb" ubb="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="你在这里发现了一个神庙，似乎是祭拜蛇灵的一群人。他们在成为守卫者之前就信奉蛇灵。虽然已经丢失了神智，成为了蛇的奴仆，但因为山底雾气稀薄，他们仍然虔诚的祭拜他们的蛇灵。"/>
     <list id="n6_iwb8" name="lstChoice" xy="882,652" size="981,340" overflow="scroll" lineGap="3" defaultItem="ui://6rc7w3noiwb8r" vAlign="middle" autoClearItems="true">
       <item/>
       <item/>
