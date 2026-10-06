@@ -121,6 +121,11 @@
     <component id="ptj9tnovgd" name="HpUnit.xml" path="/Windows/CombatWin/"/>
     <image id="ptj9tnovge" name="idle.png" path="/Pictures/New/" exported="true"/>
     <component id="pcqv3" name="Card.xml" path="/Components/" exported="true"/>
+    <component id="lp7wtnovgf" name="TutorialPopupCont.xml" path="/Windows/TutorialPopupWin/"/>
+    <component id="lp7wtnovgg" name="TutorialPopupWin.xml" path="/Windows/TutorialPopupWin/" exported="true"/>
+    <image id="lp7wtnovgh" name="robot.png" path="/Pictures/Character/"/>
+    <image id="lp7wtnovgi" name="arrow.png" path="/Pictures/New/"/>
+    <component id="lp7wtnovgj" name="Arrow.xml" path="/Windows/TutorialPopupWin/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="173,173">
+  <displayList>
+    <image id="n5_lp7w" name="n5" src="lp7wtnovgi" fileName="Pictures/New/arrow.png" xy="0,0" size="173,173"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n5_lp7w" tween="true" startValue="0,0" endValue="0,-7" duration="12"/>
+    <item time="12" type="XY" target="n5_lp7w" tween="true" startValue="0,-7" endValue="0,7" duration="12" ease="Quad.InOut"/>
+    <item time="24" type="XY" target="n5_lp7w" tween="true" startValue="0,7" endValue="0,0" duration="12" ease="Quad.InOut"/>
+  </transition>
+</component>

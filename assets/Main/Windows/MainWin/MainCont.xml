@@ -2,7 +2,7 @@
 <component size="1920,1080">
   <controller name="hasOldGame" pages="0,,1," selected="1"/>
   <displayList>
-    <component id="n0_ar7m" name="btnPlay" src="pcqv4" fileName="Components/NormalButton.xml" xy="160,464" size="340,76">
+    <component id="n0_ar7m" name="btnPlay" src="pcqv4" fileName="Components/NormalButton.xml" xy="163,387" size="340,76">
       <Button title="开始游戏" titleFontSize="35"/>
     </component>
     <component id="n1_ar7m" name="btnSetting" src="pcqv4" fileName="Components/NormalButton.xml" xy="160,649" size="340,76">
@@ -11,11 +11,11 @@
     <component id="n2_ar7m" name="btnQuit" src="pcqv4" fileName="Components/NormalButton.xml" xy="160,746" size="340,76">
       <Button title="退出" titleFontSize="35"/>
     </component>
-    <component id="n3_ar7m" name="btnContinue" src="pcqv4" fileName="Components/NormalButton.xml" xy="162,372" size="340,76">
+    <component id="n3_ar7m" name="btnContinue" src="pcqv4" fileName="Components/NormalButton.xml" xy="166,304" size="340,76">
       <gearDisplay controller="hasOldGame" pages="1"/>
       <Button title="继续游戏" titleFontSize="35"/>
     </component>
-    <text id="n4_ar7m" name="n4" xy="150,180" size="1164,170" fontSize="112" color="#efdfbb" vAlign="middle" autoSize="none" bold="true" strokeColor="#151922" strokeSize="3" text="弑神之路"/>
+    <text id="n4_ar7m" name="n4" xy="134,54" size="1164,170" fontSize="112" color="#efdfbb" vAlign="middle" autoSize="none" bold="true" strokeColor="#151922" strokeSize="3" text="弑神之路"/>
     <component id="n5_hprj" name="btnLibrary" src="pcqv4" fileName="Components/NormalButton.xml" xy="1621,885" size="230,64">
       <Button title="资料" titleFontSize="35"/>
     </component>
@@ -26,8 +26,11 @@
       <Button title="English"/>
     </component>
     <text id="n10_e01k" name="txtResult" xy="959,33" size="943,789" touchable="false" fontSize="12" autoSize="none" text="" input="true"/>
-    <component id="n11_mjv1" name="btnMultiplayer" src="pcqv4" fileName="Components/NormalButton.xml" xy="158,553" size="340,76">
+    <component id="n11_mjv1" name="btnMultiplayer" src="pcqv4" fileName="Components/NormalButton.xml" xy="161,557" size="340,76">
       <Button title="多人游戏" titleFontSize="35"/>
+    </component>
+    <component id="n12_lp7w" name="btnTutorial" src="pcqv4" fileName="Components/NormalButton.xml" xy="161,468" size="340,76">
+      <Button title="教程" titleFontSize="35"/>
     </component>
   </displayList>
 </component>

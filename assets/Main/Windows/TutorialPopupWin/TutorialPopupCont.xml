@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1753,984">
+  <displayList>
+    <graph id="n33_lp7w" name="n33" xy="292,112" size="976,299" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#ff282833" corner="8"/>
+    <text id="n34_lp7w" name="txtCont" xy="309,125" size="943,268" fontSize="48" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="欢迎来到弑神之路，我是你的引导员。&#xA;你的编号是AE845A9。&#xA;当前任务目标：通关教程剧本。&#xA;先点击你面前第一个节点试试吧！"/>
+    <image id="n35_lp7w" name="n35" src="lp7wtnovgh" fileName="Pictures/Character/robot.png" xy="1264,68" size="402,402"/>
+  </displayList>
+</component>

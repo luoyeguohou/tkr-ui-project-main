@@ -39,6 +39,6 @@
     <component id="n37_de1q" name="btnAddDiff" src="pcqv4" fileName="Components/NormalButton.xml" xy="1258,783" size="148,66">
       <Button title="=&gt;" titleFontSize="32"/>
     </component>
-    <text id="n38_de1q" name="txtDiff" xy="957,769" size="287,82" fontSize="62" color="#d3ae66" align="center" vars="true" autoSize="none" strokeColor="#151922" singleLine="true" autoClearText="true" text="进阶{diff=0}"/>
+    <text id="n38_de1q" name="txtDiff" xy="957,769" size="287,82" fontSize="62" color="#d3ae66" align="center" vars="true" autoSize="none" strokeColor="#151922" singleLine="true" text="进阶{diff=0}"/>
   </displayList>
 </component>

@@ -69,5 +69,15 @@
       <Slider value="50" max="100"/>
     </component>
     <text id="n19_s2bq" name="n19" xy="1182,369" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="动画变慢"/>
+    <text id="n20_lp7w" name="n20" xy="980,525" size="272,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="允许无效友方咒语"/>
+    <text id="n21_lp7w" name="n21" xy="977,618" size="277,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="允许对敌方使用回复"/>
+    <component id="n22_lp7w" name="btnAllowNegationAlly" src="pcqv4" fileName="Components/NormalButton.xml" xy="1270,530" size="62,60">
+      <gearDisplay controller="fastMode" pages="0"/>
+      <Button title="×" titleFontSize="29" controller="fastMode" page="1"/>
+    </component>
+    <component id="n23_lp7w" name="btnAllowHealEnemy" src="pcqv4" fileName="Components/NormalButton.xml" xy="1271,624" size="62,60">
+      <gearDisplay controller="fastMode" pages="0"/>
+      <Button title="×" titleFontSize="29" controller="fastMode" page="1"/>
+    </component>
   </displayList>
 </component>
