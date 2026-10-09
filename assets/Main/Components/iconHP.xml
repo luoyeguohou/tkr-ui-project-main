@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,30" anchor="true">
+  <controller name="on-off" pages="0,on,1,off" selected="0"/>
+  <controller name="type" pages="0,HP,1,shield" selected="0"/>
+  <displayList>
+    <image id="n18_h2rn" name="n18" src="fdnltnovgc" fileName="Pictures/icon/iconHp0.png" xy="15,15" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="on-off" pages="1"/>
+      <gearDisplay2 controller="type" pages="0" condition="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n19_h2rn" name="n19" src="fdnltnovgb" fileName="Pictures/icon/iconHp1.png" xy="15,15" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="on-off" pages="0"/>
+      <gearDisplay2 controller="type" pages="0" condition="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n20_h2rn" name="n20" src="h2rntnovi3" fileName="Pictures/icon/iconShield0.png" xy="15,15" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="on-off" pages="1"/>
+      <gearDisplay2 controller="type" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n21_h2rn" name="n21" src="h2rntnovi2" fileName="Pictures/icon/iconShield1.png" xy="15,15" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="on-off" pages="0"/>
+      <gearDisplay2 controller="type" pages="1" condition="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

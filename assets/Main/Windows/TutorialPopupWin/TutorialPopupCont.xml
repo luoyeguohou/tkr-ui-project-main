@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1753,984">
-  <controller name="showNextStep" pages="0,,1," selected="1"/>
-  <controller name="pos" exported="true" pages="0,,1," selected="1"/>
+  <controller name="showNextStep" pages="0,,1," selected="0"/>
+  <controller name="pos" exported="true" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n33_lp7w" name="n33" xy="292,524" size="976,299" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#ff282833" corner="8">
+    <graph id="n33_lp7w" name="n33" xy="292,112" size="976,299" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#ff282833" corner="8">
       <gearXY controller="pos" pages="1" values="292,524" default="292,112"/>
     </graph>
-    <text id="n34_lp7w" name="txtCont" xy="309,537" size="943,268" fontSize="48" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="">
+    <text id="n34_lp7w" name="txtCont" xy="309,125" size="943,268" fontSize="48" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="">
       <gearXY controller="pos" pages="1" values="309,537" default="309,125"/>
     </text>
-    <image id="n35_lp7w" name="n35" src="lp7wtnovgh" fileName="Pictures/Character/robot.png" xy="1264,480" size="402,402">
+    <image id="n35_lp7w" name="n35" src="lvf7tnovic" fileName="Pictures/Character/robot.png" xy="1264,68" size="402,402">
       <gearXY controller="pos" pages="1" values="1264,480" default="1264,68"/>
     </image>
-    <component id="n36_kbxu" name="btnNextStep" src="pcqv4" fileName="Components/NormalButton.xml" xy="680,818" size="177,61">
+    <component id="n36_kbxu" name="btnNextStep" src="pcqv4" fileName="Components/NormalButton.xml" xy="680,406" size="177,61">
       <gearDisplay controller="showNextStep" pages="1"/>
       <gearXY controller="pos" pages="1" values="680,818" default="680,406"/>
       <Button title="下一步"/>

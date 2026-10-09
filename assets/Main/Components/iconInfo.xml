@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="55,55">
+  <displayList>
+    <loader id="n2_h2rn" name="n2" xy="28,28" pivot="0.5,0.5" anchor="true" size="55,55" url="ui://6rc7w3noh2rntnovi6"/>
+    <richtext id="n1_h2rn" name="n1" xy="55,1" pivot="0,0.5" size="24,49" fontSize="36" color="#f7e9cf" text="1">
+      <relation target="" sidePair="middle-middle,left-right"/>
+    </richtext>
+  </displayList>
+</component>

@@ -8,7 +8,7 @@
     <image id="pcqv5" name="hp.png" path="/Pictures/Art/"/>
     <component id="pcqv6" name="HP.xml" path="/Windows/CombatWin/"/>
     <component id="pcqv7" name="Equipment.xml" path="/Windows/CombatWin/"/>
-    <component id="pcqv8" name="Player.xml" path="/Windows/CombatWin/"/>
+    <component id="pcqv8" name="Enemy.xml" path="/Windows/CombatWin/"/>
     <image id="pcqv9" name="profile.png" path="/Pictures/Character/" exported="true"/>
     <component id="ymjrb" name="CardListCont.xml" path="/Windows/CardListWin/"/>
     <component id="ymjrc" name="CardListWin.xml" path="/Windows/CardListWin/" exported="true"/>
@@ -111,21 +111,92 @@
     <component id="mjv1tnovg2" name="ConnectPage.xml" path="/Windows/MultiplayerLobbyWin/"/>
     <component id="mjv1tnovg3" name="LobbySeatItem.xml" path="/Windows/MultiplayerLobbyWin/"/>
     <component id="j1h0tnovg5" name="RoomPage.xml" path="/Windows/MultiplayerLobbyWin/"/>
-    <image id="ptj9tnovg6" name="club.png" path="/Pictures/New/" exported="true"/>
-    <image id="ptj9tnovg7" name="diamond.png" path="/Pictures/New/" exported="true"/>
-    <image id="ptj9tnovg8" name="heart.png" path="/Pictures/New/" exported="true"/>
-    <image id="ptj9tnovg9" name="hp.png" path="/Pictures/New/" exported="true" scale9grid="0,0,-168,-299"/>
-    <image id="ptj9tnovga" name="hp-damaged.png" path="/Pictures/New/" exported="true" scale9grid="0,0,-183,-157"/>
-    <image id="ptj9tnovgb" name="shield.png" path="/Pictures/New/" exported="true" scale9grid="0,0,-256,-42"/>
-    <image id="ptj9tnovgc" name="spade.png" path="/Pictures/New/" exported="true"/>
-    <component id="ptj9tnovgd" name="HpUnit.xml" path="/Windows/CombatWin/"/>
-    <image id="ptj9tnovge" name="idle.png" path="/Pictures/New/" exported="true"/>
+    <image id="fdnltnovg6" name="bgIconEnemySkill.png" path="/Pictures/btn/"/>
+    <image id="fdnltnovg7" name="bgMaskRoundOut.png" path="/Pictures/image/"/>
+    <image id="fdnltnovg8" name="bgMaskBottom.png" path="/Pictures/image/" scale="9grid" scale9grid="200,0,1520,80"/>
+    <image id="fdnltnovga" name="bgIconEnemyInfo.png" path="/Pictures/image/"/>
+    <image id="fdnltnovgb" name="iconHp1.png" path="/Pictures/icon/"/>
+    <image id="fdnltnovgc" name="iconHp0.png" path="/Pictures/icon/"/>
+    <image id="fdnltnovge" name="bgIconRole_frame.png" path="/Pictures/roleHead/"/>
+    <image id="fdnltnovgf" name="bgIconRoleLv.png" path="/Pictures/roleHead/"/>
+    <image id="fdnltnovgg" name="bgIconRoleInfo.png" path="/Pictures/roleHead/"/>
+    <image id="fdnltnovgh" name="bgIconRole.png" path="/Pictures/roleHead/"/>
+    <image id="fdnltnovgi" name="btnCommon1_mask.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,118,10"/>
+    <image id="fdnltnovgj" name="btnCommon1Y_sel.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovgk" name="btnCommon1Y.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovgl" name="btnCommon1R_sel.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovgm" name="btnCommon1R.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovgn" name="btnCommon1G_sel.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovgo" name="btnCommon1G.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovgp" name="btnCommon1B_sel.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovgq" name="btnCommon1B.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovgr" name="bgIconRoleSkill_frame.png" path="/Pictures/btn/"/>
+    <image id="fdnltnovgs" name="bgIconRoleSkill.png" path="/Pictures/btn/"/>
+    <image id="fdnltnovgt" name="bgIconEnemySkill_frame.png" path="/Pictures/btn/"/>
+    <image id="fdnltnovgu" name="bgMaskTop.png" path="/Pictures/image/" scale="9grid" scale9grid="200,0,1520,54"/>
+    <image id="fdnltnovgv" name="bgRoundNum.png" path="/Pictures/image/"/>
+    <component id="fdnltnovgw" name="commonMask.xml" path="/Components/"/>
+    <component id="fdnltnovgz" name="Player.xml" path="/Windows/CombatWin/"/>
+    <component id="fdnltnovh0" name="iconHP.xml" path="/Components/"/>
+    <component id="fdnltnovh1" name="headRole.xml" path="/Components/"/>
+    <image id="fdnltnovh2" name="mechanical_poisoner.png" path="/Pictures/Character/"/>
+    <component id="fdnltnovh5" name="iconSkill.xml" path="/Components/"/>
+    <component id="fdnltnovh6" name="btnCommon1.xml" path="/Components/" exported="true"/>
+    <image id="fdnltnovh7" name="btnCommon1_dis.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovh8" name="btnCommon1R_over.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovh9" name="btnCommon1G_over.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovha" name="btnCommon1B_over.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <image id="fdnltnovhb" name="btnCommon1Y_over.png" path="/Pictures/btn/" scale="9grid" scale9grid="45,21,148,36"/>
+    <font id="h2rntnovhc" name="舟方日明体.otf" path="/" renderMode="smooth" samplePointSize="16"/>
+    <image id="h2rntnovhd" name="skill1001.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhe" name="skill1018.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhf" name="skill1017.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhg" name="skill1016.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhh" name="skill1015.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhi" name="skill1014.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhj" name="skill1013.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhk" name="skill1012.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhl" name="skill1011.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhm" name="skill1010.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhn" name="skill1009.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovho" name="skill1008.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhp" name="skill1007.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhq" name="skill1006.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhr" name="skill1005.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhs" name="skill1004.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovht" name="skill1003.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhu" name="skill1002.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhv" name="skill1019.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhw" name="skill1020.png" path="/Pictures/skill/"/>
+    <image id="h2rntnovhx" name="aniSel01.png" path="/Pictures/Animation/"/>
+    <image id="h2rntnovhy" name="aniSel02.png" path="/Pictures/Animation/"/>
+    <image id="h2rntnovhz" name="aniSel03.png" path="/Pictures/Animation/"/>
+    <image id="h2rntnovi0" name="aniSel04.png" path="/Pictures/Animation/"/>
+    <component id="h2rntnovi1" name="aniSel.xml" path="/Components/"/>
+    <image id="h2rntnovi2" name="iconShield1.png" path="/Pictures/icon/"/>
+    <image id="h2rntnovi3" name="iconShield0.png" path="/Pictures/icon/"/>
+    <image id="h2rntnovi4" name="card_front_v3.png" path="/Pictures/Art/"/>
+    <component id="h2rntnovi5" name="iconInfo.xml" path="/Components/"/>
+    <image id="h2rntnovi6" name="iconAttackNum.png" path="/Pictures/icon/"/>
+    <image id="h2rntnovi7" name="iconCardNum.png" path="/Pictures/icon/"/>
+    <image id="h2rntnovi8" name="iconDamage.png" path="/Pictures/icon/"/>
+    <image id="h2rntnovi9" name="iconHealth.png" path="/Pictures/icon/"/>
+    <image id="h2rntnovia" name="iconRage.png" path="/Pictures/icon/"/>
+    <image id="lvf7tnovic" name="robot.png" path="/Pictures/Character/"/>
+    <image id="lvf7tnovid" name="arrow.png" path="/Pictures/New/"/>
+    <image id="lvf7tnovie" name="club.png" path="/Pictures/New/"/>
+    <image id="lvf7tnovif" name="diamond.png" path="/Pictures/New/"/>
+    <image id="lvf7tnovig" name="heart.png" path="/Pictures/New/"/>
+    <image id="lvf7tnovih" name="hp-damaged.png" path="/Pictures/New/"/>
+    <image id="lvf7tnovii" name="hp.png" path="/Pictures/New/"/>
+    <image id="lvf7tnovij" name="idle.png" path="/Pictures/New/"/>
+    <image id="lvf7tnovik" name="shield.png" path="/Pictures/New/"/>
+    <image id="lvf7tnovil" name="spade.png" path="/Pictures/New/"/>
+    <component id="lvf7tnovim" name="HpUnit.xml" path="/Windows/CombatWin/"/>
+    <component id="lvf7tnovin" name="Arrow.xml" path="/Windows/TutorialPopupWin/" exported="true"/>
+    <component id="lvf7tnovio" name="TutorialPopupCont.xml" path="/Windows/TutorialPopupWin/"/>
+    <component id="lvf7tnovip" name="TutorialPopupWin.xml" path="/Windows/TutorialPopupWin/" exported="true"/>
     <component id="pcqv3" name="Card.xml" path="/Components/" exported="true"/>
-    <component id="lp7wtnovgf" name="TutorialPopupCont.xml" path="/Windows/TutorialPopupWin/"/>
-    <component id="lp7wtnovgg" name="TutorialPopupWin.xml" path="/Windows/TutorialPopupWin/" exported="true"/>
-    <image id="lp7wtnovgh" name="robot.png" path="/Pictures/Character/"/>
-    <image id="lp7wtnovgi" name="arrow.png" path="/Pictures/New/"/>
-    <component id="lp7wtnovgj" name="Arrow.xml" path="/Windows/TutorialPopupWin/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

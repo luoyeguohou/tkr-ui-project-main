@@ -2,18 +2,19 @@
 <component size="1920,402">
   <controller name="choosingCard" pages="0,,1," selected="0"/>
   <controller name="playerTurn" pages="0,,1," selected="1"/>
-  <controller name="longChoice" pages="0,,1," selected="0"/>
-  <controller name="autoPlay" pages="0,,1," selected="1"/>
+  <controller name="longChoice" pages="0,,1," selected="1"/>
+  <controller name="autoPlay" pages="0,,1," selected="0"/>
   <displayList>
     <graph id="n84_gie4" name="handBegin" xy="45,142" pivot="0.5,0.5" anchor="true" size="100,100" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
     <graph id="n85_gie4" name="handsEnd" xy="1867,142" pivot="0.5,0.5" anchor="true" size="100,100" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
       <relation target="" sidePair="right-right"/>
     </graph>
-    <component id="n86_fl4x" name="btnEndTurn" src="pcqv4" fileName="Components/NormalButton.xml" xy="1734,-16" size="151,56">
+    <component id="n86_fl4x" name="btnEndTurn" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="960,25" pivot="0.5,0.5" anchor="true" size="238,78">
       <gearDisplay controller="playerTurn" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
       <Button title="结束回合" titleFontSize="24"/>
     </component>
-    <text id="n88_fl4x" name="txtChoice" xy="396,-110" size="1127,69" fontSize="35" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="你的回合，打出手牌">
+    <text id="n88_fl4x" name="txtChoice" xy="403,-219" size="1127,69" fontSize="35" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="你的回合，打出手牌">
       <gearDisplay controller="choosingCard" pages="1"/>
       <gearXY controller="longChoice" pages="0,1" values="396,-110|403,-219"/>
     </text>
@@ -33,9 +34,9 @@
       <item/>
       <item/>
     </list>
-    <component id="n94_igs5" name="btnAutoPlay" src="pcqv4" fileName="Components/NormalButton.xml" xy="1543,-15" size="182,56">
+    <component id="n94_igs5" name="btnAutoPlay" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1073,-13" size="238,78">
       <gearText controller="autoPlay" pages="0" values="自动打牌：关" default="自动打牌：开"/>
-      <Button title="自动打牌：开" titleFontSize="24"/>
+      <Button title="自动打牌：关" titleFontSize="24"/>
     </component>
   </displayList>
 </component>

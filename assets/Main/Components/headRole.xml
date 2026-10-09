@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="151,151" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n0_fdnl" name="bg" src="fdnltnovgh" fileName="Pictures/roleHead/bgIconRole.png" xy="75,75" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n1_fdnl" name="portrait" xy="75,151" pivot="0.5,1" anchor="true" size="200,200" aspect="true" url="ui://6rc7w3nofdnltnovh2" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader>
+    <image id="n3_fdnl" name="bgLv" src="fdnltnovgf" fileName="Pictures/roleHead/bgIconRoleLv.png" xy="76,149" pivot="0.5,1" anchor="true">
+      <relation target="n0_fdnl" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <text id="n4_fdnl" name="lv" xy="75,130" pivot="0.5,0.5" anchor="true" size="45,29" font="Sthginkra" fontSize="20" color="#ffffff" vars="true" text="LV.{lv=0}">
+      <relation target="n3_fdnl" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n2_fdnl" name="frame" src="fdnltnovge" fileName="Pictures/roleHead/bgIconRole_frame.png" xy="75,87" pivot="0.5,0.5" anchor="true">
+      <relation target="n0_fdnl" sidePair="center-center,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>

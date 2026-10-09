@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080" opaque="false">
   <displayList>
-    <component id="n0_ymjr" name="cont" src="lp7wtnovgf" fileName="Windows/TutorialPopupWin/TutorialPopupCont.xml" xy="83,47" size="1753,453" controller="pos,0">
+    <component id="n0_ymjr" name="cont" src="lvf7tnovio" fileName="Windows/TutorialPopupWin/TutorialPopupCont.xml" xy="83,47" size="1753,453">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
   </displayList>
