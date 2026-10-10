@@ -1,6 +1,19 @@
 import FairyEditor = CS.FairyEditor;
 import CodeWriter from './CodeWriter';
 
+function memberType(handler: FairyEditor.PublishHandler, settings: FairyEditor.GlobalPublishSettings.CodeGenerationConfig, memberInfo: FairyEditor.PublishHandler.MemberInfo): string {
+    let res = memberInfo.res;
+    if (memberInfo.group != 0 || !res || res.type != "component" || !res.exported)
+        return memberInfo.type;
+    let owner = res.owner;
+    if (!owner || owner.id == handler.pkg.id || !owner.publishSettings.genCode)
+        return memberInfo.type;
+    let ownerNamespace = handler.ToFilename(owner.name);
+    if (settings.packageName)
+        ownerNamespace = settings.packageName + '.' + ownerNamespace;
+    return ownerNamespace + '.' + settings.classNamePrefix + handler.ToFilename(res.name.replace(/\.xml$/, ''));
+}
+
 function genCode(handler: FairyEditor.PublishHandler) {
     let settings = (<FairyEditor.GlobalPublishSettings>handler.project.GetSettings("Publish")).codeGeneration;
     let codePkgName = handler.ToFilename(handler.pkg.name); //convert chinese to pinyin, remove special chars etc.
@@ -39,7 +52,7 @@ function genCode(handler: FairyEditor.PublishHandler) {
         let memberCnt = members.Count
         for (let j: number = 0; j < memberCnt; j++) {
             let memberInfo = members.get_Item(j);
-            writer.writeln('public %s %s;', memberInfo.type, memberInfo.varName);
+            writer.writeln('public %s %s;', memberType(handler, settings, memberInfo), memberInfo.varName);
         }
         writer.writeln('public const string URL = "ui://%s%s";', handler.pkg.id, classInfo.resId);
         writer.writeln();
@@ -64,9 +77,9 @@ function genCode(handler: FairyEditor.PublishHandler) {
             let memberInfo = members.get_Item(j);
             if (memberInfo.group == 0) {
                 if (getMemberByName)
-                    writer.writeln('%s = (%s)GetChild("%s");', memberInfo.varName, memberInfo.type, memberInfo.name);
+                    writer.writeln('%s = (%s)GetChild("%s");', memberInfo.varName, memberType(handler, settings, memberInfo), memberInfo.name);
                 else
-                    writer.writeln('%s = (%s)GetChildAt(%s);', memberInfo.varName, memberInfo.type, memberInfo.index);
+                    writer.writeln('%s = (%s)GetChildAt(%s);', memberInfo.varName, memberType(handler, settings, memberInfo), memberInfo.index);
             }
             else if (memberInfo.group == 1) {
                 if (getMemberByName)

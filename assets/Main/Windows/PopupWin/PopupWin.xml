@@ -6,13 +6,13 @@
       <gearDisplay controller="hide" pages="0"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n1_gu8z" name="n0" src="pcqv4" fileName="Components/NormalButton.xml" xy="41,454" size="120,73">
+    <component id="n3_109um" name="n0" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="-82,458" controller="color,2" pkg="msb8m4n5">
       <gearDisplay controller="hide" pages="1"/>
-      <Button title="显示" titleFontSize="30" controller="hide" page="0"/>
+      <Button title="    显示" titleFontSize="30" controller="hide" page="0"/>
     </component>
-    <component id="n2_gu8z" name="n1" src="pcqv4" fileName="Components/NormalButton.xml" xy="40,452" size="120,73">
+    <component id="n4_109um" name="n1" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="-82,458" controller="color,2" pkg="msb8m4n5">
       <gearDisplay controller="hide" pages="0"/>
-      <Button title="隐藏" titleFontSize="30" controller="hide" page="1"/>
+      <Button title="    隐藏" titleFontSize="30" controller="hide" page="1"/>
     </component>
   </displayList>
 </component>

@@ -1,11 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <loader id="n1_jn1h" name="bg" xy="0,0" size="1920,1080" url="ui://6rc7w3noartreward" fill="scaleNoBorder" align="center" vAlign="middle">
-      <relation target="" sidePair="width-width,height-height" />
-    </loader>
-    <component id="n0_jn1h" name="cont" src="jn1hz" fileName="Windows/RewardCont.xml" xy="1,0">
-      <relation target="" sidePair="center-center,middle-middle" />
+    <component id="n0_jn1h" name="cont" src="jn1hz" fileName="Windows/RewardWin/RewardCont.xml" xy="1,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
     </component>
   </displayList>
 </component>

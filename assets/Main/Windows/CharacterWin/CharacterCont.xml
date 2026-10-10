@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <loader id="n10_lh0x" name="n10" xy="996,190" size="820,820" url="ui://6rc7w3nopcqv9" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n10_lh0x" name="portrait" xy="997,190" size="820,820" url="ui://6rc7w3nofdnltnovh2" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
     <list id="n5_82hn" name="lstCharacter" xy="158,587" size="755,302" layout="row" overflow="scroll" scroll="horizontal" colGap="16" defaultItem="ui://6rc7w3no82hnl" autoItemSize="false" autoClearItems="true">
       <item/>
       <item/>
@@ -10,15 +10,15 @@
       <item/>
       <item/>
     </list>
-    <component id="n6_82hn" name="btnBack" src="pcqv4" fileName="Components/NormalButton.xml" xy="1663,27" size="218,75">
+    <component id="n6_82hn" name="btnBack" src="vsy2tnovj2" fileName="BtnClose/BtnClose.xml" pkg="msb8m4n5" xy="1840,25">
       <Button title="返回" titleFontSize="32"/>
     </component>
-    <component id="n7_82hn" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="245,912" size="340,78">
-      <Button title="确定" titleFontSize="32"/>
+    <component id="n7_82hn" name="btnConfirm" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="530,950" pivot="0.5,0.5" anchor="true" size="238,78" controller="color,2">
+      <Button title="确定"/>
     </component>
-    <graph id="n11_lh0x" name="n11" xy="125,200" size="650,348" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#e01b202a" corner="8"/>
-    <text id="n8_82hn" name="txtName" xy="165,230" size="540,80" fontSize="62" color="#d3ae66" autoSize="none" strokeColor="#151922" singleLine="true" autoClearText="true" text="角色名字"/>
-    <text id="n12_lh0x" name="txtCont" xy="165,338" size="540,170" fontSize="30" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="角色名字&#xA;角色名字"/>
-    <text id="n13_xrqa" name="n1" xy="384,57" size="1094,82" fontSize="62" color="#ffffff" align="center" autoSize="none" strokeColor="#151922" singleLine="true" text="请选择你的角色"/>
+    <image id="n14_vsy2" name="n14" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="125,200" size="650,348"/>
+    <text id="n8_82hn" name="txtName" xy="165,230" size="540,80" fontSize="60" color="#ffffff" autoSize="none" strokeColor="#151922" singleLine="true" autoClearText="true" text="角色名字"/>
+    <text id="n12_lh0x" name="txtCont" xy="165,338" size="540,170" fontSize="28" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="角色名字&#xA;角色名字"/>
+    <text id="n13_xrqa" name="n1" xy="384,57" size="1094,82" fontSize="48" color="#ffffff" align="center" autoSize="none" strokeColor="#151922" singleLine="true" text="请选择你的角色"/>
   </displayList>
 </component>

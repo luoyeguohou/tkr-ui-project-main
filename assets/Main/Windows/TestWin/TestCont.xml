@@ -3,72 +3,72 @@
   <controller name="reviewSkill" pages="0,,1," selected="0"/>
   <controller name="showCode" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n36_sg4h" name="n36" xy="756,6" size="864,295" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n0_mehz" name="n0" xy="57,1" size="224,89" fontSize="62" color="#efdfbb" autoSize="none" strokeColor="#151922" text="角色："/>
-    <text id="n1_mehz" name="n1" xy="274,0" size="224,89" fontSize="62" color="#efdfbb" autoSize="none" strokeColor="#151922" text="唐雨"/>
-    <list id="n2_mehz" name="lstSkill" xy="37,500" size="156,273" scale="2,2" overflow="scroll" lineGap="9" defaultItem="ui://6rc7w3nogu8ztnovfj" autoClearItems="true">
+    <image id="n36_sg4h" name="n36" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="756,6" size="864,295"/>
+    <text id="n0_mehz" name="n0" xy="16,10" size="135,89" fontSize="42" color="#efdfbb" vAlign="middle" autoSize="none" strokeColor="#151922" text="角色："/>
+    <text id="n1_mehz" name="txtCharacter" xy="166,10" size="152,89" fontSize="50" color="#efdfbb" align="center" vAlign="middle" autoSize="none" strokeColor="#151922" text="唐雨"/>
+    <list id="n2_mehz" name="lstSkill" xy="37,500" size="156,273" scale="2,2" overflow="scroll" lineGap="9" defaultItem="ui://6rc7w3nofdnltnovh5" autoItemSize="false" autoClearItems="true">
       <item/>
       <item/>
       <item/>
     </list>
     <text id="n3_mehz" name="n3" xy="47,412" size="224,89" fontSize="62" color="#efdfbb" autoSize="none" strokeColor="#151922" text="技能："/>
-    <text id="n4_mehz" name="n4" xy="529,17" size="224,89" fontSize="62" color="#efdfbb" autoSize="none" strokeColor="#151922" text="牌库："/>
+    <text id="n4_mehz" name="n4" xy="619,20" size="135,83" fontSize="38" color="#efdfbb" align="right" vAlign="middle" autoSize="none" strokeColor="#151922" text="牌库："/>
     <list id="n5_mehz" name="lstCard" xy="761,14" size="1059,337" scale="0.8,0.8" layout="flow_hz" overflow="scroll" defaultItem="ui://6rc7w3nopcqv3" autoClearItems="true">
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
-    <graph id="n37_sg4h" name="n37" xy="790,314" size="1105,743" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <graph id="n6_mehz" name="n6" xy="23,117" size="422,229" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <image id="n37_sg4h" name="n37" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="790,314" size="1105,743"/>
+    <image id="n6_mehz" name="n6" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="23,117" size="422,229"/>
     <text id="n7_mehz" name="txtSkillID" xy="26,121" size="414,89" fontSize="34" color="#efdfbb" vAlign="middle" autoSize="none" text="roy.core.skill." input="true" prompt="输入技能id......."/>
-    <component id="n8_mehz" name="btnAddSkill" src="pcqv4" fileName="Components/NormalButton.xml" xy="74,196" size="135,66">
-      <Button title="增加技能" titleFontSize="25"/>
+    <component id="n8_mehz" name="btnAddSkill" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="9,211">
+      <Button title="增加技能"/>
     </component>
-    <graph id="n9_mehz" name="n9" xy="445,133" size="303,303" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <image id="n9_mehz" name="n9" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="445,133" size="303,303"/>
     <text id="n10_mehz" name="txtCardID" xy="448,137" size="297,127" fontSize="30" color="#efdfbb" vAlign="middle" autoSize="none" text="roy.core.card." input="true" prompt="输入卡牌id......."/>
-    <component id="n11_mehz" name="btnAddCard" src="pcqv4" fileName="Components/NormalButton.xml" xy="557,253" size="135,66">
-      <Button title="增加卡牌" titleFontSize="25"/>
+    <component id="n11_mehz" name="btnAddCard" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="486,267">
+      <Button title="增加卡牌"/>
     </component>
-    <graph id="n24_mehz" name="n24" xy="368,480" size="401,519" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n18_mehz" name="txtEventID" xy="1370,845" size="482,100" fontSize="30" color="#efdfbb" vAlign="middle" autoSize="none" text="roy.core.event.e9" input="true" prompt="输入事件id............"/>
-    <component id="n19_mehz" name="btnEnterEvent" src="pcqv4" fileName="Components/NormalButton.xml" xy="1650,955" size="135,66">
-      <Button title="进入事件" titleFontSize="25"/>
+    <image id="n24_mehz" name="n24" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="368,480" size="401,519"/>
+    <text id="n18_mehz" name="txtEventID" xy="1570,855" size="277,100" fontSize="30" color="#efdfbb" vAlign="middle" autoSize="none" text="roy.core.event.e9" input="true" prompt="输入事件id............"/>
+    <component id="n19_mehz" name="btnEnterEvent" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1717,970" size="163,78">
+      <Button title="进入事件"/>
     </component>
-    <component id="n20_mehz" name="btnDeleteCard" src="pcqv4" fileName="Components/NormalButton.xml" xy="557,334" size="135,66">
-      <Button title="删除卡牌" titleFontSize="25"/>
+    <component id="n20_mehz" name="btnDeleteCard" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="481,338">
+      <Button title="删除卡牌"/>
     </component>
-    <component id="n21_mehz" name="btnSkillLvUp" src="pcqv4" fileName="Components/NormalButton.xml" xy="70,273" size="135,66">
-      <Button title="升级技能" titleFontSize="25"/>
+    <component id="n21_mehz" name="btnSkillLvUp" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="9,271">
+      <Button title="升级技能"/>
     </component>
-    <component id="n22_mehz" name="btnLvDown" src="pcqv4" fileName="Components/NormalButton.xml" xy="268,276" size="135,66">
-      <Button title="降级技能" titleFontSize="25"/>
+    <component id="n22_mehz" name="btnLvDown" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="208,269">
+      <Button title="降级技能"/>
     </component>
-    <component id="n25_mehz" name="btnDeleteSkill" src="pcqv4" fileName="Components/NormalButton.xml" xy="267,198" size="135,66">
-      <Button title="删除技能" titleFontSize="25"/>
+    <component id="n25_mehz" name="btnDeleteSkill" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="196,212">
+      <Button title="删除技能"/>
     </component>
-    <component id="n26_mehz" name="btnSetHP" src="pcqv4" fileName="Components/NormalButton.xml" xy="403,797" size="135,66">
-      <Button title="设置血量" titleFontSize="25"/>
+    <component id="n26_mehz" name="btnSetHP" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="367,796">
+      <Button title="设置血量"/>
     </component>
-    <text id="n28_mehz" name="txtHP" xy="545,784" size="72,82" fontSize="30" color="#efdfbb" align="center" vAlign="middle" autoSize="none" text="5" input="true"/>
-    <component id="n29_mehz" name="btnHPMax" src="pcqv4" fileName="Components/NormalButton.xml" xy="403,894" size="135,66">
-      <Button title="设置血上限" titleFontSize="25"/>
+    <text id="n28_mehz" name="txtHP" xy="608,797" size="72,82" fontSize="30" color="#efdfbb" align="center" vAlign="middle" autoSize="none" text="5" input="true"/>
+    <component id="n29_mehz" name="btnHPMax" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="373,886">
+      <Button title="设置血上限"/>
     </component>
-    <text id="n30_mehz" name="txtHPMax" xy="548,889" size="72,82" fontSize="30" color="#efdfbb" align="center" vAlign="middle" autoSize="none" text="5" input="true"/>
-    <component id="n33_e6s0" name="btnEvntPlus1" src="pcqv4" fileName="Components/NormalButton.xml" xy="1474,956" size="135,66">
-      <Button title="事件id+1" titleFontSize="25"/>
+    <text id="n30_mehz" name="txtHPMax" xy="604,883" size="72,82" fontSize="30" color="#efdfbb" align="center" vAlign="middle" autoSize="none" text="5" input="true"/>
+    <component id="n33_e6s0" name="btnEvntPlus1" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1534,970" size="178,78">
+      <Button title="事件id+1"/>
     </component>
-    <component id="n35_sg4h" name="btnDoCommand" src="pcqv4" fileName="Components/NormalButton.xml" xy="466,703" size="135,66">
-      <Button title="执行Lua代码" titleFontSize="25"/>
+    <component id="n35_sg4h" name="btnDoCommand" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="368,715">
+      <Button title="执行Lua代码"/>
     </component>
-    <richtext id="n38_sg4h" name="txtStat" xy="810,333" size="537,697" fontSize="26" color="#efdfbb" autoSize="shrink" text=""/>
+    <richtext id="n38_sg4h" name="txtStat" xy="810,333" size="403,697" fontSize="26" color="#efdfbb" autoSize="shrink" text=""/>
     <richtext id="n39_sg4h" name="txtProp" xy="1355,329" size="530,506" fontSize="24" color="#efdfbb" autoSize="shrink" text=""/>
-    <component id="n40_sg4h" name="btnShowLuaCode" src="pcqv4" fileName="Components/NormalButton.xml" xy="1751,17" size="135,66">
-      <Button title="显示lua代码" titleFontSize="25"/>
+    <component id="n40_sg4h" name="btnShowLuaCode" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1661,84">
+      <Button title="显示lua代码"/>
     </component>
-    <graph id="n41_sg4h" name="n41" xy="156,57" size="1455,916" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <image id="n41_sg4h" name="n41" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="156,57" size="1455,916">
       <gearDisplay controller="showCode" pages="1"/>
-    </graph>
+    </image>
     <list id="n45_sg4h" name="lstLuaCode" xy="191,73" size="1395,872" overflow="scroll" lineGap="13" defaultItem="ui://6rc7w3nosg4htnovfb" autoItemSize="false" autoClearItems="true">
       <gearDisplay controller="showCode" pages="1"/>
       <item/>
@@ -77,14 +77,21 @@
       <item/>
     </list>
     <text id="n34_sg4h" name="txtCommand" xy="373,485" size="380,216" fontSize="30" color="#efdfbb" autoSize="none" text="" input="true" prompt="lua代码。。。。。。"/>
-    <graph id="n31_eicz" name="n31" xy="365,506" size="548,398" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <image id="n31_eicz" name="n31" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="365,506" size="548,398">
       <gearDisplay controller="reviewSkill" pages="1"/>
-    </graph>
+    </image>
     <text id="n32_eicz" name="txtSkillDesc" xy="403,528" size="461,351" fontSize="34" color="#efdfbb" autoSize="none" strokeColor="#151922" autoClearText="true" text="技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述">
       <gearDisplay controller="reviewSkill" pages="1"/>
     </text>
-    <component id="n46_ziwy" name="btnClose" src="pcqv4" fileName="Components/NormalButton.xml" xy="1753,96" size="135,66">
+    <component id="n46_ziwy" name="btnClose" src="vsy2tnovj2" fileName="BtnClose/BtnClose.xml" pkg="msb8m4n5" xy="1827,16">
       <Button title="关闭" titleFontSize="25"/>
     </component>
+    <component id="n47_petg" name="btnChooseCharacter" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="339,19">
+      <Button title="选择角色"/>
+    </component>
+    <component id="n48_petg" name="btnPickScript" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1345,967" size="178,78">
+      <Button title="选择剧本"/>
+    </component>
+    <text id="n49_petg" name="txtScript" xy="1240,862" size="303,89" fontSize="55" color="#efdfbb" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" text="剧本：{script=test}"/>
   </displayList>
 </component>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <graph id="n0_jn1h" name="bg" xy="0,0" size="1920,1080" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <graph id="n0_jn1h" name="bg" xy="0,0" size="1920,1080" type="rect" lineSize="0" lineColor="#03000000" fillColor="#cc000000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n1_jn1h" name="cont" src="gu8ztnovfh" fileName="Windows/ChooseCardWin/ChooseCardCont.xml" xy="0,-1">
+    <component id="n1_jn1h" name="cont" src="gu8ztnovfh" fileName="Windows/ChooseCardWin/ChooseCardCont.xml" xy="0,0">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
   </displayList>

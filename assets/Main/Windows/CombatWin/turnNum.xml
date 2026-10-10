@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,104">
+  <displayList>
+    <image id="n78_vsy2" name="bg" src="fdnltnovgv" fileName="Pictures/common/bgTurnNum.png" xy="51,52" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n79_vsy2" name="n79" xy="51,34" pivot="0.5,0.5" anchor="true" size="44,29" fontSize="20" color="#ffffff" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,1" text="回合"/>
+    <text id="n80_vsy2" name="turnNum" xy="51,68" pivot="0.5,0.5" anchor="true" size="24,49" fontSize="36" color="#ffffff" vars="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,1" text="{turn=1}"/>
+  </displayList>
+</component>

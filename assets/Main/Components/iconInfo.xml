@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="55,55">
+  <controller name="type" exported="true" pages="0,AttackNum,1,CardNum,2,CommonCardInitial,3,CommonCardTurn,4,Damage,5,Health,6,Rage,7,SelfCardInitial,8,SelfCardTurn" selected="6"/>
   <displayList>
-    <loader id="n2_h2rn" name="n2" xy="28,28" pivot="0.5,0.5" anchor="true" size="55,55" url="ui://6rc7w3noh2rntnovi6"/>
-    <richtext id="n1_h2rn" name="n1" xy="55,1" pivot="0,0.5" size="24,49" fontSize="36" color="#f7e9cf" text="1">
+    <loader id="n2_h2rn" name="n2" xy="28,28" pivot="0.5,0.5" anchor="true" size="55,55" url="ui://6rc7w3noh2rntnovia">
+      <gearIcon controller="type" pages="0,1,2,3,5,6,7,8" values="ui://6rc7w3noh2rntnovi6|ui://6rc7w3noh2rntnovi7|ui://6rc7w3novsy2tnovj5|ui://6rc7w3novsy2tnovj6|ui://6rc7w3noh2rntnovi9|ui://6rc7w3noh2rntnovia|ui://6rc7w3novsy2tnovj7|ui://6rc7w3novsy2tnovj8" default="ui://6rc7w3noh2rntnovi8"/>
+    </loader>
+    <richtext id="n1_h2rn" name="txtNum" xy="55,3" pivot="0,0.5" size="54,49" fontSize="36" color="#f7e9cf" vars="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,1" text="{num=1}/{max=1}">
+      <gearText controller="type" pages="0,1,2,3,4,5,6,7,8" values="{num=1}/{max=1}|{num=1}|{num=1}|{num=1}|{num=1}|{num=1}|{num=1}/{max=1}|{num=1}|{num=1}"/>
       <relation target="" sidePair="middle-middle,left-right"/>
     </richtext>
   </displayList>

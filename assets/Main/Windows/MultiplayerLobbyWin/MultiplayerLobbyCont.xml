@@ -2,13 +2,14 @@
 <component size="1920,1080">
   <controller name="page" pages="0,connect,1,room" selected="0"/>
   <displayList>
-    <graph id="n0_incg" name="n0" xy="-1,85" size="1905,975" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <image id="n0_incg" name="n0" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="-1,85" size="1905,975"/>
     <text id="n24_xrqa" name="txtStatus" xy="455,124" size="949,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
-    <component id="n30_mjv1" name="connectPage" src="mjv1tnovg2" fileName="Windows/MultiplayerLobbyWin/ConnectPage.xml" xy="212,245">
+    <component id="n30_mjv1" name="connectPage" src="mjv1tnovg2" fileName="Windows/MultiplayerLobbyWin/ConnectPage.xml" xy="212,246">
       <gearDisplay controller="page" pages="0"/>
     </component>
     <component id="n39_mjv1" name="roomPage" src="j1h0tnovg5" fileName="Windows/MultiplayerLobbyWin/RoomPage.xml" xy="60,233">
       <gearDisplay controller="page" pages="1"/>
     </component>
+    <component id="n40_109um" name="btnClose" src="vsy2tnovj2" fileName="BtnClose/BtnClose.xml" pkg="msb8m4n5" xy="1799,112"/>
   </displayList>
 </component>

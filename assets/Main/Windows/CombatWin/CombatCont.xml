@@ -1,116 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080" pivot="0.5,0">
-  <controller name="testMode" pages="0,,1," selected="0"/>
+  <controller name="testMode" pages="0,,1," selected="1"/>
   <controller name="showTutorial" pages="0,,1," selected="0"/>
-  <controller name="revealEnemyInfo" pages="0,,1," selected="0"/>
-  <controller name="gameMode" pages="0,single,1,multiplayer" selected="0"/>
+  <controller name="revealEnemyInfo" pages="0,,1," selected="1"/>
+  <controller name="gameMode" pages="0,single,1,multiplayer" selected="1"/>
   <displayList>
-    <list id="n50_jwcx" name="lstEnemy" xy="0,47" size="1920,492" layout="flow_hz" lineGap="-5" colGap="-7" defaultItem="ui://6rc7w3nopcqv8" align="center" vAlign="middle" autoClearItems="true">
+    <list id="n50_jwcx" name="lstEnemy" xy="322,76" size="1530,540" layout="flow_hz" colGap="10" defaultItem="ui://6rc7w3nopcqv8" align="center" vAlign="middle" autoClearItems="true">
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
-    <component id="n0_pcqv" name="hand" src="pcqv1" fileName="Windows/CombatWin/MainHand.xml" xy="0,1011" pivot="0,1" anchor="true" size="1920,276"/>
-    <component id="n74_fdnl" name="mask" src="fdnltnovgw" fileName="Components/commonMask.xml" xy="0,0" touchable="false"/>
-    <list id="n58_mjv1" name="lstAlly" xy="214,8" size="610,779" layout="flow_hz" lineGap="-5" colGap="-7" defaultItem="ui://6rc7w3nopcqv8" align="center" vAlign="middle" autoClearItems="true">
+    <component id="n0_pcqv" name="hand" src="pcqv1" fileName="Windows/CombatWin/MainHand.xml" xy="0,1008" pivot="0,1" anchor="true" size="1920,268">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <component id="n74_fdnl" name="mask" src="fdnltnovgw" fileName="Components/CommonMask.xml" xy="0,0" touchable="false"/>
+    <list id="n58_mjv1" name="lstAlly" xy="-3,73" size="418,745" scale="0.75,0.75" lineGap="5" defaultItem="ui://6rc7w3nofdnltnovgz" align="center" vAlign="bottom" autoClearItems="true">
       <gearDisplay controller="gameMode" pages="1"/>
-      <item/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
       <item/>
       <item/>
       <item/>
     </list>
-    <list id="n77_h2rn" name="listPlayerInfo" xy="960,1080" pivot="0.5,1" anchor="true" size="1920,72" layout="row" overflow="scroll" margin="5,0,0,0" colGap="63" defaultItem="ui://6rc7w3noh2rntnovi5" align="center" vAlign="middle">
+    <list id="n77_h2rn" name="lstPlayerInfo" xy="959,1079" pivot="0.5,1" anchor="true" size="1920,72" layout="row" margin="5,0,0,0" colGap="63" defaultItem="ui://6rc7w3noh2rntnovi5" align="center" vAlign="middle">
       <relation target="" sidePair="center-center,bottom-bottom"/>
-      <item title="attackNum"/>
-      <item title="rageNum"/>
-      <item title="cardLimit"/>
-      <item title="commonCardInitial"/>
-      <item title="selfCardInitial"/>
-      <item title="commonCardTurn"/>
-      <item title="selfCardTurn"/>
-      <item title="health"/>
-      <item title="damage"/>
+      <item title="attackNum" controllers="type,0"/>
+      <item title="rageNum" controllers="type,6"/>
+      <item title="cardLimit" controllers="type,1"/>
+      <item title="commonCardInitial" controllers="type,2"/>
+      <item title="selfCardInitial" controllers="type,7"/>
+      <item title="commonCardTurn" controllers="type,3"/>
+      <item title="selfCardTurn" controllers="type,8"/>
+      <item title="health" controllers="type,5"/>
+      <item title="damage" controllers="type,4"/>
     </list>
-    <graph id="n34_l9ks" name="cardPos" xy="97,756" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineSize="0" fillColor="#00ffffff"/>
-    <component id="n35_ldtx" name="btnGetCard" src="pcqv4" fileName="Components/NormalButton.xml" xy="1490,716" size="198,73">
+    <graph id="n34_l9ks" name="cardPos" xy="958,663" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <component id="n35_ldtx" name="btnGetCard" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1477,669" controller="color,2">
       <gearDisplay controller="testMode" pages="1"/>
       <Button title="获得牌" titleFontSize="25"/>
     </component>
-    <component id="n36_eicz" name="btnEneryGetCard" src="pcqv4" fileName="Components/NormalButton.xml" xy="1690,715" size="198,73">
+    <component id="n36_eicz" name="btnEneryGetCard" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1689,669" controller="color,1">
       <gearDisplay controller="testMode" pages="1"/>
       <Button title="敌人获得牌" titleFontSize="25"/>
     </component>
-    <graph id="n38_eicz" name="n38" xy="1345,645" size="119,112" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
-      <gearDisplay controller="testMode" pages="1"/>
-    </graph>
-    <text id="n37_eicz" name="txtCardName" xy="1358,659" size="89,82" fontSize="45" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" text="" input="true">
-      <gearDisplay controller="testMode" pages="1"/>
-    </text>
-    <component id="n44_fl7z" name="btnDrawSelfDeck" src="pcqv4" fileName="Components/NormalButton.xml" xy="1494,638" size="198,73">
+    <component id="n44_fl7z" name="btnDrawSelfDeck" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1482,612" controller="color,2">
       <gearDisplay controller="testMode" pages="1"/>
       <Button title="抽自己牌库牌" titleFontSize="25"/>
     </component>
-    <component id="n49_j46g" name="btnSetting" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1760,10" size="158,78" controller="color,1">
+    <component id="n39_eicz" name="btnBack" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1690,611" controller="color,3">
+      <gearDisplay controller="testMode" pages="1"/>
+      <Button title="返回" titleFontSize="25"/>
+    </component>
+    <image id="n38_eicz" name="n38" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="1246,628" size="242,112">
+      <gearDisplay controller="testMode" pages="1"/>
+    </image>
+    <text id="n37_eicz" name="txtCardName" xy="1255,640" size="223,82" fontSize="45" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" text="" input="true">
+      <gearDisplay controller="testMode" pages="1"/>
+    </text>
+    <component id="n49_j46g" name="btnSetting" src="vsy2tnovj4" fileName="Components/BtnSetting.xml" xy="1843,1" size="65,65" scale="0.75,0.75">
       <relation target="" sidePair="right-right,top-top"/>
       <Button title="设置" titleFontSize="24"/>
     </component>
-    <graph id="n41_sblx" name="n41" xy="593,276" size="833,521" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <image id="n79_vsy2" name="n79" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="593,276" size="833,521">
       <gearDisplay controller="showTutorial" pages="1"/>
-    </graph>
-    <text id="n42_sblx" name="n42" xy="608,294" size="794,480" fontSize="28" color="#efdfbb" autoSize="none" strokeColor="#151922" text="这里是战斗界面的教程&#xA;1. 目标是消灭所有敌方单位。&#xA;2. 由你开始每个单位依次进行一个回合。&#xA;3. 每回合开始时抽牌，然后使用技能或者出牌，最后弃牌。&#xA;4. 每点HP可以让你保留1张手牌。&#xA;5. 所有单位共用一个共用抽牌堆与共用弃牌堆。&#xA;6. 单位也拥有一个只属于自己的专用抽牌堆与弃牌堆。&#xA;7. 每个单位只能装备一个武器与防具。&#xA;8. 咒语牌没有使用次数限制。">
+    </image>
+    <text id="n42_sblx" name="n42" xy="608,294" size="794,480" fontSize="24" color="#efdfbb" autoSize="none" strokeColor="#151922" text="这里是战斗界面的教程&#xA;1. 目标是消灭所有敌方单位。&#xA;2. 由你开始每个单位依次进行一个回合。&#xA;3. 每回合开始时抽牌，然后使用技能或者出牌，最后弃牌。&#xA;4. 每点HP可以让你保留1张手牌。&#xA;5. 所有单位共用一个共用抽牌堆与共用弃牌堆。&#xA;6. 单位也拥有一个只属于自己的专用抽牌堆与弃牌堆。&#xA;7. 每个单位只能装备一个武器与防具。&#xA;8. 咒语牌没有使用次数限制。">
       <gearDisplay controller="showTutorial" pages="1"/>
     </text>
-    <component id="n51_v041" name="btnDrawPile" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="9,573" size="238,78" controller="color,2">
-      <Button title="公共抽牌堆" titleFontSize="24"/>
+    <component id="n51_v041" name="btnDrawPile" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="-50,620" size="238,78" controller="color,2">
+      <Button title="  公共抽牌堆" titleFontSize="24"/>
     </component>
-    <component id="n52_v041" name="btnDiscardPile" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="9,636" size="238,78" controller="color,3">
-      <Button title="公共弃牌堆" titleFontSize="24"/>
+    <component id="n52_v041" name="btnDiscardPile" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="-50,683" size="238,78" controller="color,3">
+      <Button title="  公共弃牌堆" titleFontSize="24"/>
     </component>
-    <component id="n40_sblx" name="btnTurt" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1610,10" size="158,78" controller="color,2">
+    <component id="n40_sblx" name="btnTurt" src="vsy2tnovj3" fileName="Components/BtnHelp.xml" xy="1781,-1" size="65,65" scale="0.75,0.75">
       <gearDisplay controller="showTutorial" pages="0"/>
       <relation target="" sidePair="right-right,top-top"/>
       <Button title="教程" titleFontSize="24" controller="showTutorial" page="1"/>
     </component>
-    <component id="n43_tqhu" name="btnTurt1" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1665,20" size="238,78">
+    <component id="n43_tqhu" name="btnTurt1" src="vsy2tnovj2" fileName="BtnClose/BtnClose.xml" pkg="msb8m4n5" xy="1786,1" size="65,65" scale="0.75,0.75">
       <gearDisplay controller="showTutorial" pages="1"/>
       <Button title="教程" titleFontSize="27" controller="showTutorial" page="0"/>
     </component>
-    <component id="n39_eicz" name="btnBack" src="pcqv4" fileName="Components/NormalButton.xml" xy="1691,643" size="198,73">
-      <gearDisplay controller="testMode" pages="1"/>
-      <Button title="返回" titleFontSize="25"/>
-    </component>
-    <graph id="n54_aiaf" name="n54" xy="1636,134" size="233,458" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <image id="n81_vsy2" name="n81" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="1636,134" size="233,458">
       <gearDisplay controller="revealEnemyInfo" pages="1"/>
-    </graph>
-    <text id="n53_aiaf" name="txtEnemyInfo" xy="1644,138" size="216,353" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数&#xA;狂怒次数&#xA;手牌上限&#xA;初始公共手牌&#xA;初始私有手牌&#xA;每回合公共手牌&#xA;每回合私有手牌&#xA;回血效率&#xA;额外攻击伤害：1">
+    </image>
+    <text id="n53_aiaf" name="txtEnemyInfo" xy="1648,150" size="210,350" fontSize="24" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数&#xA;狂怒次数&#xA;手牌上限&#xA;初始公共手牌&#xA;初始私有手牌&#xA;每回合公共手牌&#xA;每回合私有手牌&#xA;回血效率&#xA;额外攻击伤害：1">
       <gearDisplay controller="revealEnemyInfo" pages="1"/>
     </text>
-    <component id="n55_aiaf" name="btnConfirmEnemyInfo" src="pcqv4" fileName="Components/NormalButton.xml" xy="1691,515" size="131,54">
+    <component id="n55_aiaf" name="btnConfirmEnemyInfo" src="vsy2tnovj2" fileName="BtnClose/BtnClose.xml" pkg="msb8m4n5" xy="1720,510">
       <gearDisplay controller="revealEnemyInfo" pages="1"/>
       <Button title="关闭" titleFontSize="27" controller="revealEnemyInfo" page="0"/>
     </component>
-    <list id="n56_oqoq" name="lstCombatValue" xy="20,2" size="500,55" scale="0.8,0.8" layout="row" overflow="scroll" colGap="80" defaultItem="ui://6rc7w3noh2rntnovi5" autoItemSize="false">
+    <list id="n56_oqoq" name="lstCombatValue" xy="20,1" size="500,55" scale="0.8,0.8" layout="row" colGap="80" defaultItem="ui://6rc7w3nopetg14bg9u7" autoItemSize="false">
       <relation target="" sidePair="left-left,top-top"/>
       <item/>
       <item/>
       <item/>
     </list>
-    <text id="n59_mjv1" name="txtPhase" xy="34,133" size="216,54" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数">
+    <text id="n59_mjv1" name="txtPhase" xy="1110,6" size="216,35" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数">
       <gearDisplay controller="gameMode" pages="1"/>
     </text>
-    <text id="n60_mjv1" name="txtWaiting" xy="32,78" size="216,54" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数">
+    <text id="n60_mjv1" name="txtWaiting" xy="1344,6" size="218,35" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数">
       <gearDisplay controller="gameMode" pages="1"/>
     </text>
-    <text id="n61_mjv1" name="txtActionNotice" xy="32,20" size="216,54" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数">
+    <text id="n61_mjv1" name="txtActionNotice" xy="1573,1" size="169,36" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数">
       <gearDisplay controller="gameMode" pages="1"/>
     </text>
-    <list id="n71_mjv1" name="lstActionQueue" xy="794,541" size="532,188" overflow="scroll" defaultItem="ui://6rc7w3nomjv1tnovfx" autoClearItems="true">
+    <list id="n71_mjv1" name="lstActionQueue" xy="1238,616" size="664,115" overflow="scroll" defaultItem="ui://6rc7w3nomjv1tnovfx" autoClearItems="true">
       <gearDisplay controller="gameMode" pages="1"/>
       <item/>
       <item/>
       <item/>
     </list>
     <component id="n76_fdnl" name="player" src="fdnltnovgz" fileName="Windows/CombatWin/Player.xml" xy="0,1065" pivot="0,1" anchor="true"/>
+    <component id="n78_vsy2" name="n78" src="vsy2tnovis" fileName="Windows/CombatWin/turnNum.xml" xy="960,48" pivot="0.5,0.5" anchor="true" touchable="false"/>
   </displayList>
 </component>

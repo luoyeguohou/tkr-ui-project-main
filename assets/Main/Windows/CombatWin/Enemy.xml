@@ -1,44 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="300,424">
+<component size="350,424">
   <controller name="state" pages="0,idle,1,chosen,2,dead" selected="0"/>
-  <controller name="isPlayer" pages="0,,1," selected="0"/>
   <controller name="rage" pages="0,,1," selected="0"/>
   <controller name="hasVirtual" pages="0,,1," selected="0"/>
   <controller name="ownerType" pages="0,single,1,self,2,ally,3,enemy" selected="0"/>
   <controller name="actionState" pages="0,ready,1,ended,2,skipped,3,dead,4,waiting" selected="0"/>
   <displayList>
-    <graph id="n44_mjv1" name="bg" xy="0,0" size="300,424" type="rect" fillColor="#00ffffff">
+    <graph id="n44_mjv1" name="bg" xy="0,0" size="350,424" type="rect" lineSize="0" fillColor="#00ffffff">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <loader id="n21_pcqv" name="portrait" xy="110,132" pivot="0.5,0.5" anchor="true" size="124,157" url="ui://6rc7w3noartguard" align="center" vAlign="middle" fill="scale">
-      <gearIcon controller="isPlayer" pages="0,1" values="ui://6rc7w3noartguard|ui://6rc7w3nopcqv9"/>
+    <loader id="n21_pcqv" name="portrait" xy="175,210" pivot="0.5,0.5" anchor="true" size="251,245" url="ui://6rc7w3nofdnltnovh2" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
     </loader>
-    <component id="n2_pcqv" name="hp" src="pcqv6" fileName="Windows/CombatWin/HP.xml" xy="10,2" size="392,100" scale="0.5,0.5"/>
-    <graph id="n23_kdzb" name="n23" xy="54,53" size="119,146" touchable="false" type="rect" lineSize="3" lineColor="#ffffd688" fillColor="#604adeba" corner="8">
-      <gearDisplay controller="state" pages="1,2"/>
-    </graph>
-    <text id="n24_kdzb" name="n24" xy="54,82" size="121,97" fontSize="50" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" strokeSize="2" singleLine="true" text="选中">
-      <gearDisplay controller="state" pages="1,2"/>
-      <gearText controller="state" pages="2" values="死亡" default="选中"/>
-    </text>
-    <list id="n22_fl4x" name="lstSkill" xy="-2,89" pivot="1,0" size="105,135" overflow="scroll" lineGap="-4" defaultItem="ui://6rc7w3nopcqv4" autoItemSize="false" align="right">
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-    </list>
-    <graph id="n26_ocvx" name="hand" xy="8,343" size="26,36" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n27_ocvx" name="txtHandNum" xy="36,339" size="63,43" fontSize="25" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="X{num=99}"/>
-    <list id="n28_ku8v" name="lstItem" xy="115,207" size="285,288" scale="0.35,0.35" overflow="scroll" lineGap="5" defaultItem="ui://6rc7w3nopcqv7" autoItemSize="false">
-      <item/>
-      <item/>
-      <item/>
-    </list>
-    <graph id="n31_jlk1" name="n31" xy="303,84" size="253,100" alpha="0" touchable="false" type="rect"/>
-    <text id="n32_jlk1" name="txtSkill" xy="-254,90" size="246,78" alpha="0" fontSize="36" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" text="发动技能{name=观星}"/>
-    <list id="n35_fl7z" name="lstToken" xy="111,314" size="96,68" scale="1.1,1.1" touchable="false" overflow="scroll" defaultItem="ui://6rc7w3nofl7z3a" autoClearItems="true">
+    <list id="n35_fl7z" name="lstToken" xy="50,110" size="82,97" scale="1.1,1.1" touchable="false" overflow="scroll" lineGap="3" defaultItem="ui://6rc7w3nofl7z3a" autoClearItems="true">
+      <relation target="n21_pcqv" sidePair="left-left,top-top"/>
       <item/>
       <item/>
       <item/>
@@ -46,34 +21,11 @@
     <text id="n36_9v2l" name="n36" xy="88,55" size="72,58" fontSize="25" color="#efdfbb" align="center" vAlign="middle" leading="39" autoSize="none" strokeColor="#151922" text="狂怒">
       <gearDisplay controller="rage" pages="1"/>
     </text>
-    <component id="n38_jwcx" name="btnCheckVirtual" src="pcqv4" fileName="Components/NormalButton.xml" xy="6,289" size="92,22">
-      <gearDisplay controller="hasVirtual" pages="1"/>
-      <Button title="查看卡牌"/>
-    </component>
-    <graph id="n39_jwcx" name="n39" xy="23,52" size="64,34" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n40_jwcx" name="txtArmor" xy="28,58" size="53,23" fontSize="15" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="护甲：{armor=0}"/>
-    <component id="n41_v041" name="btnDrawPile" src="pcqv4" fileName="Components/NormalButton.xml" xy="6,239" size="93,26">
-      <Button title="抽牌堆" titleFontSize="12"/>
-    </component>
-    <component id="n42_v041" name="btnDiscardPile" src="pcqv4" fileName="Components/NormalButton.xml" xy="6,265" size="93,24">
-      <Button title="弃牌堆" titleFontSize="12"/>
-    </component>
-    <component id="n43_aiaf" name="btnCheckInfo" src="pcqv4" fileName="Components/NormalButton.xml" xy="6,312" size="92,22">
+    <component id="n43_aiaf" name="btnCheckInfo" src="vsy2tnovjg" fileName="Components/BtnInfo.xml" xy="275,65" scale="0.75,0.75">
       <gearDisplay controller="ownerType" pages="2,3"/>
+      <relation target="n21_pcqv" sidePair="right-right,top-top"/>
       <Button title="查看信息" titleFontSize="12"/>
     </component>
-    <graph id="n45_mjv1" name="seatColor" xy="79,148" size="93,51" type="rect" fillColor="#9cffffff">
-      <gearDisplay controller="ownerType" pages="1,2"/>
-    </graph>
-    <text id="n46_mjv1" name="txtPlayer" xy="84,155" size="83,37" fontSize="15" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="玩家1">
-      <gearDisplay controller="ownerType" pages="1,2"/>
-    </text>
-    <graph id="n47_mjv1" name="bgSelf" xy="81,95" size="89,51" type="rect" fillColor="#99ffffff">
-      <gearDisplay controller="ownerType" pages="1"/>
-    </graph>
-    <text id="n48_mjv1" name="txtSelf" xy="84,102" size="83,37" fontSize="15" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="你">
-      <gearDisplay controller="ownerType" pages="1"/>
-    </text>
     <graph id="n49_mjv1" name="bgActionStatus" xy="3,391" size="210,30" type="rect" fillColor="#ff3e7852">
       <gearDisplay controller="ownerType" pages="1,2"/>
       <gearColor controller="actionState" pages="0,1,2,3,4" values="#3e7852|#495b70|#565c65|#7b3e46|#464c55"/>
@@ -83,9 +35,37 @@
       <gearColor controller="actionState" pages="0,1,2,3,4" values="#b8dfb0,#151922|#b2c6dc,#151922|#c3c7cd,#151922|#f0a09d,#151922|#d4d7de,#151922"/>
       <gearText controller="actionState" pages="0,1,2,3,4" values="可行动|已结束|跳过行动|已死亡|等待行动阶段"/>
     </text>
-    <image id="n51_fdnl" name="infoBg" src="fdnltnovga" fileName="Pictures/image/bgIconEnemyInfo.png" xy="150,320" pivot="0.5,0" anchor="true">
+    <image id="n51_fdnl" name="infoBg" src="fdnltnovga" fileName="Pictures/common/bgIconEnemyInfo.png" xy="175,320" pivot="0.5,0" anchor="true">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
+    <component id="n52_vsy2" name="listHP" src="pcqv6" fileName="Windows/CombatWin/HP.xml" xy="174,350" pivot="0.5,0.5" anchor="true" size="201,32" restrictSize="33,270,32,32"/>
+    <component id="n53_vsy2" name="hand" src="h2rntnovi5" fileName="Components/IconInfo.xml" xy="51,88" pivot="0.5,0.5" anchor="true" scale="0.8,0.8" controller="type,1">
+      <relation target="n21_pcqv" sidePair="right-left,bottom-top"/>
+    </component>
+    <list id="n54_vsy2" name="listSkill" xy="145,306" pivot="0.5,0.5" anchor="true" size="265,56" restrictSize="56,265,56,56" scale="0.75,0.75" layout="row" colGap="-15" defaultItem="ui://6rc7w3nofdnltnovh5" vAlign="middle" renderOrder="descent">
+      <relation target="n21_pcqv" sidePair="left-left,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n59_vsy2" name="listEquip" xy="30,257" size="600,60" scale="0.75,0.75" layout="row" lineGap="2" colGap="-16" defaultItem="ui://6rc7w3nopcqv7" autoItemSize="false" renderOrder="descent">
+      <relation target="n21_pcqv" sidePair="left-left,bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n55_vsy2" name="nameEnemy" xy="175,380" pivot="0.5,0.5" anchor="true" size="83,37" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="恶魔狼">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n58_vsy2" name="sel" src="h2rntnovi1" fileName="Components/AniSel.xml" xy="175,210" pivot="0.5,0.5" anchor="true" controller="ownerType,2">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="n21_pcqv" sidePair=""/>
+    </component>
+    <image id="n31_jlk1" name="n31" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="303,84" size="253,100" alpha="0"/>
+    <text id="n32_jlk1" name="txtSkill" xy="-254,90" size="246,78" alpha="0" fontSize="36" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" text="发动技能{name=观星}"/>
   </displayList>
   <transition name="useSkill">
     <item time="0" type="Alpha" target="n31_jlk1" tween="true" startValue="0" endValue="1" duration="13"/>

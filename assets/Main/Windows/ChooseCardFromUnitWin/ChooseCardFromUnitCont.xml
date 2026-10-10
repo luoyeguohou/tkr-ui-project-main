@@ -4,16 +4,16 @@
   <controller name="isPublic" pages="0,,1," selected="0"/>
   <controller name="type" pages="0,upTo,1,fixed" selected="0"/>
   <displayList>
-    <graph id="n0_jlk1" name="n0" xy="243,82" size="1433,863" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <list id="n3_jlk1" name="lstItem" xy="1265,241" size="118,143" scale="3,3" selectionMode="multipleSingleClick" overflow="scroll" defaultItem="ui://6rc7w3nojlk11d" autoItemSize="false" align="center" autoClearItems="true">
+    <image id="n11_vsy2" name="n11" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="243,82" size="1433,863"/>
+    <list id="n3_jlk1" name="lstItem" xy="1330,235" size="118,254" scale="2,2" selectionMode="multipleSingleClick" overflow="scroll" lineGap="5" defaultItem="ui://6rc7w3nopcqv7" autoItemSize="false" align="center" autoClearItems="true">
       <item/>
       <item/>
       <item/>
       <item/>
     </list>
-    <component id="n5_jlk1" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="1358,758" size="187,80">
-      <gearXY controller="allowGiveUp" pages="0,1" values="1358,758|1322,796"/>
-      <Button title="确定" titleFontSize="36"/>
+    <component id="n5_jlk1" name="btnConfirm" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1446,835" pivot="0.5,0.5" anchor="true" controller="color,2">
+      <gearXY controller="allowGiveUp" pages="0,1" values="1446,835|1436,785"/>
+      <Button title="确定"/>
     </component>
     <list id="n6_jlk1" name="lstCard" xy="294,210" size="942,657" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" defaultItem="ui://6rc7w3nojlk11e" align="center" vAlign="middle" autoClearItems="true">
       <gearDisplay controller="isPublic" pages="0"/>
@@ -23,7 +23,7 @@
       <item/>
       <item/>
     </list>
-    <list id="n9_ncrd" name="lstPublicCard" xy="266,355" size="942,631" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" defaultItem="ui://6rc7w3nopcqv3" align="center" vAlign="middle" autoClearItems="true">
+    <list id="n9_ncrd" name="lstPublicCard" xy="311,244" size="942,631" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" defaultItem="ui://6rc7w3nopcqv3" align="center" vAlign="middle" autoClearItems="true">
       <gearDisplay controller="isPublic" pages="1"/>
       <item/>
       <item/>
@@ -31,11 +31,11 @@
       <item/>
       <item/>
     </list>
-    <component id="n7_ncrd" name="btnGiveUp" src="pcqv4" fileName="Components/NormalButton.xml" xy="1320,881" size="187,80">
+    <component id="n7_ncrd" name="btnGiveUp" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1316,825">
       <gearDisplay controller="allowGiveUp" pages="1"/>
-      <Button title="放弃" titleFontSize="36"/>
+      <Button title="放弃"/>
     </component>
-    <text id="n10_aiaf" name="txtTitle" xy="586,114" size="814,77" fontSize="45" color="#efdfbb" align="center" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="选择至多{curr=0}/{target=3}张牌。">
+    <text id="n10_aiaf" name="txtTitle" xy="586,114" size="814,77" fontSize="48" color="#efdfbb" align="center" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="选择至多{curr=0}/{target=3}张牌。">
       <gearText controller="type" pages="0,1" values="选择至多{curr=0}/{target=3}张牌。|选择{curr=0}/{target=3}张牌。"/>
     </text>
   </displayList>

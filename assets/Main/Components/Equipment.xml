@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="58,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disable,5,selectedDisable" selected="0"/>
+  <controller name="state" exported="true" pages="0,player,1,enemy" selected="0"/>
+  <displayList>
+    <image id="n20_vsy2" name="n20" src="vsy2tnovj9" fileName="Pictures/common/bgTips.png" xy="35,29" pivot="0,0.5" anchor="true" size="200,40" color="#a4b8eb">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <gearColor controller="state" pages="0,1" values="#a4b8eb|#d24b34"/>
+      <relation target="" sidePair="middle-middle,left-center,right-center"/>
+    </image>
+    <text id="n19_pcqv" name="title" xy="206,29" pivot="1,0.5" anchor="true" size="150,40" fontSize="28" color="#d3daeb" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="雌雄双股剑">
+      <gearDisplay controller="button" pages="1,2,3"/>
+      <gearColor controller="state" pages="0,1" values="#d3daeb,#151922|#d2a59e,#151922"/>
+      <relation target="" sidePair="middle-middle,left-center,right-center"/>
+    </text>
+    <image id="n25_vsy2" name="n25" src="vsy2tnovja" fileName="Pictures/common/bgIcon.png" xy="29,29" pivot="0.5,0.5" anchor="true" color="#4b546b">
+      <gearDisplay controller="button" pages="1"/>
+      <gearColor controller="state" pages="0,1" values="#4b546b|#521d14"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n22_vsy2" name="n22" src="vsy2tnovja" fileName="Pictures/common/bgIcon.png" xy="29,29" pivot="0.5,0.5" anchor="true" color="#a4b8eb">
+      <gearDisplay controller="button" pages="0,2,3,4,5"/>
+      <gearColor controller="state" pages="1" values="#d24b34" default="#a4b8eb"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n27_vsy2" name="n27" xy="29,29" pivot="0.5,0.5" anchor="true" size="30,25" url="ui://6rc7w3novsy2tnovjb" autoSize="true" color="#a4b8eb">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n26_vsy2" name="n26" xy="29,29" pivot="0.5,0.5" anchor="true" size="30,25" url="ui://6rc7w3novsy2tnovjc" autoSize="true" color="#a4b8eb">
+      <gearDisplay controller="button" pages="4,5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n23_vsy2" name="n23" src="vsy2tnovja" fileName="Pictures/common/bgIcon.png" xy="29,29" pivot="0.5,0.5" anchor="true" size="60,60" alpha="0.5" color="#000000">
+      <gearDisplay controller="button" pages="4,5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

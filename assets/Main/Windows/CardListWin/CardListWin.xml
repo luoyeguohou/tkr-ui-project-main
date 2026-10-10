@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1920,1080" opaque="false" designImageOffsetX="102" designImageOffsetY="74" designImageAlpha="100">
-  <controller name="hide" pages="0,显示,1,隐藏" selected="1"/>
+<component size="1920,1080" overflow="hidden" opaque="false" designImageOffsetX="102" designImageOffsetY="74" designImageAlpha="100">
+  <controller name="hide" pages="0,显示,1,隐藏" selected="0"/>
   <displayList>
-    <graph id="n4_gu8z" name="bg" xy="0,0" size="1920,1080" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <graph id="n4_gu8z" name="bg" xy="0,0" size="1920,1080" type="rect" lineSize="0" lineColor="#00000000" fillColor="#cc000000">
       <gearDisplay controller="hide" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
@@ -11,13 +11,13 @@
       <gearSize controller="hide" default="1753,984,1,1" duration="2.3"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n2_gu8z" name="n0" src="pcqv4" fileName="Components/NormalButton.xml" xy="25,480" size="120,73">
+    <component id="n2_gu8z" name="n0" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="-100,540" controller="color,2" pkg="msb8m4n5">
       <gearDisplay controller="hide" pages="1"/>
-      <Button title="显示" titleFontSize="30" controller="hide" page="0"/>
+      <Button title="    显示" titleFontSize="30" controller="hide" page="0"/>
     </component>
-    <component id="n3_gu8z" name="n1" src="pcqv4" fileName="Components/NormalButton.xml" xy="24,478" size="120,73">
+    <component id="n3_gu8z" name="n1" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="-100,540" controller="color,2" pkg="msb8m4n5">
       <gearDisplay controller="hide" pages="0"/>
-      <Button title="隐藏" titleFontSize="30" controller="hide" page="1"/>
+      <Button title="    隐藏" titleFontSize="30" controller="hide" page="1"/>
     </component>
   </displayList>
 </component>

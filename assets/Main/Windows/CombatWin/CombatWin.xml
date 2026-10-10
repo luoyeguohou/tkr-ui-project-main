@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <loader id="n14_o5tm" name="bg" xy="0,0" size="1920,1080" url="ui://6rc7w3noartbattle" fill="scaleNoBorder" align="center" vAlign="middle">
-      <relation target="" sidePair="width-width,height-height" />
+    <loader id="n14_o5tm" name="bg" xy="0,0" size="1920,1080" url="ui://6rc7w3no109umtnovk8" align="center" vAlign="middle" fill="scaleNoBorder" color="#c6c6c6">
+      <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <component id="n6_pcqv" name="cont" src="pcqv2" fileName="Windows/CombatCont.xml" xy="0,-2">
-      <relation target="" sidePair="center-center,middle-middle" />
+    <component id="n6_pcqv" name="cont" src="pcqv2" fileName="Windows/CombatWin/CombatCont.xml" xy="0,-2">
+      <relation target="" sidePair="center-center,middle-middle"/>
     </component>
   </displayList>
 </component>

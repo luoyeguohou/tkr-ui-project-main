@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <component size="663,154">
   <displayList>
-    <graph id="n1_jn1h" name="n1" xy="0,0" size="663,154" type="rect" fillColor="#f0262932" lineColor="#ff987744" lineSize="2" corner="8" />
-    <text id="n2_jn1h" name="txtName" xy="14,27" size="634,107" fontSize="49" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="新技能" color="#efdfbb" strokeColor="#151922" strokeSize="1" />
+    <image id="n1_jn1h" name="n1" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="0,0" size="663,154" pkg="msb8m4n5"/>
+    <text id="n2_jn1h" name="txtName" xy="14,27" size="634,107" fontSize="49" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="新技能"/>
   </displayList>
 </component>

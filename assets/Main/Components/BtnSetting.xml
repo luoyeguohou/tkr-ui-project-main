@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,65" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+  <controller name="interactive" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n4_jwcx" name="n4" xy="0,0" size="65,65" type="polygon" lineSize="0" fillColor="#7a66ffff" points="-0.6130514,26.64153,-0.8329535,16.24837,6,5,93,5,100.6833,16.04934,100.6415,25.18085,93,37.49212,7,38">
+      <gearDisplay controller="interactive" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n0_ivra" name="n0" xy="33,32" pivot="0.5,0.5" anchor="true" size="55,55" touchable="false" url="ui://6rc7w3novsy2tnoviw" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n1_ivra" name="n1" xy="33,32" pivot="0.5,0.5" anchor="true" size="55,55" touchable="false" url="ui://6rc7w3novsy2tnoviy" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n2_ivra" name="n2" xy="33,34" pivot="0.5,0.5" anchor="true" size="55,55" touchable="false" url="ui://6rc7w3novsy2tnoviy" align="center" vAlign="middle" fill="scaleFree" autoSize="true" color="#666666">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="art_disabledPlate" name="disabledPlate" xy="33,32" pivot="0.5,0.5" anchor="true" size="55,55" touchable="false" url="ui://6rc7w3novsy2tnovix" align="center" vAlign="middle" fill="scaleFree" autoSize="true">
+      <gearDisplay controller="button" pages="4,5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

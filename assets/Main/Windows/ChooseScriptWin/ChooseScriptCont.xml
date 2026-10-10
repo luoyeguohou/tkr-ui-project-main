@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1753,984">
   <displayList>
-    <graph id="n29_ymjr" name="n29" xy="-2,-1" size="1753,984" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <list id="n30_ymjr" name="lstScripts" xy="155,88" size="101,251" scale="3,3" overflow="scroll" defaultItem="ui://6rc7w3nojlk11d" autoItemSize="false" autoClearItems="true">
+    <image id="n39_vsy2" name="n39" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="0,0" size="1753,984">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n30_ymjr" name="lstScripts" xy="189,99" size="243,716" overflow="scroll" defaultItem="ui://msb8m4n5petgtnovjp" autoItemSize="false" autoClearItems="true">
       <item/>
       <item/>
       <item/>
@@ -24,21 +26,21 @@
       <item/>
       <item/>
     </list>
-    <component id="n31_ymjr" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="1351,877" size="148,66">
+    <component id="n31_ymjr" name="btnConfirm" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1350,880" pivot="0.5,0.5" anchor="true" scale="1.5,1.5" controller="color,2">
       <Button title="确定" titleFontSize="32"/>
     </component>
-    <component id="n32_e01k" name="btnBack" src="pcqv4" fileName="Components/NormalButton.xml" xy="600,875" size="148,66">
+    <component id="n32_e01k" name="btnBack" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="850,880" pivot="0.5,0.5" anchor="true" scale="1.5,1.5" controller="color,1">
       <Button title="返回" titleFontSize="32"/>
     </component>
-    <text id="n33_xrqa" name="n1" xy="538,72" size="1107,82" fontSize="62" color="#d3ae66" align="center" autoSize="none" strokeColor="#151922" singleLine="true" text="请选择你的剧本"/>
-    <text id="n34_xrqa" name="txtTitle" xy="542,214" size="1107,82" fontSize="62" color="#d3ae66" align="center" autoSize="none" strokeColor="#151922" singleLine="true" autoClearText="true" text="请选择你的剧本"/>
-    <text id="n35_xrqa" name="txtCont" xy="539,334" size="1107,408" fontSize="62" color="#d3ae66" autoSize="none" strokeColor="#151922" autoClearText="true" text="请选择你的剧本"/>
-    <component id="n36_de1q" name="btnMinusDiff" src="pcqv4" fileName="Components/NormalButton.xml" xy="797,781" size="148,66">
+    <text id="n33_xrqa" name="n1" xy="1100,120" pivot="0.5,0.5" anchor="true" size="1107,80" fontSize="48" color="#d3ae66" align="center" autoSize="none" strokeColor="#151922" singleLine="true" text="请选择你的剧本"/>
+    <text id="n34_xrqa" name="txtTitle" xy="1100,220" pivot="0.5,0.5" anchor="true" size="1107,80" fontSize="48" color="#d3ae66" align="center" autoSize="none" strokeColor="#151922" singleLine="true" autoClearText="true" text="请选择你的剧本"/>
+    <text id="n35_xrqa" name="txtCont" xy="1100,480" pivot="0.5,0.5" anchor="true" size="1107,420" fontSize="30" color="#d3ae66" autoSize="none" strokeColor="#151922" autoClearText="true" text="请选择你的剧本"/>
+    <component id="n36_de1q" name="btnMinusDiff" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="871,760" pivot="0.5,0.5" anchor="true" size="148,66">
       <Button title="&lt;=" titleFontSize="32"/>
     </component>
-    <component id="n37_de1q" name="btnAddDiff" src="pcqv4" fileName="Components/NormalButton.xml" xy="1258,783" size="148,66">
+    <component id="n37_de1q" name="btnAddDiff" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1332,760" pivot="0.5,0.5" anchor="true" size="148,66">
       <Button title="=&gt;" titleFontSize="32"/>
     </component>
-    <text id="n38_de1q" name="txtDiff" xy="957,769" size="287,82" fontSize="62" color="#d3ae66" align="center" vars="true" autoSize="none" strokeColor="#151922" singleLine="true" text="进阶{diff=0}"/>
+    <text id="n38_de1q" name="txtDiff" xy="1100,760" pivot="0.5,0.5" anchor="true" size="287,80" fontSize="36" color="#d3ae66" align="center" vAlign="middle" vars="true" autoSize="none" strokeColor="#151922" singleLine="true" text="进阶{diff=0}"/>
   </displayList>
 </component>

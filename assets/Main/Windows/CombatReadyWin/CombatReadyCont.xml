@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <graph id="n0_incg" name="n0" xy="8,104" size="1905,975" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <image id="n28_vsy2" name="n28" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="30,93" size="1860,975" pkg="msb8m4n5"/>
     <list id="n23_xrqa" name="lstEnemy" xy="128,240" size="1694,787" layout="row" overflow="scroll" defaultItem="ui://6rc7w3noxrqatnovfp" autoItemSize="false" align="center">
       <item/>
       <item/>
       <item/>
     </list>
-    <text id="n24_xrqa" name="txtCont" xy="453,136" size="949,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
-    <component id="n25_xrqa" name="btnAdjust" src="pcqv4" fileName="Components/NormalButton.xml" xy="1549,870" size="310,62">
-      <Button title="整理牌组技能" titleFontSize="35"/>
+    <text id="n24_xrqa" name="txtCont" xy="453,136" size="949,75" fontSize="48" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览"/>
+    <component id="n25_xrqa" name="btnAdjust" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1740,901" pivot="0.5,0.5" anchor="true" pkg="msb8m4n5">
+      <Button title="整理牌组技能"/>
     </component>
-    <component id="n26_xrqa" name="btnStart" src="pcqv4" fileName="Components/NormalButton.xml" xy="1548,954" size="306,62">
-      <Button title="开始战斗" titleFontSize="35"/>
+    <component id="n26_xrqa" name="btnStart" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1740,985" pivot="0.5,0.5" anchor="true" controller="color,2" pkg="msb8m4n5">
+      <Button title="开始战斗"/>
     </component>
   </displayList>
 </component>

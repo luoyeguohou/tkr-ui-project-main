@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
-  <controller name="hasOldGame" pages="0,,1," selected="1"/>
+  <controller name="hasOldGame" pages="0,,1," selected="0"/>
   <displayList>
-    <component id="n0_ar7m" name="btnPlay" src="pcqv4" fileName="Components/NormalButton.xml" xy="163,387" size="340,76">
-      <Button title="开始游戏" titleFontSize="35"/>
+    <component id="n0_ar7m" name="btnPlay" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="163,387" pkg="msb8m4n5">
+      <Button title="开始游戏"/>
     </component>
-    <component id="n1_ar7m" name="btnSetting" src="pcqv4" fileName="Components/NormalButton.xml" xy="160,649" size="340,76">
-      <Button title="设置" titleFontSize="35"/>
+    <component id="n1_ar7m" name="btnSetting" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="160,649" pkg="msb8m4n5">
+      <Button title="设置"/>
     </component>
-    <component id="n2_ar7m" name="btnQuit" src="pcqv4" fileName="Components/NormalButton.xml" xy="160,746" size="340,76">
-      <Button title="退出" titleFontSize="35"/>
+    <component id="n2_ar7m" name="btnQuit" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="160,746" pkg="msb8m4n5">
+      <Button title="退出"/>
     </component>
-    <component id="n3_ar7m" name="btnContinue" src="pcqv4" fileName="Components/NormalButton.xml" xy="166,304" size="340,76">
+    <component id="n3_ar7m" name="btnContinue" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="166,304" pkg="msb8m4n5">
       <gearDisplay controller="hasOldGame" pages="1"/>
-      <Button title="继续游戏" titleFontSize="35"/>
+      <Button title="继续游戏"/>
     </component>
-    <text id="n4_ar7m" name="n4" xy="134,54" size="1164,170" fontSize="112" color="#efdfbb" vAlign="middle" autoSize="none" bold="true" strokeColor="#151922" strokeSize="3" text="弑神之路"/>
-    <component id="n5_hprj" name="btnLibrary" src="pcqv4" fileName="Components/NormalButton.xml" xy="1621,885" size="230,64">
-      <Button title="资料" titleFontSize="35"/>
+    <text id="n4_ar7m" name="n4" xy="378,43" size="1164,170" fontSize="112" color="#efdfbb" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#151922" strokeSize="3" text="弑神之路"/>
+    <component id="n5_hprj" name="btnLibrary" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1621,885" pkg="msb8m4n5">
+      <Button title="资料"/>
     </component>
     <component id="n8_fkqv" name="btnChinese" src="jlk11d" fileName="Components/SelectableNormalButton.xml" xy="160,927" size="160,42">
       <Button title="简体中文"/>
@@ -25,12 +25,12 @@
     <component id="n9_fkqv" name="btnEnglish" src="jlk11d" fileName="Components/SelectableNormalButton.xml" xy="346,925" size="160,42">
       <Button title="English"/>
     </component>
-    <text id="n10_e01k" name="txtResult" xy="959,33" size="943,789" touchable="false" fontSize="12" autoSize="none" text="" input="true"/>
-    <component id="n11_mjv1" name="btnMultiplayer" src="pcqv4" fileName="Components/NormalButton.xml" xy="161,557" size="340,76">
-      <Button title="多人游戏" titleFontSize="35"/>
+    <text id="n10_e01k" name="txtResult" xy="919,50" size="943,789" touchable="false" fontSize="12" autoSize="none" text="" input="true"/>
+    <component id="n11_mjv1" name="btnMultiplayer" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="161,557" pkg="msb8m4n5">
+      <Button title="多人游戏"/>
     </component>
-    <component id="n12_lp7w" name="btnTutorial" src="pcqv4" fileName="Components/NormalButton.xml" xy="161,468" size="340,76">
-      <Button title="教程" titleFontSize="35"/>
+    <component id="n12_lp7w" name="btnTutorial" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="161,468" pkg="msb8m4n5">
+      <Button title="教程"/>
     </component>
   </displayList>
 </component>

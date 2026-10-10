@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="486,112">
-  <controller name="actionState" pages="0,submitted,1,queued,2,running,3,completed,4,cancelled,5,rejected,6,failed" selected="0"/>
+  <controller name="actionState" pages="0,submitted,1,queued,2,running,3,completed,4,cancelled,5,rejected,6,failed" selected="6"/>
   <displayList>
-    <graph id="n63_mjv1" name="bg" xy="0,0" size="486,112" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <graph id="n64_mjv1" name="seatColor" xy="7,6" size="57,100" type="rect"/>
-    <graph id="n70_mjv1" name="bgStatus" xy="6,5" size="474,100" type="rect" fillColor="#38495b70">
-      <gearColor controller="actionState" pages="0,1,2,3,4,5,6" values="#38495b70|#3858a6d2|#38d9b366|#3892b872|#387b8491|#38e0a05a|#38d07f6b" default="#38495b70"/>
+    <graph id="n70_mjv1" name="bgStatus" xy="2,2" size="482,108" type="rect" lineSize="0" lineColor="#00000000" fillColor="#38d07f6b">
+      <gearColor controller="actionState" pages="0,1,2,3,4,5,6" values="#495b70|#58a6d2|#d9b366|#92b872|#7b8491|#e0a05a|#d07f6b"/>
     </graph>
-    <text id="n66_mjv1" name="txtPlayer" xy="69,8" size="92,35" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数"/>
-    <text id="n67_mjv1" name="txtAction" xy="77,54" size="192,47" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数"/>
-    <text id="n68_mjv1" name="txtTarget" xy="173,4" size="192,47" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数"/>
-    <text id="n69_mjv1" name="txtStatus" xy="283,54" size="192,47" fontSize="23" color="#efdfbb" vars="true" autoSize="shrink" strokeColor="#151922" text="已提交">
+    <image id="n71_vsy2" name="bg" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="0,0" size="486,112" alpha="0.8" pkg="msb8m4n5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n64_mjv1" name="seatColor" xy="6,8" size="64,96" type="rect"/>
+    <text id="n66_mjv1" name="txtPlayer" xy="70,30" pivot="0,0.5" anchor="true" size="120,48" fontSize="24" color="#efdfbb" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数"/>
+    <text id="n67_mjv1" name="txtAction" xy="70,80" pivot="0,0.5" anchor="true" size="200,48" fontSize="24" color="#efdfbb" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数"/>
+    <text id="n68_mjv1" name="txtTarget" xy="190,30" pivot="0,0.5" anchor="true" size="200,48" fontSize="24" color="#efdfbb" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="攻击次数"/>
+    <text id="n69_mjv1" name="txtStatus" xy="270,80" pivot="0,0.5" anchor="true" size="200,48" fontSize="24" color="#efdfbb" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" text="结算失败">
       <gearText controller="actionState" pages="0,1,2,3,4,5,6" values="已提交|等待结算|正在结算|已完成|已取消|被拒绝|结算失败"/>
     </text>
   </displayList>

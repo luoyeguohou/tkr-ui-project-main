@@ -1,42 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="229,306" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
-  <controller name="type" pages="0,base,1,skill,2,item-weapon,4,item-armor" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <controller name="type" pages="0,base,1,skill,2,item-weapon,4,item-armor" selected="3"/>
   <controller name="suit" exported="true" pages="0,heart,1,diamond,3,club,2,spade" selected="0"/>
   <controller name="back" pages="0,,1," selected="0"/>
   <controller name="virtual" pages="0,,1," selected="0"/>
   <controller name="canSelected" pages="0,,1," selected="0"/>
-  <controller name="number" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13," selected="0"/>
+  <controller name="number" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10,,11,,12,,13," selected="13"/>
   <controller name="interactive" pages="0,,1," selected="0"/>
   <controller name="selectable" pages="0,,1," selected="0"/>
   <controller name="queueState" homePageType="specific" homePage="0" pages="0,none,1,submitted,2,queued,3,running" selected="0"/>
   <displayList>
+    <component id="n18_109um" name="img" src="109umtnovkd" fileName="Components/CardImg.xml" xy="12,17"/>
     <graph id="n10_fl7z" name="n10" xy="-5,-6" size="239,318" type="rect" lineSize="5" lineColor="#ffffd688" fillColor="#00000000" corner="12">
       <gearDisplay controller="button" pages="1,3"/>
       <gearDisplay2 controller="canSelected" pages="1" condition="0"/>
     </graph>
-    <loader id="n3_pcqv" name="n3" xy="0,0" size="229,306" touchable="false" url="ui://6rc7w3nowejttnovfk" align="center" vAlign="middle" fill="scaleNoBorder">
+    <loader id="n3_pcqv" name="n3" xy="0,0" size="229,306" touchable="false" url="ui://6rc7w3no109umtnovke" align="center" vAlign="middle" fill="scaleNoBorder">
+      <gearDisplay controller="back" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
-    <text id="n4_pcqv" name="title" xy="61,24" size="150,55" fontSize="28" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#151922" singleLine="true" autoClearText="true" text="雌雄双股剑">
+    <text id="n4_pcqv" name="title" xy="116,10" size="111,40" fontSize="18" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" bold="true" strokeColor="#151922" singleLine="true" autoClearText="true" text="雌雄双股剑">
       <gearDisplay controller="back" pages="0"/>
       <relation target="" sidePair="width-width%,height-height%"/>
     </text>
-    <text id="n5_pcqv" name="txtCont" xy="18,98" size="193,144" fontSize="17" color="#302823" autoSize="shrink" strokeColor="#151922" strokeSize="0" autoClearText="true" text="抽1张牌">
+    <text id="n5_pcqv" name="txtCont" xy="21,147" size="193,119" fontSize="21" autoSize="shrink" strokeColor="#151922" strokeSize="0" autoClearText="true" text="攻击力4。祭品召唤 / 召唤条件：任意怪兽*1，另丢弃1张治疗。 / 效果：1.可伤害转移。2.召唤成功时，回复1点生命值并抽1张牌。3.每回合1次，选择1名敌人，判定：红，视为对其使用1张不计入次数的攻击；黑，弃置其1张手牌。">
       <gearDisplay controller="back" pages="0"/>
       <relation target="" sidePair="left-left,left-right,bottomext-bottom"/>
     </text>
-    <loader id="n6_msve" name="n6" xy="16,20" size="37,37" url="ui://6rc7w3noptj9tnovg8" align="center" vAlign="middle" fill="scale">
+    <loader id="n6_msve" name="n6" xy="16,39" size="28,28" url="ui://6rc7w3nolvf7tnovig" align="center" vAlign="middle" fill="scale">
       <gearDisplay controller="back" pages="0"/>
-      <gearIcon controller="suit" pages="0,1,3,2" values="ui://6rc7w3noptj9tnovg8|ui://6rc7w3noptj9tnovg7|ui://6rc7w3noptj9tnovg6|ui://6rc7w3noptj9tnovgc"/>
+      <gearIcon controller="suit" pages="0,1,3,2" values="ui://6rc7w3nolvf7tnovig|ui://6rc7w3nolvf7tnovif|ui://6rc7w3nolvf7tnovie|ui://6rc7w3nolvf7tnovil"/>
       <gearDisplay2 controller="virtual" pages="0" condition="0"/>
     </loader>
-    <text id="n7_msve" name="n17" xy="18,50" size="35,34" fontSize="28" color="#efdfbb" align="center" vAlign="middle" autoSize="none" strokeColor="#151922" autoClearText="true" text="0">
+    <text id="n7_msve" name="n17" xy="13,8" size="35,34" fontSize="28" color="#cf0114" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="K">
       <gearDisplay controller="back" pages="0"/>
+      <gearColor controller="suit" pages="0,1" values="#cf0114,#151922|#cf0114,#151922" default="#000000,#151922"/>
       <gearText controller="number" pages="0,1,2,3,4,5,6,7,8,9,11,12,13" values="0|1|2|3|4|5|6|7|8|9|J|Q|K" default="10"/>
       <gearDisplay2 controller="virtual" pages="0" condition="0"/>
     </text>
-    <text id="n8_hprj" name="n8" xy="128,252" size="75,34" fontSize="17" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="基本">
+    <text id="n8_hprj" name="n8" xy="165,265" size="55,25" fontSize="17" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="防具">
       <gearDisplay controller="back" pages="0"/>
       <gearText controller="type" pages="0,1,2,4" values="基本|咒语|武器|防具"/>
     </text>
@@ -44,7 +47,7 @@
       <gearDisplay controller="virtual" pages="1"/>
       <gearDisplay2 controller="back" pages="0" condition="0"/>
     </text>
-    <loader id="art_cardReverse" name="cardReverse" xy="0,0" size="229,306" touchable="false" url="ui://6rc7w3noartback" align="center" vAlign="middle" fill="scaleNoBorder">
+    <loader id="art_cardReverse" name="cardReverse" xy="0,0" size="229,306" touchable="false" url="ui://6rc7w3no109umtnovka" align="center" vAlign="middle" fill="scaleNoBorder">
       <gearDisplay controller="back" pages="1"/>
     </loader>
     <image id="n14_jwcx" name="n14" src="jwcxtnovf5" fileName="Pictures/Art/card_glow_white.png" xy="-40,-60" size="308,411">

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <controller name="type" pages="0,card,1,skill" selected="1"/>
-  <controller name="upgrade" pages="0,,1," selected="0"/>
+  <controller name="upgrade" pages="0,,1," selected="1"/>
   <displayList>
-    <graph id="n0_hprj" name="n0" xy="62,47" size="1816,964" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <component id="n1_hprj" name="btnClose" src="pcqv4" fileName="Components/NormalButton.xml" xy="1703,71" size="137,66">
+    <image id="n0_hprj" name="n0" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="62,47" size="1816,964" pkg="msb8m4n5"/>
+    <component id="n1_hprj" name="btnClose" src="vsy2tnovj2" fileName="Components/btnClose.xml" xy="1763,74" pkg="msb8m4n5">
       <Button title="关闭" titleFontSize="34"/>
     </component>
-    <component id="n2_hprj" name="btnSkill" src="pcqv4" fileName="Components/NormalButton.xml" xy="126,70" size="222,74">
-      <Button title="技能" titleFontSize="33" controller="type" page="1"/>
+    <component id="n2_hprj" name="btnSkill" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="126,69" pkg="msb8m4n5">
+      <Button title="技能" controller="type" page="1"/>
     </component>
-    <component id="n3_hprj" name="btnCard" src="pcqv4" fileName="Components/NormalButton.xml" xy="623,73" size="222,74">
-      <Button title="卡牌" titleFontSize="33" controller="type" page="0"/>
+    <component id="n3_hprj" name="btnCard" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="623,73" pkg="msb8m4n5">
+      <Button title="卡牌" controller="type" page="0"/>
     </component>
     <list id="n4_hprj" name="lstCard" xy="175,194" size="1623,796" layout="flow_hz" overflow="scroll" defaultItem="ui://6rc7w3nopcqv3" autoClearItems="true">
       <gearDisplay controller="type" pages="0"/>
@@ -44,13 +44,13 @@
       <item/>
       <item/>
     </list>
-    <component id="n9_hprj" name="btnSkillUpgradeTrue" src="pcqv4" fileName="Components/NormalButton.xml" xy="371,73" size="222,74">
+    <component id="n9_hprj" name="btnSkillUpgradeTrue" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="371,73" pkg="msb8m4n5">
       <gearDisplay controller="upgrade" pages="1"/>
-      <Button title="技能升级：true" titleFontSize="24" controller="upgrade" page="0"/>
+      <Button title="技能升级：true" controller="upgrade" page="0"/>
     </component>
-    <component id="n10_hprj" name="btnSkillUpgradeFalse" src="pcqv4" fileName="Components/NormalButton.xml" xy="371,73" size="222,74">
+    <component id="n10_hprj" name="btnSkillUpgradeFalse" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="371,73" pkg="msb8m4n5">
       <gearDisplay controller="upgrade" pages="0"/>
-      <Button title="技能升级：false" titleFontSize="24" controller="upgrade" page="1"/>
+      <Button title="技能升级：false" controller="upgrade" page="1"/>
     </component>
   </displayList>
 </component>

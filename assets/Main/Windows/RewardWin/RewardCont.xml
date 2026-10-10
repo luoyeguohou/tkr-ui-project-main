@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
-  <controller name="gameMode" homePageType="specific" homePage="0" pages="0,single,1,multiplayer" selected="0"/>
+  <controller name="gameMode" homePageType="specific" homePage="0" pages="0,single,1,multiplayer" selected="1"/>
   <displayList>
-    <graph id="n0_jn1h" name="n0" xy="160,150" size="790,780" type="rect" lineSize="0" lineColor="#ff987744" fillColor="#b510151e" corner="8"/>
-    <list id="n4_jn1h" name="lstReward" xy="298,248" size="700,617" scale="0.7,0.7" overflow="scroll" lineGap="19" defaultItem="ui://6rc7w3nojn1h10" autoItemSize="false" align="center" autoClearItems="true">
+    <image id="n0_jn1h" name="n0" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="555,150" size="790,780" pkg="msb8m4n5"/>
+    <list id="n4_jn1h" name="lstReward" xy="693,248" size="700,617" scale="0.7,0.7" overflow="scroll" lineGap="19" defaultItem="ui://6rc7w3nojn1h10" autoItemSize="false" align="center" autoClearItems="true">
       <item/>
       <item/>
       <item/>
     </list>
-    <component id="n5_mjv1" name="btnDone" src="pcqv4" fileName="Components/NormalButton.xml" xy="212,764" size="183,68">
+    <component id="n5_mjv1" name="btnDone" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="579,749" pkg="msb8m4n5">
       <gearDisplay controller="gameMode" pages="1"/>
-      <Button title="完成并等待队友" titleFontSize="16"/>
+      <Button title="完成并等待队友"/>
     </component>
-    <component id="n6_mjv1" name="btnAdjustLoadout" src="pcqv4" fileName="Components/NormalButton.xml" xy="207,835" size="183,68">
+    <component id="n6_mjv1" name="btnAdjustLoadout" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="574,820" pkg="msb8m4n5">
       <gearDisplay controller="gameMode" pages="1"/>
-      <Button title="打开原构筑调整界面" titleFontSize="16"/>
+      <Button title="打开原构筑调整界面"/>
     </component>
-    <text id="n7_mjv1" name="txtHint" xy="237,170" size="634,67" fontSize="49" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="新技能">
+    <text id="n7_mjv1" name="txtHint" xy="632,170" size="634,67" fontSize="49" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="新技能">
       <gearDisplay controller="gameMode" pages="1"/>
     </text>
-    <list id="n11_mjv1" name="lstPlayerReady" xy="399,699" size="503,218" overflow="scroll" defaultItem="ui://6rc7w3nomjv1tnovfz">
+    <list id="n11_mjv1" name="lstPlayerReady" xy="825,695" size="503,218" overflow="scroll" defaultItem="ui://6rc7w3nomjv1tnovfz">
       <gearDisplay controller="gameMode" pages="1"/>
       <item/>
       <item/>

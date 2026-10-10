@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <list id="n3_jn1h" name="lstCard" xy="85,138" size="1256,482" scale="1.4,1.4" layout="flow_hz" overflow="scroll" colGap="21" defaultItem="ui://6rc7w3nopcqv3" align="center" vAlign="middle" autoClearItems="true">
+    <list id="n3_jn1h" name="lstCard" xy="960,138" pivot="0.5,0" anchor="true" size="1256,482" scale="1.4,1.4" layout="flow_hz" overflow="scroll" colGap="21" defaultItem="ui://6rc7w3nopcqv3" align="center" vAlign="middle" autoClearItems="true">
       <item/>
       <item/>
       <item/>
     </list>
-    <component id="n4_jn1h" name="btnSkip" src="pcqv4" fileName="Components/NormalButton.xml" xy="446,884" size="400,110">
-      <Button title="跳过" titleFontSize="47"/>
+    <component id="n4_jn1h" name="btnSkip" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="660,935" pivot="0.5,0.5" anchor="true" scale="1.5,1.5" controller="color,1">
+      <Button title="跳过"/>
     </component>
-    <component id="n5_qaly" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="1042,886" size="400,110">
-      <Button title="确定" titleFontSize="47"/>
+    <component id="n5_qaly" name="btnConfirm" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1260,935" pivot="0.5,0.5" anchor="true" scale="1.5,1.5" controller="color,2">
+      <Button title="确定"/>
     </component>
-    <text id="n6_mjv1" name="txtPrompt" xy="256,27" size="1478,93" fontSize="56" align="center" autoSize="none" text=""/>
-    <text id="n7_mjv1" name="txtSelectionCount" xy="472,742" size="926,93" fontSize="56" align="center" autoSize="none" autoClearText="true" text="111"/>
+    <text id="n6_mjv1" name="txtPrompt" xy="960,73" pivot="0.5,0.5" anchor="true" size="1478,93" fontSize="48" align="center" autoSize="none" text=""/>
+    <text id="n7_mjv1" name="txtSelectionCount" xy="960,742" pivot="0.5,0" anchor="true" size="926,93" fontSize="48" align="center" autoSize="none" autoClearText="true" text=""/>
   </displayList>
 </component>

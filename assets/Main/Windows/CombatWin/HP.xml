@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="392,100">
-  <controller name="hpMax" exported="true" pages="0,,1,,2,,3,,4,,5,,7,,8,other" selected="6"/>
+<component size="201,32">
+  <controller name="type" pages="0,lst,1,text" selected="1"/>
   <displayList>
-    <text id="n15_pcqv" name="txtNum" xy="159,17" size="169,64" fontSize="44" color="#d32e3e" align="center" vAlign="middle" vars="true" autoSize="none" strokeColor="#151922" text="X{num=18}/{max=18}">
-      <gearDisplay controller="hpMax" pages="8"/>
+    <text id="n15_pcqv" name="txtHp" xy="120,-3" size="74,37" fontSize="21" color="#d32e3e" align="center" vAlign="middle" vars="true" autoSize="none" strokeColor="#151922" text="X{num=18}/{max=18}">
+      <gearDisplay controller="type" pages="1"/>
     </text>
-    <loader id="n16_msve" name="hp1" xy="7,17" size="33,32" url="ui://6rc7w3nofdnltnovgb" align="center" vAlign="middle" fill="scale">
-      <gearDisplay controller="hpMax" pages="1,2,3,4,5,7,8"/>
-      <gearXY controller="hpMax" pages="1,2,3,4,5,8" values="161,17|81,17|52,17|15,17|21,17|91,17" default="7,17"/>
-    </loader>
-    <loader id="n17_msve" name="hp2" xy="71,17" size="33,32" url="ui://6rc7w3nofdnltnovgb" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="2,3,4,5,7"/>
-      <gearXY controller="hpMax" pages="2,3,4,5,7" values="222,17|167,17|111,17|91,17|71,17" default="20,17"/>
-    </loader>
-    <loader id="n18_msve" name="hp3" xy="135,17" size="33,32" url="ui://6rc7w3nofdnltnovgb" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="3,4,5,7"/>
-      <gearXY controller="hpMax" pages="3,4,5,7" values="282,17|207,17|161,17|135,17" default="27,17"/>
-    </loader>
-    <loader id="n19_msve" name="hp4" xy="199,17" size="33,32" url="ui://6rc7w3nofdnltnovgb" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="4,5,7"/>
-      <gearXY controller="hpMax" pages="4,5,7" values="303,17|231,17|199,17" default="61,17"/>
-    </loader>
-    <loader id="n20_msve" name="hp5" xy="263,17" size="33,32" url="ui://6rc7w3nofdnltnovgb" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="5,7"/>
-      <gearXY controller="hpMax" pages="3,4,5,7" values="165,17|209,17|301,17|263,17" default="101,17"/>
-    </loader>
-    <loader id="n21_msve" name="hp6" xy="327,17" size="33,32" url="ui://6rc7w3nofdnltnovgb" align="center" vAlign="middle" fill="scale" color="#000000">
-      <gearDisplay controller="hpMax" pages="7"/>
-      <gearXY controller="hpMax" pages="1,2,3,4,5,7,8" values="165,17|221,17|270,17|300,17|371,17|327,17|92,17" default="322,17"/>
-    </loader>
+    <list id="n23_109um" name="lstHp" xy="0,0" size="201,33" layout="row" defaultItem="ui://6rc7w3nolvf7tnovim" autoItemSize="false" align="center" vAlign="middle">
+      <gearDisplay controller="type" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n25_109um" name="txtArmor" xy="30,0" size="53,30" fontSize="21" color="#8abdd0" align="center" vAlign="middle" vars="true" autoSize="none" strokeColor="#151922" text="X{num=18}">
+      <gearDisplay controller="type" pages="1"/>
+    </text>
+    <image id="n26_109um" name="n26" src="fdnltnovgb" fileName="Pictures/icon/iconHp1.png" xy="84,-1">
+      <gearDisplay controller="type" pages="1"/>
+    </image>
+    <image id="n27_109um" name="n27" src="h2rntnovi2" fileName="Pictures/icon/iconShield1.png" xy="-1,-2">
+      <gearDisplay controller="type" pages="1"/>
+    </image>
   </displayList>
 </component>

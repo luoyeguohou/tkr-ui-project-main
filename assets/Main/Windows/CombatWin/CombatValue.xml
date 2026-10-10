@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="240,67">
-  <displayList>
-    <graph id="n45_7vq4" name="n0" xy="0,0" size="240,67" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n46_7vq4" name="txtValue" xy="3,4" size="231,58" fontSize="39" color="#efdfbb" vars="true" autoSize="none" strokeColor="#151922" text="雾气值：{val=0}"/>
-  </displayList>
-</component>

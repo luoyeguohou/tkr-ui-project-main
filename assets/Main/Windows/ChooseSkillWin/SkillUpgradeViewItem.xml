@@ -2,11 +2,9 @@
 <component size="378,456" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n1_aywa" name="n1" xy="0,0" size="378,457" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#ff282833" corner="8">
-      <gearColor controller="button" pages="0,1,2,3" values="#282833|#1b1b25|#282833|#1b1b25"/>
-    </graph>
-    <text id="n2_aywa" name="txtName" xy="34,21" size="301,58" fontSize="33" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="龙胆"/>
-    <text id="n3_aywa" name="txtCont" xy="10,103" size="359,347" fontSize="33" color="#efdfbb" ubb="true" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="你的啥砀山，山当杀"/>
+    <image id="n4_vsy2" name="n4" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="0,0" size="380,460" pkg="msb8m4n5"/>
+    <text id="n5_vsy2" name="txtName" xy="190,20" pivot="0.5,0" anchor="true" size="301,58" fontSize="36" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="龙胆"/>
+    <text id="n6_vsy2" name="txtCont" xy="189,270" pivot="0.5,0.5" anchor="true" size="320,350" fontSize="24" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="你的啥砀山，山当杀"/>
   </displayList>
   <Button mode="Radio"/>
 </component>

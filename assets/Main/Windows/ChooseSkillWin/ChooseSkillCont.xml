@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080" opaque="false">
   <displayList>
-    <graph id="n0_aywa" name="n0" xy="185,146" size="1550,784" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <list id="n4_aywa" name="lstSkill" xy="251,167" size="1433,596" layout="row" overflow="scroll" colGap="91" defaultItem="ui://6rc7w3nou1r93e" autoItemSize="false" align="center">
+    <image id="n7_vsy2" name="n7" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="185,146" size="1550,784" pkg="msb8m4n5"/>
+    <list id="n4_aywa" name="lstSkill" xy="260,170" size="1400,600" layout="row" overflow="scroll" colGap="91" defaultItem="ui://6rc7w3nou1r93e" autoItemSize="false" align="center" vAlign="middle">
       <item/>
       <item/>
       <item/>
     </list>
-    <component id="n5_aywa" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="856,804" size="218,68">
-      <Button title="确定" titleFontSize="34"/>
+    <component id="n5_aywa" name="btnConfirm" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="846,799" pivot="0.5,0.5" scale="1.5,1.5" controller="color,2" pkg="msb8m4n5">
+      <Button title="确定"/>
     </component>
-    <text id="n6_mjv1" name="txtPrompt" xy="229,35" size="1478,93" fontSize="56" align="center" autoSize="none" text=""/>
+    <text id="n6_mjv1" name="txtPrompt" xy="229,35" size="1478,93" fontSize="48" align="center" autoSize="none" text=""/>
   </displayList>
 </component>

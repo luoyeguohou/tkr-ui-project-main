@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1753,984">
   <displayList>
-    <graph id="n29_ymjr" name="n29" xy="0,0" size="1753,984" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <image id="n29_ymjr" name="n29" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="0,0" size="1753,984" pkg="msb8m4n5"/>
     <list id="n30_ymjr" name="lstCard" xy="513,107" size="1149,716" layout="flow_hz" overflow="scroll" defaultItem="ui://6rc7w3nopcqv3" autoClearItems="true">
       <item/>
       <item/>
@@ -24,10 +24,10 @@
       <item/>
       <item/>
     </list>
-    <component id="n31_ymjr" name="btnClose" src="pcqv4" fileName="Components/NormalButton.xml" xy="1529,9" size="148,66">
+    <component id="n31_ymjr" name="btnClose" src="vsy2tnovj2" fileName="Components/btnClose.xml" xy="1650,27" pkg="msb8m4n5">
       <Button title="关闭" titleFontSize="32"/>
     </component>
-    <list id="n32_jwcx" name="lstVirtualName" xy="135,113" size="173,336" scale="2,2" overflow="scroll" lineGap="14" defaultItem="ui://6rc7w3nogu8ztnovfj" autoItemSize="false" align="center">
+    <list id="n32_jwcx" name="lstVirtualName" xy="135,113" size="332,713" overflow="scroll" lineGap="14" defaultItem="ui://msb8m4n5fdnltnovh6" autoItemSize="false" align="center">
       <item/>
       <item/>
       <item/>

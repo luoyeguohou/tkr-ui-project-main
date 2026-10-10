@@ -4,7 +4,7 @@
     <image id="n0_fdnl" name="bg" src="fdnltnovgh" fileName="Pictures/roleHead/bgIconRole.png" xy="75,75" pivot="0.5,0.5" anchor="true">
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
-    <loader id="n1_fdnl" name="portrait" xy="75,151" pivot="0.5,1" anchor="true" size="200,200" aspect="true" url="ui://6rc7w3nofdnltnovh2" align="center" vAlign="middle" fill="scale">
+    <loader id="n1_fdnl" name="portrait" xy="75,151" pivot="0.5,1" anchor="true" size="200,200" aspect="true" url="ui://6rc7w3nofdnltnovh2" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </loader>
     <image id="n3_fdnl" name="bgLv" src="fdnltnovgf" fileName="Pictures/roleHead/bgIconRoleLv.png" xy="76,149" pivot="0.5,1" anchor="true">

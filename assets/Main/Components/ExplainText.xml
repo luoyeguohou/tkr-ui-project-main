@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="194,156">
+<component size="265,150">
   <displayList>
-    <graph id="n38_ufuj" name="n38" xy="0,0" size="194,155" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
-      <relation target="" sidePair="width-width"/>
-    </graph>
-    <text id="n39_ufuj" name="txtCont" xy="3,24" size="188,129" fontSize="18" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="111">
+    <image id="n42_vsy2" name="n42" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="0,0" size="265,149" pkg="msb8m4n5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n39_ufuj" name="txtCont" xy="10,45" size="245,100" fontSize="20" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="111">
       <relation target="" sidePair="width-width"/>
     </text>
-    <text id="n40_ufuj" name="txtName" xy="4,2" size="179,27" fontSize="18" color="#efdfbb" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="111">
+    <text id="n40_ufuj" name="txtName" xy="10,10" size="245,34" fontSize="24" color="#efdfbb" autoSize="shrink" strokeColor="#151922" singleLine="true" autoClearText="true" text="111">
       <relation target="" sidePair="width-width"/>
     </text>
   </displayList>

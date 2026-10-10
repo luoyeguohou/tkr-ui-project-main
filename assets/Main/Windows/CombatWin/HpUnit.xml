@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="61,54">
-  <controller name="type" exported="true" pages="0,hp,1,hp-damaged,2,armor,3,nothing" selected="3"/>
+<component size="33,32">
+  <controller name="type" exported="true" pages="0,hp,1,hp-damaged,2,armor,3,nothing" selected="0"/>
   <displayList>
-    <loader id="n16_msve" name="hp1" xy="0,0" size="61,54" align="center" vAlign="middle" fill="scale">
-      <gearIcon controller="type" pages="1,2,3" values="ui://6rc7w3noptj9tnovga|ui://6rc7w3noptj9tnovgb|" default="ui://6rc7w3noptj9tnovg9"/>
+    <loader id="n16_msve" name="hp1" xy="0,0" size="33,32" url="ui://6rc7w3nofdnltnovgb" align="center" vAlign="middle" fill="scale">
+      <gearIcon controller="type" pages="0,1,2,3" values="ui://6rc7w3nofdnltnovgb|ui://6rc7w3nofdnltnovgc|ui://6rc7w3noh2rntnovi2|"/>
     </loader>
   </displayList>
 </component>

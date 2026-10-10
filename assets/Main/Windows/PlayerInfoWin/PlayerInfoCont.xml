@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
-  <controller name="showTutorial" pages="0,,1," selected="1"/>
+  <controller name="showTutorial" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n0_incg" name="n0" xy="8,104" size="1905,975" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <list id="n1_incg" name="lstSkillEquiping" xy="66,484" size="102,245" scale="1.9,1.9" overflow="scroll" lineGap="9" defaultItem="ui://6rc7w3nogu8ztnovfj" autoItemSize="false" autoClearItems="true">
+    <image id="n0_incg" name="n0" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="8,104" size="1905,975" pkg="msb8m4n5"/>
+    <list id="n1_incg" name="lstSkillEquiping" xy="66,484" size="102,245" scale="1.9,1.9" overflow="scroll" lineGap="9" defaultItem="ui://6rc7w3nofdnltnovh5" autoItemSize="false" autoClearItems="true">
       <item/>
       <item/>
       <item/>
@@ -20,7 +20,7 @@
       <item/>
       <item/>
     </list>
-    <component id="n3_incg" name="btnClose" src="pcqv4" fileName="Components/NormalButton.xml" xy="1702,128" size="186,72">
+    <component id="n3_incg" name="btnClose" src="vsy2tnovj2" fileName="Components/btnClose.xml" xy="1813,127" pkg="msb8m4n5">
       <Button title="关闭" titleFontSize="33"/>
     </component>
     <text id="n5_incg" name="txtSkillDesc" xy="18,127" size="320,253" fontSize="34" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述技能描述"/>
@@ -29,23 +29,23 @@
     <text id="n13_aiaf" name="txtCardEquipping" xy="385,156" size="278,78" fontSize="24" color="#efdfbb" vAlign="middle" leading="8" ubb="true" vars="true" autoSize="shrink" text="使用中的牌组({curr=1}/{max=10})"/>
     <component id="n15_aiaf" name="n15" src="hprj2f" fileName="Components/Line.xml" xy="311,412" size="22,639"/>
     <component id="n17_aiaf" name="n17" src="hprj2f" fileName="Components/Line.xml" xy="1337,146" size="22,907"/>
-    <component id="n18_xrqa" name="btnCheckDeck" src="pcqv4" fileName="Components/NormalButton.xml" xy="666,155" size="186,72">
-      <Button title="整理牌库" titleFontSize="33"/>
+    <component id="n18_xrqa" name="btnCheckDeck" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="666,155" pkg="msb8m4n5">
+      <Button title="整理牌库"/>
     </component>
-    <component id="n19_xrqa" name="btnCheckSkill" src="pcqv4" fileName="Components/NormalButton.xml" xy="75,965" size="186,72">
-      <Button title="整理技能" titleFontSize="33"/>
+    <component id="n19_xrqa" name="btnCheckSkill" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="75,965" pkg="msb8m4n5">
+      <Button title="整理技能"/>
     </component>
-    <component id="n20_esox" name="btnTurt" src="pcqv4" fileName="Components/NormalButton.xml" xy="1504,128" size="186,72">
+    <component id="n20_esox" name="btnTurt" src="vsy2tnovj3" fileName="Components/btnHelp.xml" xy="1720,123">
       <gearDisplay controller="showTutorial" pages="0"/>
       <Button title="教程" titleFontSize="33" controller="showTutorial" page="1"/>
     </component>
-    <component id="n23_esox" name="btnTurt1" src="pcqv4" fileName="Components/NormalButton.xml" xy="1504,128" size="186,72">
+    <component id="n23_esox" name="btnTurt1" src="vsy2tnovj3" fileName="Components/btnHelp.xml" xy="1720,123">
       <gearDisplay controller="showTutorial" pages="1"/>
       <Button title="教程" titleFontSize="33" controller="showTutorial" page="0"/>
     </component>
-    <graph id="n21_esox" name="n21" xy="416,367" size="833,521" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <image id="n21_esox" name="n21" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="416,367" size="833,521" pkg="msb8m4n5">
       <gearDisplay controller="showTutorial" pages="1"/>
-    </graph>
+    </image>
     <text id="n22_esox" name="n22" xy="431,385" size="794,480" fontSize="28" color="#efdfbb" autoSize="none" strokeColor="#151922" text="这里是玩家状态界面的教程&#xA;1. 玩家的技能与专属牌库有数量限制，多出来的会放在备用区。&#xA;2. 玩家拥有各项属性，每个属性增加不同的能力，拥有不同的加成。&#xA;3. 加成会向下取整。比如每点力量增加0.4攻击伤害，只有3点力量时，攻击伤害才会从0提升到1。&#xA;4. 智力会增加玩家的技能栏位，奇巧可以减少玩家的专属牌库栏位，帮助你更快抽到核心牌。">
       <gearDisplay controller="showTutorial" pages="1"/>
     </text>

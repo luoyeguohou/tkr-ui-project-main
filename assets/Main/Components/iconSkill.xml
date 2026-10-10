@@ -2,6 +2,7 @@
 <component size="56,56" pivot="0.5,0.5" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <controller name="state" exported="true" pages="0,player,1,enemy" selected="0"/>
+  <controller name="interactive" pages="0,,1," selected="0"/>
   <displayList>
     <loader id="n9_h2rn" name="n9" xy="28,28" pivot="0.5,0.5" anchor="true" size="58,58" url="ui://6rc7w3nofdnltnovgr" fill="scaleNoBorder">
       <gearDisplay controller="button" pages="2,3"/>
@@ -19,7 +20,7 @@
       <gearIcon controller="state" pages="0,1" values="ui://6rc7w3nofdnltnovgr|ui://6rc7w3nofdnltnovgt"/>
     </loader>
     <loader id="n11_h2rn" name="n11" xy="28,28" pivot="0.5,0.5" anchor="true" size="56,56" alpha="0.5" url="ui://6rc7w3nofdnltnovgs" fill="scaleNoBorder" color="#000000">
-      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearDisplay controller="button" pages="1,3"/>
       <gearIcon controller="state" pages="0,1" values="ui://6rc7w3nofdnltnovgs|ui://6rc7w3nofdnltnovg6"/>
     </loader>
     <text id="n5_fdnl" name="lv" xy="28,45" pivot="0.5,0.5" anchor="true" size="15,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,1" text="1">

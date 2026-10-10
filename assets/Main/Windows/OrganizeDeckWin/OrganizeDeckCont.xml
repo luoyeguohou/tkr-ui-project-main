@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
-  <controller name="wrong" pages="0,,1," selected="1"/>
+  <controller name="wrong" pages="0,,1," selected="0"/>
   <displayList>
-    <graph id="n7_o5tm" name="n7" xy="4,128" size="1912,946" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <text id="n10_o5tm" name="txtDeck" xy="149,133" size="558,84" fontSize="62" color="#e21010" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="牌组({curr=1}/{max=10})">
+    <image id="n7_o5tm" name="n7" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="4,128" size="1912,946"/>
+    <text id="n10_o5tm" name="txtDeck" xy="149,133" size="558,84" fontSize="62" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" singleLine="true" text="牌组({curr=1}/{max=10})">
       <gearColor controller="wrong" pages="1" values="#e21010,#151922" default="#efdfbb,#151922"/>
     </text>
     <text id="n11_o5tm" name="n11" xy="1173,133" size="396,104" fontSize="62" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="备用区"/>
@@ -26,9 +26,7 @@
       <item/>
       <item/>
     </list>
-    <component id="n15_o5tm" name="btnConfirm" src="pcqv4" fileName="Components/NormalButton.xml" xy="1648,136" size="237,79">
-      <Button title="确定" titleFontSize="41"/>
-    </component>
+    <component id="n15_o5tm" name="btnConfirm" src="vsy2tnovj2" fileName="BtnClose/BtnClose.xml" pkg="msb8m4n5" xy="1816,148"/>
     <component id="n16_xrqa" name="n16" src="hprj2f" fileName="Components/Line.xml" xy="845,212" size="17,859"/>
   </displayList>
 </component>

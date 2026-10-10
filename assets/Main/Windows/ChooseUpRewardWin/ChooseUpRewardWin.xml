@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <graph id="n1_iwb8" name="bg" xy="0,-1" size="1920,1080" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
+    <graph id="n1_iwb8" name="bg" xy="0,-1" size="1920,1080" type="rect" lineSize="0" lineColor="#00987744" fillColor="#cc000000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n2_efe6" name="cont" src="nwpftnovey" fileName="Windows/ChooseUpRewardCont.xml" xy="82,46">
+    <component id="n2_efe6" name="cont" src="nwpftnovey" fileName="Windows/ChooseUpRewardWin/ChooseUpRewardCont.xml" xy="82,45">
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
   </displayList>

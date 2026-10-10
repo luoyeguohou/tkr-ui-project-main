@@ -10,8 +10,8 @@
     <graph id="n1_ruu7" name="n1" xy="0,942" size="1920,137" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
       <relation target="" sidePair="width-width,height-height%,bottom-bottom"/>
     </graph>
-    <component id="n4_d3as" name="btnSkip" src="pcqv4" fileName="Components/NormalButton.xml" xy="53,31" size="138,58">
-      <Button title="跳过" titleFontSize="18"/>
+    <component id="n4_d3as" name="btnSkip" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="53,31" pkg="msb8m4n5">
+      <Button title="跳过"/>
     </component>
     <text id="n2_ruu7" name="n2" xy="91,974" size="1741,90" fontSize="53" color="#efdfbb" autoSize="shrink" strokeColor="#151922" text="自上古以来，神一直统治着人间。">
       <relation target="" sidePair="width-width,height-height%,bottom-bottom"/>

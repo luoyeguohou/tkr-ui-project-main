@@ -2,11 +2,11 @@
 <component size="364,345" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <graph id="n35_nwpf" name="n35" xy="-10,-10" size="384,365" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f079c7e4" corner="8">
+    <graph id="n35_nwpf" name="n35" xy="-2,-2" size="368,349" type="rect" lineSize="4" lineColor="#ffffcc00" fillColor="#03ffcc00">
       <gearDisplay controller="button" pages="1,3"/>
     </graph>
-    <graph id="n32_nwpf" name="n32" xy="0,0" size="364,345" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f00f131d" corner="8"/>
-    <text id="n34_nwpf" name="txtCont" xy="25,19" size="317,299" fontSize="25" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="奖励Lv2&#xD;&#xA;力量+1（每点增加0.4点攻击伤害）&#xD;&#xA;智力+1（每点增加 0.5技能栏位）"/>
+    <image id="n36_vsy2" name="n36" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="0,0" size="364,345" pkg="msb8m4n5"/>
+    <text id="n34_nwpf" name="txtCont" xy="25,19" size="317,299" fontSize="24" color="#efdfbb" autoSize="shrink" strokeColor="#151922" autoClearText="true" text="奖励Lv2&#xD;&#xA;力量+1（每点增加0.4点攻击伤害）&#xD;&#xA;智力+1（每点增加 0.5技能栏位）"/>
   </displayList>
   <Button mode="Check"/>
 </component>

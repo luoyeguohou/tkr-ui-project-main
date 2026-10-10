@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1753,984">
   <displayList>
-    <graph id="n29_ymjr" name="n29" xy="0,0" size="1753,984" type="rect" fillColor="#f0262932" corner="8" lineColor="#ff987744" lineSize="2"/>
+    <image id="n32_vsy2" name="n32" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="0,0" size="1753,984" pkg="msb8m4n5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
     <list id="n30_ymjr" name="lstCard" xy="56,84" size="1623,853" layout="flow_hz" overflow="scroll" defaultItem="ui://6rc7w3nopcqv3" autoClearItems="true">
       <item/>
       <item/>
@@ -24,7 +26,8 @@
       <item/>
       <item/>
     </list>
-    <component id="n31_ymjr" name="btnClose" src="pcqv4" fileName="Components/Button.xml" xy="1529,9" size="148,66">
+    <component id="n31_ymjr" name="btnClose" src="vsy2tnovj2" fileName="Components/btnClose.xml" xy="1660,20" pkg="msb8m4n5">
+      <relation target="" sidePair="right-right,bottom-top"/>
       <Button title="关闭" titleFontSize="32"/>
     </component>
   </displayList>

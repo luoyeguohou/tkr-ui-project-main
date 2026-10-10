@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="997,571">
   <displayList>
-    <graph id="n30_mjv1" name="n30" xy="1,0" size="658,126" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
-    <graph id="n31_mjv1" name="n31" xy="11,139" size="633,105" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <image id="n30_mjv1" name="n30" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="0,0" size="658,126"/>
+    <image id="n31_mjv1" name="n31" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="11,139" size="633,105"/>
     <text id="n28_mjv1" name="inpAddress" xy="15,152" size="643,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览" input="true"/>
     <text id="n29_mjv1" name="inpPort" xy="12,13" size="635,94" fontSize="50" color="#efdfbb" align="center" vAlign="middle" autoSize="shrink" strokeColor="#151922" text="战斗预览" input="true"/>
-    <component id="n32_mjv1" name="btnConnect" src="pcqv4" fileName="Components/NormalButton.xml" xy="21,288" size="306,62">
-      <Button title="连接服务器" titleFontSize="35"/>
+    <component id="n32_mjv1" name="btnConnect" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="42,269">
+      <Button title="连接服务器"/>
     </component>
-    <component id="n33_mjv1" name="btnHost" src="pcqv4" fileName="Components/NormalButton.xml" xy="363,283" size="306,62">
-      <Button title="本机开服并连接" titleFontSize="35"/>
+    <component id="n33_mjv1" name="btnHost" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="315,275">
+      <Button title="本机开服并连接"/>
     </component>
-    <component id="n34_mjv1" name="btnCreateRoom" src="pcqv4" fileName="Components/NormalButton.xml" xy="691,281" size="306,62">
-      <Button title="创建房间" titleFontSize="35"/>
+    <component id="n34_mjv1" name="btnCreateRoom" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="688,264">
+      <Button title="创建房间"/>
     </component>
-    <graph id="n35_mjv1" name="n36" xy="0,370" size="633,105" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
+    <image id="n35_mjv1" name="n36" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="0,370" size="633,105"/>
     <text id="n36_mjv1" name="inpRoomId" xy="4,383" size="643,75" fontSize="50" color="#efdfbb" align="center" autoSize="shrink" strokeColor="#151922" text="战斗预览" input="true"/>
-    <component id="n37_mjv1" name="btnJoinRoom" src="pcqv4" fileName="Components/NormalButton.xml" xy="36,509" size="306,62">
-      <Button title="加入房间" titleFontSize="35"/>
+    <component id="n37_mjv1" name="btnJoinRoom" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="33,494">
+      <Button title="加入房间"/>
     </component>
-    <component id="n38_mjv1" name="btnContinue" src="pcqv4" fileName="Components/NormalButton.xml" xy="397,504" size="434,62">
-      <Button title="房主继续多人存档" titleFontSize="35"/>
+    <component id="n38_mjv1" name="btnContinue" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="378,489">
+      <Button title="房主继续多人存档"/>
     </component>
   </displayList>
 </component>

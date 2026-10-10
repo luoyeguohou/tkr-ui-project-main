@@ -1,0 +1,4 @@
+[submodule "assets/Core"]
+	path = assets/Core
+	url = https://github.com/luoyeguohou/fairyGui-package-core.git
+	branch = main

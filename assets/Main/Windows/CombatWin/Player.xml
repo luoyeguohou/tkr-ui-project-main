@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="460,200">
   <controller name="state" pages="0,idle,1,chosen,2,dead" selected="0"/>
-  <controller name="isPlayer" pages="0,,1," selected="0"/>
-  <controller name="rage" pages="0,,1," selected="0"/>
-  <controller name="hasVirtual" pages="0,,1," selected="1"/>
-  <controller name="ownerType" pages="0,single,1,self,2,ally,3,enemy" selected="1"/>
-  <controller name="actionState" pages="0,ready,1,ended,2,skipped,3,dead,4,waiting" selected="0"/>
+  <controller name="hasVirtual" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n53_fdnl" name="bg1" src="fdnltnovgg" fileName="Pictures/roleHead/bgIconRoleInfo.png" xy="151,100" pivot="0,0.5" anchor="true"/>
-    <list id="n51_fdnl" name="listHP" xy="175,65" size="270,32" restrictSize="33,270,32,32" layout="row" overflow="scroll" defaultItem="ui://6rc7w3nofdnltnovh0">
+    <image id="n53_fdnl" name="n0" src="fdnltnovgg" fileName="Pictures/roleHead/bgIconRoleInfo.png" xy="151,100" pivot="0,0.5" anchor="true"/>
+    <component id="n51_fdnl" name="lstHP" src="pcqv6" fileName="Windows/CombatWin/HP.xml" xy="173,65" restrictSize="33,270,32,32">
       <relation target="n53_fdnl" sidePair="middle-middle,left-left"/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-      <item/>
-    </list>
-    <text id="n46_mjv1" name="namePlayer" xy="175,116" pivot="0,0.5" anchor="true" size="83,37" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="玩家1">
+    </component>
+    <text id="n46_mjv1" name="txtName" xy="175,116" pivot="0,0.5" anchor="true" size="83,37" fontSize="24" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="玩家1">
       <relation target="n53_fdnl" sidePair="middle-middle,left-left"/>
     </text>
-    <component id="n52_fdnl" name="headRole" src="fdnltnovh1" fileName="Components/headRole.xml" xy="90,100">
+    <component id="n52_fdnl" name="headRole" src="fdnltnovh1" fileName="Components/HeadRole.xml" xy="90,100">
       <relation target="" sidePair="middle-middle,left-left"/>
     </component>
-    <graph id="n43_aiaf" name="btnCheckInfo" xy="90,100" pivot="0.5,0.5" anchor="true" size="151,151" type="rect" lineColor="#00000000" fillColor="#00ffffff">
-      <gearDisplay controller="ownerType" pages="2,3"/>
-    </graph>
-    <list id="n22_fl4x" name="listSkill" xy="145,31" pivot="0,0.5" anchor="true" size="310,56" layout="row" overflow="scroll" colGap="-15" defaultItem="ui://6rc7w3nofdnltnovh5" autoItemSize="false" vAlign="middle">
+    <graph id="n43_aiaf" name="btnCheckInfo" xy="90,100" pivot="0.5,0.5" anchor="true" size="151,151" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <list id="n22_fl4x" name="lstSkill" xy="145,31" pivot="0,0.5" anchor="true" size="265,56" restrictSize="56,265,0,0" layout="row" colGap="-15" defaultItem="ui://6rc7w3nofdnltnovh5" vAlign="middle" renderOrder="descent">
       <relation target="n53_fdnl" sidePair="left-left,bottom-top"/>
       <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
     </list>
-    <list id="n28_ku8v" name="listItem" xy="141,-28" size="856,73" scale="0.35,0.35" layout="row" overflow="scroll" colGap="5" defaultItem="ui://6rc7w3nopcqv7" autoItemSize="false">
+    <list id="n28_ku8v" name="lstEquip" xy="123,-35" size="185,60" layout="row" lineGap="2" colGap="-16" defaultItem="ui://6rc7w3nopcqv7" autoItemSize="false" renderOrder="descent">
       <item/>
       <item/>
       <item/>
     </list>
     <text id="n32_jlk1" name="txtSkill" xy="-265,302" size="246,78" alpha="0" fontSize="36" color="#efdfbb" align="center" vAlign="middle" vars="true" autoSize="shrink" strokeColor="#151922" text="发动技能{name=观星}"/>
-    <list id="n35_fl7z" name="lstToken" xy="147,139" size="275,33" scale="1.1,1.1" touchable="false" overflow="scroll" defaultItem="ui://6rc7w3nofl7z3a" autoClearItems="true">
+    <list id="n35_fl7z" name="lstToken" xy="0,35" size="101,100" scale="1.1,1.1" touchable="false" overflow="scroll" lineGap="3" defaultItem="ui://6rc7w3nofl7z3a" vAlign="bottom" autoClearItems="true">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
       <item/>
       <item/>
       <item/>
     </list>
-    <text id="n36_9v2l" name="n36" xy="49,157" size="72,58" fontSize="25" color="#efdfbb" align="center" vAlign="middle" leading="39" autoSize="none" strokeColor="#151922" text="狂怒">
-      <gearDisplay controller="rage" pages="1"/>
-    </text>
-    <component id="n54_h2rn" name="sel" src="h2rntnovi1" fileName="Components/aniSel.xml" xy="90,100" pivot="0.5,0.5" anchor="true">
+    <component id="n54_h2rn" name="sel" src="h2rntnovi1" fileName="Components/AniSel.xml" xy="90,100" pivot="0.5,0.5" anchor="true">
       <gearDisplay controller="state" pages="1"/>
       <relation target="" sidePair="middle-middle,left-left"/>
+    </component>
+    <component id="n58_109um" name="btnDraw" src="fdnltnovh6" fileName="Components/BtnCommon.xml" xy="2,-43" scale="0.5,0.5" pkg="msb8m4n5">
+      <Button title="抽牌堆"/>
+    </component>
+    <component id="n59_109um" name="btnDiscard" src="fdnltnovh6" fileName="Components/BtnCommon.xml" xy="3,-76" scale="0.5,0.5" pkg="msb8m4n5">
+      <Button title="弃牌堆"/>
+    </component>
+    <component id="n60_109um" name="btnVoid" src="fdnltnovh6" fileName="Components/BtnCommon.xml" xy="2,-112" scale="0.5,0.5" pkg="msb8m4n5">
+      <Button title="虚拟区域"/>
     </component>
   </displayList>
   <transition name="useSkill">
