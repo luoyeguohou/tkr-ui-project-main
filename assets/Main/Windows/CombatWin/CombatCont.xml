@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080" pivot="0.5,0">
-  <controller name="testMode" pages="0,,1," selected="1"/>
+  <controller name="testMode" pages="0,,1," selected="0"/>
   <controller name="showTutorial" pages="0,,1," selected="0"/>
-  <controller name="revealEnemyInfo" pages="0,,1," selected="1"/>
-  <controller name="gameMode" pages="0,single,1,multiplayer" selected="1"/>
+  <controller name="revealEnemyInfo" pages="0,,1," selected="0"/>
+  <controller name="gameMode" pages="0,single,1,multiplayer" selected="0"/>
   <displayList>
     <list id="n50_jwcx" name="lstEnemy" xy="322,76" size="1530,540" layout="flow_hz" colGap="10" defaultItem="ui://6rc7w3nopcqv8" align="center" vAlign="middle" autoClearItems="true">
       <item/>
@@ -34,7 +34,7 @@
       <item title="health" controllers="type,5"/>
       <item title="damage" controllers="type,4"/>
     </list>
-    <graph id="n34_l9ks" name="cardPos" xy="958,663" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <graph id="n34_l9ks" name="cardPos" xy="958,589" pivot="0.5,0.5" anchor="true" size="100,100" type="rect" lineSize="0" fillColor="#00ffffff"/>
     <component id="n35_ldtx" name="btnGetCard" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1477,669" controller="color,2">
       <gearDisplay controller="testMode" pages="1"/>
       <Button title="获得牌" titleFontSize="25"/>

@@ -5,7 +5,7 @@
   <controller name="fromGame" pages="0,,1," selected="1"/>
   <controller name="fastMode" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n0_j46g" name="n0" src="vsy2tnovjh" fileName="Pictures/common/bgBox.png" xy="235,153" size="1449,771" pkg="msb8m4n5"/>
+    <image id="n0_j46g" name="n0" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="235,153" size="1449,771"/>
     <component id="n2_j46g" name="comboResolution" src="j46g3j" fileName="Windows/SettingWin/ComboBox1.xml" xy="629,532" size="252,62">
       <gearDisplay controller="platform" pages="0"/>
       <ComboBox title="1920X1080" visibleItemCount="10" direction="down" autoClearItems="true">
@@ -21,17 +21,17 @@
     <text id="n4_j46g" name="n4" xy="386,621" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="全屏">
       <gearDisplay controller="platform" pages="0"/>
     </text>
-    <component id="n5_j46g" name="n5" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="639,626" size="62,60" pkg="msb8m4n5">
+    <component id="n5_j46g" name="n5" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="639,626" size="62,60">
       <gearDisplay controller="fullScreen" pages="1"/>
       <gearDisplay2 controller="platform" pages="0" condition="0"/>
       <Button title="√" titleFontSize="29" controller="fullScreen" page="0"/>
     </component>
-    <component id="n6_j46g" name="n6" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="639,626" size="62,60" pkg="msb8m4n5">
+    <component id="n6_j46g" name="n6" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="639,626" size="62,60">
       <gearDisplay controller="fullScreen" pages="0"/>
       <gearDisplay2 controller="platform" pages="0" condition="0"/>
       <Button title="×" titleFontSize="29" controller="fullScreen" page="1"/>
     </component>
-    <component id="n7_j46g" name="btnBackToMain" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="819,720" pkg="msb8m4n5">
+    <component id="n7_j46g" name="btnBackToMain" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="820,792">
       <gearDisplay controller="fromGame" pages="1"/>
       <Button title="回到主界面"/>
     </component>
@@ -53,14 +53,14 @@
     </component>
     <text id="n12_ziwy" name="n12" xy="388,357" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="音乐"/>
     <text id="n13_ziwy" name="n13" xy="385,439" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="音效"/>
-    <component id="n14_ziwy" name="btnClose" src="vsy2tnovj2" fileName="Components/btnClose.xml" xy="1588,175" pkg="msb8m4n5">
+    <component id="n14_ziwy" name="btnClose" src="vsy2tnovj2" fileName="BtnClose/BtnClose.xml" pkg="msb8m4n5" xy="1588,175">
       <Button title="关闭" titleFontSize="25"/>
     </component>
-    <component id="n15_tv47" name="n15" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1233,273" size="62,60" pkg="msb8m4n5">
+    <component id="n15_tv47" name="n15" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1233,273" size="62,60">
       <gearDisplay controller="fastMode" pages="1"/>
       <Button title="√" titleFontSize="29" controller="fastMode" page="0"/>
     </component>
-    <component id="n16_tv47" name="n16" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1233,273" size="62,60" pkg="msb8m4n5">
+    <component id="n16_tv47" name="n16" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1233,273" size="62,60">
       <gearDisplay controller="fastMode" pages="0"/>
       <Button title="×" titleFontSize="29" controller="fastMode" page="1"/>
     </component>
@@ -71,12 +71,14 @@
     <text id="n19_s2bq" name="n19" xy="1182,369" size="230,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="动画变慢"/>
     <text id="n20_lp7w" name="n20" xy="980,525" size="272,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="允许无效友方咒语"/>
     <text id="n21_lp7w" name="n21" xy="977,618" size="277,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="允许对敌方使用回复"/>
-    <component id="n22_lp7w" name="btnAllowNegationAlly" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1270,530" size="62,60" pkg="msb8m4n5">
-      <gearDisplay controller="fastMode" pages="0"/>
+    <component id="n22_lp7w" name="btnAllowNegationAlly" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1270,530" size="62,60">
       <Button title="×" titleFontSize="29" controller="fastMode" page="1"/>
     </component>
-    <component id="n23_lp7w" name="btnAllowHealEnemy" src="fdnltnovh6" fileName="Components/btnCommon1.xml" xy="1271,624" size="62,60" pkg="msb8m4n5">
-      <gearDisplay controller="fastMode" pages="0"/>
+    <component id="n23_lp7w" name="btnAllowHealEnemy" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1271,624" size="62,60">
+      <Button title="×" titleFontSize="29" controller="fastMode" page="1"/>
+    </component>
+    <text id="n24_qjgt" name="n24" xy="975,704" size="277,72" fontSize="36" color="#efdfbb" vAlign="middle" autoSize="shrink" strokeColor="#151922" singleLine="true" text="移动端模式"/>
+    <component id="n25_qjgt" name="btnMobileMode" src="fdnltnovh6" fileName="BtnCommon/BtnCommon.xml" pkg="msb8m4n5" xy="1270,714" size="62,60">
       <Button title="×" titleFontSize="29" controller="fastMode" page="1"/>
     </component>
   </displayList>

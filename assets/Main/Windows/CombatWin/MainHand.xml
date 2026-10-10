@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,420">
-  <controller name="choosingCard" pages="0,,1," selected="0"/>
+  <controller name="choosingCard" pages="0,,1," selected="1"/>
   <controller name="playerTurn" pages="0,,1," selected="0"/>
   <controller name="longChoice" pages="0,,1," selected="0"/>
   <controller name="autoPlay" pages="0,,1," selected="0"/>
   <displayList>
+    <image id="n99_701g" name="n99" src="vsy2tnovjh" fileName="bgBox.png" pkg="msb8m4n5" xy="518,-109" size="880,114" alpha="0.256">
+      <gearDisplay controller="choosingCard" pages="1"/>
+      <gearXY controller="longChoice" pages="0" values="518,-109" default="669,-316"/>
+      <gearSize controller="longChoice" pages="1" values="586,323,1,1" default="880,114,1,1"/>
+    </image>
     <graph id="n84_gie4" name="handBegin" xy="45,142" pivot="0.5,0.5" anchor="true" size="100,100" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8"/>
     <graph id="n85_gie4" name="handsEnd" xy="1867,142" pivot="0.5,0.5" anchor="true" size="100,100" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff987744" fillColor="#f0262932" corner="8">
       <relation target="" sidePair="right-right"/>
